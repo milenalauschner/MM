@@ -1,8 +1,5 @@
 # main links
-main:
-  - title: "Tag"
-    url: /tags
-  
+
 blogroll:
     - title: "Seções"
       children:
