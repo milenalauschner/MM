@@ -82,12 +82,12 @@ naver_site_verification  : "0d295d638f99d3e62d4d888b347be101b5b56736"
 
 # Social Sharing
 twitter:
-  username               : _eigenfoo
+  username               : 
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : /assets/images/profile-pic.jpg # Open Graph/Twitter default site image
+og_image                 :  # Open Graph/Twitter default site image
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -107,39 +107,34 @@ analytics:
 
 # Site Author
 author:
-  name             : "George Ho"
-  avatar           : "/assets/images/profile-pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Point72 researcher and PyMC core developer. Bayesian modelling, machine learning and coffee."
-  location         : "NYC | HKG"
+  name             : "Tutorial Insight Maker"
+  avatar           : "" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : ""
+  location         : "RS| BR"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "https://raw.githubusercontent.com/eigenfoo/eigenfoo.xyz/master/assets/images/email.png"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/@_eigenfoo/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/eigenfoo/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/eigenfoo/"
-    - label: "Keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/eigenfoo"
+   # - label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+     # url: "https://raw.githubusercontent.com/eigenfoo/eigenfoo.xyz/master/assets/images/email.png"
+   # - label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+     # url: "https://twitter.com/@_eigenfoo/"
+    #- label: "GitHub"
+     # icon: "fab fa-fw fa-github"
+      #url: "https://github.com/eigenfoo/"
+    #- label: "LinkedIn"
+     # icon: "fab fa-fw fa-linkedin"
+      #url: "https://www.linkedin.com/in/eigenfoo/"
+   # - label: "Keybase"
+    #  icon: "fab fa-fw fa-keybase"
+     # url: "https://keybase.io/eigenfoo"
 
 # Site Footer
 footer:
   links:
-    - label: "Privacy"
-      icon: "fas fa-fw fa-user-secret"
-      url: /privacy
-    - label: "Source"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/eigenfoo/eigenfoo.github.io/"
-    - label: "Sitemap"
-      icon: "fas fa-fw fa-sitemap"
-      url: "/sitemap.xml"
+      url: "https://github.com/milenalauschner/insightmaker.github.io/"
+ 
 
 # Reading Files
 include:
