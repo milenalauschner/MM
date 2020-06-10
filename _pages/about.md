@@ -3,6 +3,9 @@ layout: single
 permalink: /about/
 title: "About Me"
 subscribe: true
+sidebar:
+  title: "Blogroll"
+  nav: blogroll
 ---
 
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
