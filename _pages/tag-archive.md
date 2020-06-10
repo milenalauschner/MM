@@ -1,7 +1,7 @@
 ---
 title: "Blog Archive"
 permalink: /tags/
-layout: tags
+layout: single
 author_profile: false
 sidebar:
   title: "Blogroll"
