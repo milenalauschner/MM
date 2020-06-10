@@ -23,7 +23,7 @@ Para facilitar a compreensão do funcionamento do _Insight Maker_, vamos descrev
 
 Vamos querer responder questões do tipo: 
 
-*Quantos livros permanecem na biblioteca depois de certo tempo? 
+  * Quantos livros permanecem na biblioteca depois de certo tempo? 
 
 
 
