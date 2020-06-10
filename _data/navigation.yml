@@ -2,7 +2,7 @@
 main:
   - title: "Work"
     url: /work
-  - title: "About"
+  - title: "Sobre"
     url: /about
   - title: "Tag"
     url: /tags
