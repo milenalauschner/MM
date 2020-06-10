@@ -6,7 +6,7 @@ author_profile: false
 header:
   image: /assets/images/header.png
 sidebar:
-  title: "Blogroll"
+  title: "Sumário"
   nav: blogroll
 ---
 Este é um caderno de estudo sobre a modelagem de eventos físicos com o uso do _Insight Maker_.  O _Insight Maker_ é um _software_ para o estudo de sistemas dinâmicos, disponível livremente na _web_, podendo ser rodado _on-line_ a partir do endereço \url{https://insightmaker.com}. Nesse _software_ é possível simular sistemas dinâmicos simples ou bem complicados, sem precisar utilizar equações para resolver os problemas. Isso é possível porque os modelos são construídos usando somente diagramas.
