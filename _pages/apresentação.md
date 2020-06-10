@@ -1,6 +1,6 @@
 ---
 title: "Apresentação"
-permalink: /
+permalink: /tags/
 layout: single
 author_profile: false
 header:
