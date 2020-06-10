@@ -10,9 +10,9 @@ main:
   #   url: /sitemap/
 
 blogroll:
-    - title: "Company Blogs"
+    - title: "Seções"
       children:
-        - title: "AYLIEN"
+        - title: "Apresentação"
           url: http://blog.aylien.com/
         - title: "Data Origami"
           url: https://dataorigami.net/blogs/napkin-folding
