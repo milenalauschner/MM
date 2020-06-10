@@ -3,7 +3,7 @@ main:
   - title: "Tag"
     url: /tags
   
-Sumário:
+blogroll:
     - title: "Seções"
       children:
         - title: "Apresentação"
