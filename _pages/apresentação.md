@@ -18,7 +18,7 @@ Essa possibilidade de representação de uma situação real ou abstrata como um
 Neste caderno vamos responder questões sobre sistemas ou eventos físicos, de preferência do nosso cotidiano, partindo de algum representação simplificada desse sistema. 
 {: .text-justify}
 
-Para facilitar a compreensão do funcionamento do _Insight Maker_, vamos descrever a lógica de construção de modelos neste _software_, e as suas principais características, nos valendo de um exemplo comum na vida de um estudante: uma biblioteca com uma coleção de livros que são cedidos por empréstimo aos estudantes da escola.\\
+Para facilitar a compreensão do funcionamento do _Insight Maker_, vamos descrever a lógica de construção de modelos neste _software_, e as suas principais características, nos valendo de um exemplo comum na vida de um estudante: uma biblioteca com uma coleção de livros que são cedidos por empréstimo aos estudantes da escola.
 {: .text-justify}
 
 Vamos querer responder questões do tipo: 
