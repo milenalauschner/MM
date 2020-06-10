@@ -4,6 +4,9 @@ permalink: /work/
 toc: true
 toc_sticky: true
 title: Work
+sidebar:
+  title: "Blogroll"
+  nav: blogroll
 ---
 
 ## Software
