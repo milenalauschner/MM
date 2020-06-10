@@ -8,22 +8,13 @@ blogroll:
       children:
         - title: "Apresentação"
           url: https://milenalauschner.github.io/MM/tags/
-        - title: "Data Origami"
+        - title: "Lógica de funcionamento do software"
           url: https://dataorigami.net/blogs/napkin-folding
-        - title: "Explosion AI"
+        - title: "Instruções para construir o seu modelo no Insight Maker"
           url: https://explosion.ai/blog/
-        - title: "Facebook Research"
+        - title: "Algoritmo de análise"
           url: https://research.fb.com/
-        - title: "FastML"
-          url: http://fastml.com/
-        - title: "Generable"
-          url: https://www.generable.com/blog/
-        - title: "Google AI"
-          url: https://ai.googleblog.com/
-        - title: "Uber Engineering"
-          url: https://eng.uber.com/
-        - title: "Stitch Fix Technology"
-          url: https://multithreaded.stitchfix.com/blog/
+        
     - title: "Referências"
       children:
         - title: "Chris Olah"
