@@ -30,23 +30,8 @@ blogroll:
           url: https://eng.uber.com/
         - title: "Stitch Fix Technology"
           url: https://multithreaded.stitchfix.com/blog/
-    - title: "Personal Blogs"
+    - title: "Referências"
       children:
         - title: "Chris Olah"
           url: http://colah.github.io/
-        - title: "Colin Carroll"
-          url: https://colindcarroll.com/
-        - title: "Edwin Chen"
-          url: http://blog.echen.me/
-        - title: "Ferenc Huszár"
-          url: https://www.inference.vc/
-        - title: "Sebastian Raschka"
-          url: https://sebastianraschka.com/blog/index.html
-        - title: "Sebastian Ruder"
-          url: http://ruder.io/
-        - title: "Thomas Wiecki"
-          url: http://twiecki.io/
-        - title: "Vincent Warmerdam"
-          url: http://koaning.io/
-        - title: "Will Wolf"
-          url: http://willwolf.io/
+        
