@@ -3,13 +3,13 @@
 blogroll:
     - title: "Seções"
       children:
-        - title: "1•Apresentação"
+        - title: "1 Apresentação"
           url: https://milenalauschner.github.io/MM/tags/
-        - title: "2•Lógica de funcionamento do software"
+        - title: "2 Lógica de funcionamento do software"
           url: https://dataorigami.net/blogs/napkin-folding
-        - title: "3•Instruções para construir o seu modelo no Insight Maker"
+        - title: "3 Instruções para construir o seu modelo no Insight Maker"
           url: https://explosion.ai/blog/
-        - title: "4•Algoritmo de análise"
+        - title: "4 Algoritmo de análise"
           url: https://research.fb.com/
         
     - title: "Referências"
