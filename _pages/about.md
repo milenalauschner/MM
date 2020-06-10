@@ -6,6 +6,7 @@ subscribe: true
 sidebar:
   title: "Blogroll"
   nav: blogroll
+author_profile: false
 ---
 
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
