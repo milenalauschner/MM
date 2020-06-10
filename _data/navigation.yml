@@ -4,7 +4,7 @@ blogroll:
     - title: "Seções"
       children:
         - title: "1 Apresentação"
-          url: https://milenalauschner.github.io/MM/tags/
+          url: https://milenalauschner.github.io/MM/apresentação/
         - title: "2 Lógica de funcionamento do software"
           url: https://dataorigami.net/blogs/napkin-folding
         - title: "3 Instruções para construir o seu modelo no Insight Maker"
