@@ -1,82 +1,22 @@
 ---
+title: "Lógica de funcionamento do software"
+permalink: /funcionamento/
 layout: single
-permalink: /work/
-toc: true
-toc_sticky: true
-title: Work
+author_profile: false
+mathjax: true
+header:
+  image: /assets/images/header.png
 sidebar:
-  title: "Blogroll"
+  title: "Sumário"
   nav: blogroll
 ---
 
-## Software
+O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Passaremos a usá-los indiferentemente na denominação em inglês ou português.
 
-Here are some open source software libraries that I've made substantial
-contributions to.
+Na Figura 1 vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas  sejam tão úteis na construção da aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do sistema, na acumulação que ocorre no estoque.
 
-### [PyMC3](https://github.com/pymc-devs/pymc3) and [PyMC4](https://github.com/pymc-devs/pymc4)
+Acumulações estão em todos os lugares em nossas vidas. Nesse primeiro momento estamos usando o exemplo de livros em uma biblioteca, mas poderíamos nos preocupar com o dinheiro depositado em uma conta de poupança, com a acumulação de água em um balde durante uma chuva, com a  acumulação de velocidade das pedras de granizo que caem durante uma tempestade, etc.
 
-![PyMC3 logo](https://camo.githubusercontent.com/2af4bb9d3ff6744a6ad1aab0b2b916b5efee8b49/68747470733a2f2f63646e2e7261776769742e636f6d2f70796d632d646576732f70796d63332f6d61737465722f646f63732f6c6f676f732f7376672f50794d43335f62616e6e65722e737667){: .align-right}
+As acumulações são representadas por retângulos associados aos estoques, que podem variar pela existência de um fluxo, representado por uma seta com linha contínua. O fluxo é responsável por diminuir, aumentar ou manter constante o nível do estoque.
 
-PyMC3 is a popular Python framework for Bayesian modeling and probabilistic
-machine learning, focusing on Markov chain Monte Carlo (MCMC) and variational
-inference (VI) algorithms. I'm a member of the core development team, and
-contribute to the PyMC3 internals and documentation. I wrote [a blog post on
-tips and tricks for Bayesian modelling using
-PyMC3](https://eigenfoo.xyz/bayesian-modelling-cookbook/).
-
-### [Pyfolio](https://github.com/quantopian/pyfolio) and [Alphalens](https://github.com/quantopian/alphalens)
-
-![Pyfolio logo](https://media.quantopian.com/logos/open_source/pyfolio-logo-03.png){: .align-right}
-
-Pyfolio and Alphalens are Python libraries for risk analysis and performance
-attribution of financial portfolios, and alpha factor research for algorithmic
-trading. Both libraries are fully integrated into the [Quantopian
-platform](http://quantopian.com/).
-
-![Alphalens logo](https://media.quantopian.com/logos/open_source/alphalens-logo-03.png){: .align-right}
-
-I developed the risk and performance attribution capabilities of Pyfolio (read
-more on [my blog post here](https://eigenfoo.xyz/pyfolio/)), and help maintain
-the library. I help develop new features, triage bug reports and troubleshoot
-issues for Alphalens.
-
-### [Knead](https://github.com/font-bakers/knead) and [Glaze](https://github.com/font-bakers/glaze)
-
-<figure class="half">
-    <img src="https://raw.githubusercontent.com/font-bakers/knead/master/docs/img/logo.png" alt="Knead logo">
-    <img src="https://raw.githubusercontent.com/font-bakers/glaze/master/docs/img/logo.png" alt="Glaze logo">
-</figure>
-
-Knead and Glaze are command line tools and Python libraries for preprocessing,
-manipulating, rendering and visualizing font files and algorithmically-generated
-typefaces. Both libraries were written as internal tools for [The Font
-Bakers](https://font-bakers.github.io/), to support their research and
-development workflow. I developed and maintain both projects.
-
-## Projects
-
-Here are some interesting machine learning and data science projects I've
-pursued.
-
-### [Deep Learning for Algorithmic Type Design](https://font-bakers.github.io/)
-
-As a research project pursued in my last year at The Cooper Union, we researched
-a class- and attribute- conditional generative adversarial network capable of
-producing vector graphics, with potential applications in algorithmic type
-design. The generative model was to produce closed shapes, with counter spaces,
-defined by a variable number of quadratic Bézier curves. At the time, no
-generative model with vector graphic output has previously appeared in
-literature.
-
-### [Hate Speech on Reddit](https://eigenfoo.xyz/reddit-clusters/)
-
-As part of a project on [Data Science for Social
-Good](http://ee.cooper.edu/~keene/dssg.html), I ran text clustering algorithms
-on well-known hateful and toxic subreddits, and collaborated with a
-cross-disciplinary team of artists, architects and engineers to present the
-findings at [The Cooper Union 2018 End of Year
-Show](https://cooper.edu/events-and-exhibitions/exhibitions/2018-student-exhibition).
-I also wrote [a blog post on my results](https://eigenfoo.xyz/reddit-clusters/),
-and [gave a talk on the data science that went into the
-project](https://eigenfoo.xyz/reddit-slides/).
+Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis _variables_. Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 2 a existência de duas variáveis, uma para estipular um prazo de devolução dos livros e outra para representar a porcentagem de empréstimos feitos durante um período. A primeira variável vai impactar diretamente no fluxo de devoluções, pois ao acabar o tempo que o aluno pode permanecer com o livro ele deverá devolver à biblioteca. A  criação da segunda variável mostrará de forma mais clara como acontece a diminuição de livros na biblioteca.
