@@ -39,3 +39,5 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
   <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption>
 </figure>
 
+![Teste]({{ site.url }}{{ site.baseurl
+}}/assets/images/biblioteca1.png){: .align-center}
