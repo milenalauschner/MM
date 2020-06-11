@@ -32,7 +32,7 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 {: .text-justify}
 
   
-  <figure class="align-center">
+  <figure>
   <img src="/assets/images/biblioteca1.png" alt="Figura 1: Diagrama stock-flow da biblioteca.">
   <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption>
 </figure>
