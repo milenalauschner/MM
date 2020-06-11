@@ -11,5 +11,5 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 ---
-O primeiro passo é criar uma conta livre na página do programa https://insightmaker.com. Para isso basta entrar na opção _Create a free account_, no canto superior da página, e preencher algumas informações no formulário que se abrirá. Uma dessas informações é sua conta de email e uma senha de sua escolha. Então, acesse o login, no canto superior direito da página, para entrar na área de criação de modelos, e prossiga com as orientações abaixo.
+O primeiro passo é criar uma conta livre na página do programa <a href="https://insightmaker.com">https://insightmaker.com</a>. Para isso basta entrar na opção _Create a free account_, no canto superior da página, e preencher algumas informações no formulário que se abrirá. Uma dessas informações é sua conta de email e uma senha de sua escolha. Então, acesse o login, no canto superior direito da página, para entrar na área de criação de modelos, e prossiga com as orientações abaixo.
 {: .text-justify}
