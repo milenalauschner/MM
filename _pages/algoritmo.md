@@ -1,6 +1,6 @@
 ---
-title: "Lógica de funcionamento do software"
-permalink: /funcionamento/
+title: " Algoritmo de análise"
+permalink: /algoritmo/
 layout: single
 author_profile: false
 mathjax: true
