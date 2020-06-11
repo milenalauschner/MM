@@ -3,6 +3,7 @@ title: "Apresentação"
 permalink: /apresentação/
 layout: single
 author_profile: false
+mathjax: true
 header:
   image: /assets/images/header.png
 sidebar:
