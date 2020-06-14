@@ -4,8 +4,7 @@ excerpt: "I've recently had to learn a lot about natural language processing —
 specifically, Transformer-based models. I thought I’d write up my reading and research
 and post it."
 layout: single
-header:
-  overlay_image: /assets/images/cool-backgrounds/cool-background11.png
+overlay_color: "#333"
 ---
 
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
