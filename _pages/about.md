@@ -3,14 +3,9 @@ title: Transformers in Natural Language Processing — A Brief Survey
 excerpt: "I've recently had to learn a lot about natural language processing —
 specifically, Transformer-based models. I thought I’d write up my reading and research
 and post it."
-tags:
-  - machine learning
-  - deep learning
-  - natural language processing
+layout: single
 header:
   overlay_image: /assets/images/cool-backgrounds/cool-background11.png
-  caption: 'Photo credit: [coolbackgrounds.io](https://coolbackgrounds.io/)'
-last_modified_at: 2020-05-23
 ---
 
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
