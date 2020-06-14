@@ -5,7 +5,7 @@ specifically, Transformer-based models. I thought I’d write up my reading and 
 and post it."
 layout: single
 header:
-overlay_color: "#333"
+  overlay_color: "#333"
 permalink: /about/
 author_profile: false
 sidebar:
