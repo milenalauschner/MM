@@ -4,6 +4,7 @@ excerpt: "I've recently had to learn a lot about natural language processing —
 specifically, Transformer-based models. I thought I’d write up my reading and research
 and post it."
 layout: single
+header:
 overlay_color: "#333"
 permalink: /about/
 author_profile: false
