@@ -4,7 +4,6 @@ permalink: /apresentação/
 layout: single
 author_profile: false
 mathjax: true
-classes: wide
 header:
   image: /assets/images/header.png
 sidebar:
@@ -34,8 +33,8 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 {: .text-justify}
 
   
-  <figure>
-  <img src="/assets/images/biblioteca1.png" alt="Figura 1: Diagrama stock-flow da biblioteca.">
+<figure>
+  ![Teste]({{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png){: .align-center}
   <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption>
 </figure>
 
