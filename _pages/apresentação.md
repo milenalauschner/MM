@@ -33,8 +33,8 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 {: .text-justify}
 
 <figure class="center">
-    <p align="center"><a href="{{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png" alt="Diagrama stock-flow"></a>
-    <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption></p>
+    <p align="center"><a href="{{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png" alt="Diagrama stock-flow" width="50%"></a></p>
+    <p align="center"><figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption></p>
 </figure>
 {: .align-center}
 
