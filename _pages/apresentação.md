@@ -34,7 +34,7 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 
 <figure>
     <a href="{{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png" alt="Diagrama stock-flow"></a>
-    <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption>
+    <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption> {: .align-center}
 </figure>
 
 ![Teste]({{ site.url }}{{ site.baseurl
