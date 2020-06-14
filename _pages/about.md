@@ -1,4 +1,8 @@
 ---
+title:<p style="text-align: center;"> Transformers in Natural Language Processing — A Brief Survey</p>
+excerpt: <p style="text-align: center;">"I've recently had to learn a lot about natural language processing —
+specifically, Transformer-based models. I thought I’d write up my reading and research
+and post it."</p>
 layout: single
 permalink: /about/
 title: "About Me"
@@ -7,6 +11,8 @@ sidebar:
   title: "Blogroll"
   nav: blogroll
 author_profile: false
+header:
+  overlay_image: /assets/images/cool-backgrounds/cool-background11.png
 ---
 
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
