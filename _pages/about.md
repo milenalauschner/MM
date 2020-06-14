@@ -6,6 +6,7 @@ and post it."
 layout: single
 header:
   overlay_color: "#333"
+  overlay_filter: 0.7
 permalink: /about/
 author_profile: false
 sidebar:
