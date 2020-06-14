@@ -5,6 +5,11 @@ specifically, Transformer-based models. I thought I’d write up my reading and 
 and post it."
 layout: single
 overlay_color: "#333"
+permalink: /about/
+author_profile: false
+sidebar:
+  title: "Sumário"
+  nav: blogroll
 ---
 
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
