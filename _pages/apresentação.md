@@ -44,10 +44,9 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 </p>
 
 
-[![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
+![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
 }}/assets/images/biblioteca1.png){: .align-center} 
- .caption
- [**Figura 1:** Diagrama stock-flow da biblioteca.]]{: .align-center} 
+ .center[**Figura 1:** Diagrama stock-flow da biblioteca.] 
 
 
 ![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
