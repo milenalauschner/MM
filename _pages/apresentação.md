@@ -33,7 +33,7 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 {: .text-justify}
 
 <figure>
-    <p align="center"><a href="{{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png" alt="Diagrama stock-flow" width="50%"></a></p>
+    <p align="center"><a href="{{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png" alt="Diagrama stock-flow" width="30%"></a></p>
     <p align="center"><figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption></p>
 </figure>
 {: .align-center}
@@ -43,15 +43,6 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
   <imgcaption>Figura 1: Diagrama stock-flow da biblioteca.</imgcaption>
 </p>
 
-.center[
-
-![My image](https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
-.caption[
-**Fig. 1:** Image caption
-]
-
-]
 
 [![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
 }}/assets/images/biblioteca1.png){: .align-center} 
