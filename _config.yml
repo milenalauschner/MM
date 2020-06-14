@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -18,9 +18,9 @@ title                    : "Tutorial Insight Maker"
 title_separator          : "|"
 name                     : "Tutorial Insight Maker"
 description              : ""
-url                      : "https://eigenfoo.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : / # the subpath of your site, e.g. "/blog"
-repository               : "eigenfoo/eigenfoo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "milenalauschner/MM.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 150
@@ -95,8 +95,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links                  : # An array of links to social media profiles
-    - "https://twitter.com/_eigenfoo"
-    - "https://www.linkedin.com/in/eigenfoo/"
+    - "https://twitter.com/_yourname"
+    - "https://www.linkedin.com/in/yourname/"
 
 # Analytics
 analytics:
@@ -114,19 +114,19 @@ author:
   links:
    # - label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
-     # url: "https://raw.githubusercontent.com/eigenfoo/eigenfoo.xyz/master/assets/images/email.png"
+     # url: "https://raw.githubusercontent.com/yourname/yoursite/master/assets/images/email.png"
    # - label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
-     # url: "https://twitter.com/@_eigenfoo/"
+     # url: "https://twitter.com/@yourname/"
     #- label: "GitHub"
      # icon: "fab fa-fw fa-github"
-      #url: "https://github.com/eigenfoo/"
+      #url: "https://github.com/yourname/"
     #- label: "LinkedIn"
      # icon: "fab fa-fw fa-linkedin"
-      #url: "https://www.linkedin.com/in/eigenfoo/"
+      #url: "https://www.linkedin.com/in/yourname/"
    # - label: "Keybase"
     #  icon: "fab fa-fw fa-keybase"
-     # url: "https://keybase.io/eigenfoo"
+     # url: "https://keybase.io/yourname"
 
 # Site Footer
 footer:
