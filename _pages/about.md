@@ -12,8 +12,10 @@ author_profile: false
 sidebar:
   title: "Sumário"
   nav: blogroll
+intro: 
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin.'
 ---
-
+{% include feature_row id="intro" type="center" %}
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
 > (mainly) blog about Bayesian modelling, probabilistic programming and
 > open-source software.
