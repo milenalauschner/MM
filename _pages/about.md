@@ -15,7 +15,7 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 ---
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="header" type="center" %}
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
 > (mainly) blog about Bayesian modelling, probabilistic programming and
 > open-source software.
