@@ -1,17 +1,28 @@
 
-## License
+# Minimal Mistakes remote theme starter
 
-This repository is forked from the [Minimal Mistakes Jekyll
-theme](https://github.com/mmistakes/minimal-mistakes), which is licensed by
-Michael Rose under the MIT License (see `LICENSE.mmistakes.txt` for the
-license).
+Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-The remainder of this repository consists of my modifications to the original
-Minimal Mistakes theme, and the contents of the blog (including, but not limited
-to, the contents of the `_posts/`, `assets/documents/` and `assets/images/`
-directories). They are licensed by me, George Ho: code is licensed under the MIT
-License (see `LICENSE.eigenfoo.txt` for the license); content is, unless
-otherwise stated, licensed under the Creative Commons Attribution-ShareAlike 4.0
-International license.
+Contains basic configuration to get you a site with:
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Eigenfoo</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://eigenfoo.xyz/" property="cc:attributionName" rel="cc:attributionURL">George Ho</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
+
+Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+
+---
+
+## Troubleshooting
+
+If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+
+- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
