@@ -12,8 +12,4 @@ blogroll:
         - title: "4 Algoritmo de análise"
           url: https://milenalauschner.github.io/MM/algoritmo/
         
-    - title: "Referências"
-      children:
-        - title: "Chris Olah"
-          url: http://colah.github.io/
-        
+    
