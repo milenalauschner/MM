@@ -1,29 +1,16 @@
 ---
 title: Universidade Federal do Rio Grande do Sul
-excerpt: "&nbsp;Instituto de Física <br/> |&nbsp;Tutorial sobre o uso do software Insight Maker <br/> &nbsp;|Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
+excerpt: "Instituto de Física <br/> Tutorial sobre o uso do software Insight Maker <br/> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
 intro: 
-  - excerpt: '|                 |Universidade Federal do Rio Grande do Sul   |                  |
-              |:----:           |                  :----:	                   |      :-----:   	|
-              |                	|   Instituto de Física                      |   	              |
-              |image_path: assets/images/UFRGS.png|Tutorial sobre o uso do software Insight Maker|image_path: /assets/images/IF.png|
-              |  |   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	| |'
-layout: splash
+  - excerpt:
+layout: single
 permalink: /about/
 header:
   overlay_color: $background-color
-  teaser: /assets/images/UFRGS.png
 author_profile: false
 sidebar:
   title: "Sumário"
   nav: blogroll
-feature_row:
-  - image_path: assets/images/UFRGS.png
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/IF.png
-    title: "Instituto de Física"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 {% include feature_row %}
 {% include feature_row id="intro" type="center" %}
