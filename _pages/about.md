@@ -5,8 +5,6 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 layout: splash
 permalink: /about/
-table: "oi"
-intro: "olá uehuehuehuehiuehihkenekjnekuhkeuhkeuhkeuh"
 header:
   overlay_color: $background-color
   teaser: /assets/images/UFRGS.png
