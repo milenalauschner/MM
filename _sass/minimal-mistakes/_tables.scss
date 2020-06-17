@@ -17,9 +17,8 @@ table {
 }
 
 thead {
-  background-color: $background;
-  border-bottom: 2px solid mix($background);
-}
+   background-color: $border-color;
+  border-bottom: 2px solid mix($backgroundcolor, $border-color, 25%);
 
 th {
   padding: 0.5em;
