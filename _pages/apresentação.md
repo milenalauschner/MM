@@ -32,26 +32,9 @@ Para isso vamos construir um modelo sobre o estoque de livros na biblioteca leva
 Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou seja, tem um estoque de livros. Digamos que em certo momento haja $$n$$ livros na biblioteca. Essa quantidade de livros pode diminuir porque alguns livros são emprestados aos alunos, assim como pode aumentar porque alguns livros que estavam emprestados são devolvidos. Um diagrama que representa o número de livros na biblioteca está representado na Figura 1. Nessa figura, o retângulo representa o estoque de livros. As setas representam livros que entram ou saem da biblioteca.  A seta da esquerda, apontando para dentro do retângulo, indica que há um fluxo de livros entrando no estoque da biblioteca (devoluções de livros pelos alunos). A da direita, apontando para fora do retângulo, indica que há um fluxo de livros saindo do estoque da biblioteca (empréstimos de livros para alunos).
 {: .text-justify}
 
-<figure>
-    <p align="center"><a href="{{ site.url }}{{ site.baseurl}}/assets/images/biblioteca1.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png" alt="Diagrama stock-flow" width="30%"></a></p>
-    <p align="center"><figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption></p>
-</figure>
-{: .align-center}
-
-<p align="center">
-  <img width="460" height="300" src="{{ site.url }}{{ site.baseurl }}/assets/images/biblioteca1.png">
-  <imgcaption>Figura 1: Diagrama stock-flow da biblioteca.</imgcaption>
-</p>
-
-
-![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
-}}/assets/images/biblioteca1.png){: .align-center} 
- .center[**Figura 1:** Diagrama stock-flow da biblioteca.] 
-
-
 ![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
 }}/assets/images/biblioteca1.png){: .align-center}   
 
 {: .image-caption}
 *Figura 1: Diagrama stock-flow da biblioteca.*
- {: .align-center} 
+ {: .text-center} 
