@@ -1,7 +1,7 @@
 ---
 title:         Universidade Federal do Rio Grande do Sul
-excerpt: "Instituto de Física |
-         Tutorial sobre o uso do software Insight Maker| 
+excerpt: "Instituto de Física |<br />
+         Tutorial sobre o uso do software Insight Maker| <br />
          Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
 layout: single
 permalink: /about/
