@@ -5,7 +5,6 @@ layout: single
 permalink: /about/
 header:
   overlay_color: $background-color
-  image: ![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-left}
 author_profile: false
 sidebar:
   title: "Sumário"
