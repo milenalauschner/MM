@@ -11,6 +11,13 @@ sidebar:
   nav: blogroll
 ---
 {% include feature_row id="header" type="center" %}
+
+|                	|  Universidade Federal do Rio Grande do Sul |                	|
+|:----:           |                  :----:	                   |      :-----:   	|
+|   	|  Instituro de Física 	|   	|
+|   	|   Tutorial sobre o uso do software Insight Maker	|   	|
+|   	|   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	|   	|
+
 > **tldr:** I'm a financial data scientist and machine learning researcher. I
 > (mainly) blog about Bayesian modelling, probabilistic programming and
 > open-source software.
