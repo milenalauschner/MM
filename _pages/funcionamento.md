@@ -9,6 +9,7 @@ header:
 sidebar:
   title: "Sumário"
   nav: blogroll
+mathjax: true
 ---
 
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Passaremos a usá-los indiferentemente na denominação em inglês ou português.
@@ -37,7 +38,7 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
 <p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
 
 
-| $$dia$$|$$n$$ ``Livros na biblioteca''|$$m$$ ``Livros emprestados''|``Empréstimos'' |  ``Devoluções''  |
+| $$dia$$|$$n$$ "Livros na biblioteca"  |$$m$$ "Livros emprestados"  |"Empréstimos"   | "Devoluções"     |
 |        |       no início do dia       |      no início do dia      |$$0,03$$ x $$n$$|   $$m$$/$$7$$    |  
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
