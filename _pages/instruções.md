@@ -4,7 +4,6 @@ permalink: /instruções/
 layout: single
 author_profile: false
 mathjax: true
-classes: wide
 header:
   image: /assets/images/header.png
 sidebar:
