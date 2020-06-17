@@ -14,7 +14,7 @@ sidebar:
 
 |                	|  Universidade Federal do Rio Grande do Sul |                	|
 |:----:           |                  :----:	                   |      :-----:   	|
-|   	|  Instituro de Física 	|   	|
+|   	|  Instituto de Física 	|   	|
 |   	|   Tutorial sobre o uso do software Insight Maker	|   	|
 |   	|   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	|   	|
 
