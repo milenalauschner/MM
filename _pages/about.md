@@ -1,14 +1,10 @@
 ---
-title: Transformers in Natural Language Processing — A Brief Survey
-excerpt: "I've recently had to learn a lot about natural language processing —
-specifically, Transformer-based models. I thought I’d write up my reading and research
-and post it."
+title: Universidade Federal do Rio Grande do Sul
+excerpt: Instituro de Física- Tutorial sobre o uso do software Insight Maker - Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit
 layout: single
 header:
   overlay_color: $background-color
   overlay_filter: 0.7
-  intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin.'
 permalink: /about/
 author_profile: false
 sidebar:
