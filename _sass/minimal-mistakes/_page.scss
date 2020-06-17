@@ -75,7 +75,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
 			position: relative;
-			left: 0.5em;
+			left: 0.9em;
 			opacity: 0;
 			font-size: 0.8em;
 			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
@@ -139,6 +139,12 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+}
+
+
+.page-header {
+  color: $background-color;
+  text-align: center;
 }
 
 .page__hero {
