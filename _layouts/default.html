@@ -12,8 +12,6 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <img src="({ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center})" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
