@@ -32,5 +32,16 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
 {: .image-caption}
 *Figura 2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
+ 
 
 <p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
+
+
+| $$dia$$|$$n$$ ``Livros na biblioteca''|$$m$$ ``Livros emprestados''|``Empréstimos'' |  ``Devoluções''  |
+|        |       no início do dia       |      no início do dia      |$$0,03$$ x $$n$$|   $$m$$/$$7$$    |  
+|:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
+| $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
+| $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
+| $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
+| $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
+| $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
