@@ -7,6 +7,7 @@ table: "oi"
 intro: "olá"
 header:
   overlay_color: $background-color
+  teaser: /assets/images/UFRGS.png
 author_profile: false
 sidebar:
   title: "Sumário"
