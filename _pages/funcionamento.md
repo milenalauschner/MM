@@ -32,4 +32,4 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
   <figcaption>Figura 1: Diagrama stock-flow da biblioteca.</figcaption>
 </figure>
 
-<p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&amp;sideBar=1&amp;zoom=1" title="Embedded Insight"></iframe></p>
+<p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
