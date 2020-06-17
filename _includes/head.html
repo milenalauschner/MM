@@ -2,7 +2,7 @@
 
 {% include seo.html %}
 
-<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.google.com/specimen/Roboto#glyphs" rel="stylesheet" type="text/css">
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
@@ -20,7 +20,7 @@
   <style>
     /* old IE unsupported flexbox fixes */
     .greedy-nav .site-title {
-      padding-right: 3em;
+      padding-right: 5em;
     }
     .greedy-nav button {
       position: absolute;
