@@ -62,7 +62,7 @@
 }
 
 .page__lead {
-  font-family: "San Francisco", "Roboto", "Segoe UI";
+  font-family: "Roboto";
   font-size: $type-size-4;
 }
 
@@ -164,7 +164,7 @@
     animation-delay: 0.25s;
 
     a {
-      color: #fff;
+      color: #333;
     }
 
     .wrapper {
@@ -180,7 +180,7 @@
     .page__meta,
     .page__lead,
     .btn {
-      color: #fff;
+      color: #333;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
@@ -211,7 +211,7 @@
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  font-family: $caption-font-family;
+  font-family: "Roboto";
   font-size: $type-size-7;
   background: #000;
   text-align: right;
