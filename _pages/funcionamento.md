@@ -41,6 +41,7 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
  {: .text-center}
  
 Tabela 2: Número de livros na biblioteca 
+
 | $$dia$$|$$n$$ "Livros na biblioteca" no início do dia|$$m$$ "Livros emprestados" no início do dia|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
