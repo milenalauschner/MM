@@ -34,16 +34,13 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
 *Figura 2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
  
-| $$dia$$|$$n$$ "Livros na biblioteca" no início do dia|$$m$$ "Livros emprestados" no início do dia|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
-|:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
-| $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
-| $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
-| $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
-| $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
-| $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
-
 <p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
 
+{: .image-caption}
+*Figura 3: Diagrama stock-flow final da biblioteca.*
+ {: .text-center}
+ 
+Tabela 2: Número de livros na biblioteca 
 | $$dia$$|$$n$$ "Livros na biblioteca" no início do dia|$$m$$ "Livros emprestados" no início do dia|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
