@@ -53,7 +53,7 @@
 }
 
 .page__title {
-  margin-top: 0;
+  margin-top: 2;
   line-height: 1;
 
   & + .page__meta {
@@ -75,7 +75,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
 			position: relative;
-			left: 0.9em;
+			left: 1em;
 			opacity: 0;
 			font-size: 0.8em;
 			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
