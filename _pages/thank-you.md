@@ -1,5 +1,5 @@
 ---
-title: Thank You for Subscribing!
+title: Instituto de Física
 layout: single
 permalink: /thank-you/
 search: false
