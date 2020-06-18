@@ -9,11 +9,11 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 ---
-
+{% include feature_row id="intro" type="center" %}
 |                	| Tutorial sobre o uso do software Insight Maker|                	|
 |:----:           |                  :----:	                   |      :-----:   	|
 |![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
-|   	|   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	|   	|
+
 
 > title: Universidade Federal do Rio Grande do Sul
 excerpt: "Instituto de Física <br/> Tutorial sobre o uso do software Insight Maker <br/> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
