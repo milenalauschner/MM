@@ -35,7 +35,7 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
  {: .text-center} 
  
 |  Componente |                     Descrição                 |
-|   :----:    |                      :----:                   |   
+|   :----:    |                      :----                   |   
 |Estoque | Primitiva com formato retangular que representa as acumulações ocorridas num sistema.|        
 | Fluxo  | Flecha com linha contínua que representa uma taxa de variação. Influencia nas acumulações podendo diminuir, aumentar ou manter constante o nível do estoque. |
 |Variável| Primitiva de formato esférico que influencia no comportamento do fluxo ou compõe  outras variáveis. Ela pode ser uma grandeza variável ou constante (parâmetros).| 
