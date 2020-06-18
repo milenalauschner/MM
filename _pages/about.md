@@ -13,9 +13,8 @@ sidebar:
 {% include feature_row id="intro" type="center" %}
 
 
-
-|:----:           |                  :----:	                   |      :-----:   	|
 ||![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Tutorial sobre o uso do software Insight Maker|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
+|:----:           |                  :----:	                   |      :-----:   	|
 |   	|   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	|   	|
 
 
