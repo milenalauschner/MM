@@ -3,8 +3,8 @@
 blogroll:
     - title: "Seções"
       children:
-        - title: " 1 Apresentação"
-          url: https://milenalauschner.github.io/MM/apresentação/
+        - title: " 1 Introdução ao uso do Insight Maker"
+          url: https://milenalauschner.github.io/MM/introdução/
         - title: "2 Lógica de funcionamento do software"
           url: https://milenalauschner.github.io/MM/funcionamento/
         - title: "3 Instruções para construir o seu modelo no Insight Maker"
