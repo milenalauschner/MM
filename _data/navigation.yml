@@ -11,19 +11,7 @@ blogroll:
           url: https://milenalauschner.github.io/MM/instruções/
         - title: "4 Algoritmo de análise"
           url: https://milenalauschner.github.io/MM/algoritmo/
-        - title: "  <div class="exampleone">
-                      Lorem ipsum dolor sit amet, consectetuer
-                    </div>"
-          url:
-        - title: "<div class="exampletwo">
-                   Lorem ipsum dolor sit amet, consectetuer
-                 </div>"
-          url:
-        - title: "<div class="examplethree">
-                    Lorem ipsum dolor sit amet, consectetuer
-                  </div>"
-          url:
-      
+       
 
 
 
