@@ -12,10 +12,10 @@ sidebar:
 mathjax: true
 ---
 
-O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Passaremos a usá-los indiferentemente na denominação em inglês ou português.
+O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
 
-Na Figura 1 vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas  sejam tão úteis na construção da aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do sistema, na acumulação que ocorre no estoque.
+Na Figura 1 da <a href="https://milenalauschner.github.io/MM/introdu%C3%A7%C3%A3o/">Seção 1</a> vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas  sejam tão úteis na construção da aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do sistema, na acumulação que ocorre no estoque.
 {: .text-justify}
 
 Acumulações estão em todos os lugares em nossas vidas. Nesse primeiro momento estamos usando o exemplo de livros em uma biblioteca, mas poderíamos nos preocupar com o dinheiro depositado em uma conta de poupança, com a acumulação de água em um balde durante uma chuva, com a  acumulação de velocidade das pedras de granizo que caem durante uma tempestade, etc.
@@ -27,13 +27,19 @@ As acumulações são representadas por retângulos associados aos estoques, que
 Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis _variables_. Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 2 a existência de duas variáveis, uma para estipular um prazo de devolução dos livros e outra para representar a porcentagem de empréstimos feitos durante um período. A primeira variável vai impactar diretamente no fluxo de devoluções, pois ao acabar o tempo que o aluno pode permanecer com o livro ele deverá devolver à biblioteca. A  criação da segunda variável mostrará de forma mais clara como acontece a diminuição de livros na biblioteca.
 {: .text-justify}
 
- ![Figura 1: Diagrama stock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
+ ![Figura 2: Diagrama stock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
 }}/assets/images/BIBLIOTECA2.png){: .align-center}   
 
 {: .image-caption}
 *Figura 2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
  
+Na Figura 2 também aparecem linhas pontilhadas que representam as ligações entre variável e fluxo. Essas ligações  são denominadas _links_. Todas as variáveis do sistema são ligadas ao fluxo por meio de _links_. Os _links_ não servem estritamente para conectar variáveis aos fluxos, mas também podem indicar como um estoque influencia em outro ou como uma variável compõe outra variável. Ou seja, fazem ligações entre diferentes componentes.
+{: .text-justify}
+ 
+As componentes apresentadas até aqui são sintetizadas na Tabela 1.
+{: .text-justify}
+
 Tabela 1: Resumo dos componentes do diagrama _stock-flow_ 
  
 |  Componente |                     Descrição                 |
@@ -43,14 +49,67 @@ Tabela 1: Resumo dos componentes do diagrama _stock-flow_
 |Variável| Primitiva de formato esférico que influencia no comportamento do fluxo ou compõe  outras variáveis. Ela pode ser uma grandeza variável ou constante (parâmetros).| 
 | _Links_|Flecha com linhas pontilhadas que servem como conectores entre variáveis, fluxos e estoques.|         
 
- 
+ Olhando para o diagrama _stock-flow_ da biblioteca com suas variáveis adicionadas (Figura 2), notamos que estão faltando componentes nesse modelo para ser uma representação mais realista de uma biblioteca em funcionamento. Os empréstimos geram acumulação de livros emprestados, por isso devemos criar um novo estoque (de livros emprestados). O fluxo de devoluções diminui o número de livros emprestados ao passo que o fluxo de empréstimos aumenta. Isso significa que o  sentido dos fluxos para esse novo estoque será o oposto dos fluxos do estoque de livros na biblioteca.  A Figura 3 mostra o modelo final construído para a biblioteca neste exemplo.
+{: .text-justify} 
+
 <p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
 
 {: .image-caption}
-*Figura 3: Diagrama stock-flow final da biblioteca.*
+*Figura 3: Modelo da biblioteca. Disponível em <a href="https://insightmaker.com/insight/198148/Biblioteca"</a>*
  {: .text-center}
  
-Tabela 2: Número de livros na biblioteca 
+Esse modelo tem limitações decorrentes das seguintes idealizações assumidas:
+{: .text-justify} 
+
+  * o funcionamento da biblioteca ocorre nos sete dias da semana;
+  * todos os livros retirados são devolvidos, ou seja, desconsidera-se não devolução de livros por qualquer motivo;
+  * o prazo para devolução é constante, não dependendo do tipo de livro retirado;    
+  * a porcentagem de empréstimo é constante, não dependendo do período letivo.
+  {: .text-justify} 
+  
+Esse modelo poderia ser aprimorado, caso nosso interesse fosse em efetivamente descrever o funcionamento de uma biblioteca. Por exemplo, incluindo o aumento de estoque com a compra de livros, disponibilidade de livros virtuais, ocorrência de não devolução de livros, variação do prazo de devolução conforme o tipo de livro, fechamento da biblioteca aos domingos. Porém nosso  objetivo se resume a introduzir as principais ferramentas do _Insight Maker_ com um exemplo familiar, o de uma biblioteca. Então, vamos seguir com o modelo mais simples.
+{: .text-justify} 
+
+Vamos agora propor a seguinte situação-problema. Uma avaliação sobre a utilização do acervo de livros das bibliotecas escolares está sendo feita pela Secretaria Municipal de Educação.  Por isso, um bibliotecário quer fazer uma estimativa do número de livros que estarão  disponíveis na biblioteca em determinada  data, quando será feita a inspeção. Para isso ele começa apurando alguns dados.
+{: .text-justify} 
+
+Ele observa que:
+
+  * em um determinado dia, do acervo total de $$1450$$ livros, $$1100$$ estavam no estoque da biblioteca no início do dia;
+  * nesse dia foram emprestados $33$ livros, ou seja, $$3\%$$ do número de "Livros na biblioteca".   Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentual de empréstimos" multiplicado por "Livros na biblioteca" = $$0,03$$ $$\cdot$$ "Livros na biblioteca";
+  * o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de $$7$$ dias, ele assume que o fluxo de "Devoluções" diário é o número de "Livros emprestados" dividido pelo "Prazo de empréstimo"= "Livros emprestados"/$$7$$.
+{: .text-justify} 
+
+Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de $$4$$ dias não será muito trabalhoso o bibliotecário construir a seguinte  Tabela 2.
+{: .text-justify} 
+
+Como ele construiu essa tabela? 
+
+Na primeira linha ele colocou os valores iniciais das grandezas, ou seja:
+{: .text-justify} 
+
+  * $$dia$$: $$0$$
+  * número de "Livros na biblioteca" no início do dia: $$1100$$, pois é o número de livros que ele contou no início do dia;
+  * número de "Livros emprestados": $$350$$, já que o acervo da biblioteca é $$1450$$, há $$1100$$ na biblioteca e ele está assumindo que não houve extravios. De fato, ele confere o número de empréstimos e verifica que há $$350$$ emprestados;
+  * em um determinado dia, do acervo total de $$1450$$ livros, $$1100$$ estavam no estoque da biblioteca no início do dia;
+  * número de empréstimos: $$33$$, pois o número de empréstimos diários é $$0,03 \cdot$$ "Livros na biblioteca" e nesse dia há  $$1100$$ livros na biblioteca. Então,   $$0,03 \cdot 1100$$ = $$33$$;
+  * número de devoluções: $$50$$, pois o número de devoluções diárias é "Livros emprestados"/$$7$$ e nesse dia há $$350$$ livros emprestados. Então, $$350/7$$ = $$50$$.   
+{: .text-justify} 
+
+Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser atualizados de acordo com os fluxos de entrada e saída de livros, ou seja, com o número de livros emprestados e devolvidos. Então:
+{: .text-justify} 
+
+  * $$dia$$ = $$1$$
+  * número de "Livros na biblioteca" no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: $$1100 - 33 + 50 = 1117$$. Podemos escrever como:
+> "Livros na biblioteca" (dia = $$1$$) =  "Livros na biblioteca"  (dia = $$0$$) - "Empréstimos" (dia = $$0$$) + "Devoluções"(dia = $$0$$);
+  * número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido: $$350 + 33 - 50 = 333$$. Podemos escrever como: 
+>
+  * em um determinado dia, do acervo total de $$1450$$ livros, $$1100$$ estavam no estoque da biblioteca no início do dia;
+  * número de empréstimos: $$33$$, pois o número de empréstimos diários é $$0,03 \cdot$$ "Livros na biblioteca" e nesse dia há  $$1100$$ livros na biblioteca. Então,   $$0,03 \cdot 1100$$ = $$33$$;
+  * número de devoluções: $$50$$, pois o número de devoluções diárias é "Livros emprestados"/$$7$$ e nesse dia há $$350$$ livros emprestados. Então, $$350/7$$ = $$50$$.   
+{: .text-justify} 
+
+*Tabela 2: Número de livros na biblioteca*
 
 | $$dia$$|$$n$$ "Livros na biblioteca" no início do dia|$$m$$ "Livros emprestados" no início do dia|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
