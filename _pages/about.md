@@ -18,7 +18,7 @@ sidebar:
 .page__lead {
   background-clor: #f3f9fb;
 }
-
+"color.background":"#f3f9fb",
 |                	| Tutorial sobre o uso do software Insight Maker|                	|
 |:----:           |                  :----:	                   |      :-----:   	|
 |![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
