@@ -1,6 +1,6 @@
 ---
 intro: 
-  - excerpt: 'Univesidade Federal do Rio Grande do Sul'
+  - excerpt: 'Univesidade Federal do Rio Grande do Sul <br/>Instituto de Física '
 layout: single
 datatable: true
 permalink: /about/
@@ -13,10 +13,9 @@ sidebar:
 {% include feature_row id="intro" type="center" %}
 
 
-|                	|  Universidade Federal do Rio Grande do Sul |                	|
+
 |:----:           |                  :----:	                   |      :-----:   	|
-|   	|  Instituto de Física 	|   	|
-|![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Tutorial sobre o uso do software Insight Maker|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
+||![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Tutorial sobre o uso do software Insight Maker|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
 |   	|   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	|   	|
 
 
