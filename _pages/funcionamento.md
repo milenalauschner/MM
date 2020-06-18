@@ -34,6 +34,8 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
 *Figura 2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
  
+Tabela 1: Resumo dos componentes do diagrama _stock-flow_ 
+ 
 |  Componente |                     Descrição                 |
 |   :----:    |                      :----                   |   
 |Estoque | Primitiva com formato retangular que representa as acumulações ocorridas num sistema.|        
