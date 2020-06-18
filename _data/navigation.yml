@@ -3,7 +3,7 @@
 blogroll:
     - title: "Seções"
       children:
-        - title: " {{ [1 Apresentação]{:.btn .btn--info .btn--default} | markdownify }}"
+        - title: " 1 Apresentação"
           url: https://milenalauschner.github.io/MM/apresentação/
         - title: "2 Lógica de funcionamento do software"
           url: https://milenalauschner.github.io/MM/funcionamento/
