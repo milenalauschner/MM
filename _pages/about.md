@@ -4,8 +4,6 @@ intro:
 layout: single
 datatable: true
 permalink: /about/
-header:
-  overlay_color: $background-color
 author_profile: false
 sidebar:
   title: "Sumário"
@@ -21,8 +19,12 @@ sidebar:
 |![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Tutorial sobre o uso do software Insight Maker|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
 |   	|   Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit	|   	|
 
-> **tldr:** I'm a financial data scientist and machine learning researcher. I
-> (mainly) blog about Bayesian modelling, probabilistic programming and
+
+
+> title: Universidade Federal do Rio Grande do Sul
+excerpt: "Instituto de Física <br/> Tutorial sobre o uso do software Insight Maker <br/> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
+> header:
+  overlay_color: $background-color
 > open-source software.
 
 [<i class="fas fa-file-pdf"></i> See my
