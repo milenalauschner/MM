@@ -34,6 +34,14 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
 *Figura 2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
  
+|        |                                               |
+|:----:  |           :----:                              |   
+|Estoque | Primitiva com formato retangular que representa as acumulações ocorridas num sistema.|        
+| Fluxo  | Flecha com linha contínua que representa uma taxa de variação. Influencia nas acumulações podendo diminuir, aumentar ou manter constante o nível do estoque. |
+|Variável| Primitiva de formato esférico que influencia no comportamento do fluxo ou compõe  outras variáveis. Ela pode ser uma grandeza variável ou constante (parâmetros).| 
+| _Links_|Flecha com linhas pontilhadas que servem como conectores entre variáveis, fluxos e estoques.|         
+
+ 
 <p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
 
 {: .image-caption}
