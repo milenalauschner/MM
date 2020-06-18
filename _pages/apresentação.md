@@ -1,5 +1,7 @@
 ---
 title: "Apresentação"
+intro: 
+  - excerpt: 'Univesidade Federal do Rio Grande do Sul <br/>Instituto de Física '
 permalink: /apresentação/
 layout: single
 author_profile: false
@@ -10,6 +12,13 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 ---
+{% include feature_row id="intro" type="center" %}
+
+|                	| Tutorial sobre o uso do software Insight Maker|                	|
+|:----:           |                  :----:	                   |      :-----:   	|
+|![UFRGS]({{ site.url }}{{ site.baseurl}}/assets/images/UFRGS.png){: .align-center}|Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit|![IF]({{ site.url }}{{ site.baseurl}}/assets/images/IF.png){: .align-center}|
+||||
+
 Este é um caderno de estudo sobre a modelagem de eventos físicos com o uso do _Insight Maker_.  O _Insight Maker_ é um _software_ para o estudo de sistemas dinâmicos, disponível livremente na _web_, podendo ser rodado _on-line_ a partir do endereço <a href="https://insightmaker.com">https://insightmaker.com</a>. Nesse _software_ é possível simular sistemas dinâmicos simples ou bem complicados, sem precisar utilizar equações para resolver os problemas. Isso é possível porque os modelos são construídos usando somente diagramas.
 {: .text-justify}
 
