@@ -5,7 +5,7 @@ header:
    overlay_color: $background-color
 intro: 
   - excerpt: 'Univesidade Federal do Rio Grande do Sul <br/>Instituto de Física '
-layout: single
+layout: tags
 datatable: true
 permalink: /about/
 author_profile: false
