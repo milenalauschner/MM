@@ -103,10 +103,42 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
   * número de "Livros na biblioteca" no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: $$1100 - 33 + 50 = 1117$$. Podemos escrever como:
 > "Livros na biblioteca" (dia = $$1$$) =  "Livros na biblioteca"  (dia = $$0$$) - "Empréstimos" (dia = $$0$$) + "Devoluções"(dia = $$0$$);
   * número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido: $$350 + 33 - 50 = 333$$. Podemos escrever como: 
->
-  * em um determinado dia, do acervo total de $$1450$$ livros, $$1100$$ estavam no estoque da biblioteca no início do dia;
-  * número de empréstimos: $$33$$, pois o número de empréstimos diários é $$0,03 \cdot$$ "Livros na biblioteca" e nesse dia há  $$1100$$ livros na biblioteca. Então,   $$0,03 \cdot 1100$$ = $$33$$;
-  * número de devoluções: $$50$$, pois o número de devoluções diárias é "Livros emprestados"/$$7$$ e nesse dia há $$350$$ livros emprestados. Então, $$350/7$$ = $$50$$.   
+> "Livros emprestados"(dia = $$1$$) = "Livros emprestados" (dia = $$0$$) + "Empréstimos"(dia = $$0$$) - "Devoluções" (dia = $$0$$);
+  * número de empréstimos: $$34$$, pois o número de empréstimos diários é $$0,03 \cdot$$ "Livros na biblioteca" e nesse dia há  $$1117$$ "Livros na biblioteca". Então,   $$0,03 \cdot 1100 = 33$$. Isso fica expresso como:
+> "Empréstimos"(dia = $$0$$) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca"(dia = $$0$$);  
+  * número de devoluções: $$48$$, pois o número de devoluções diárias é "Livros emprestados"/ $$7$$ e nesse dia há $$333$$ livros emprestados. Então, $$333/7$$ = $$47,57$$.  Ou seja,
+> "Devoluções" (dia = $$0$$) = "Livros emprestados"(dia = $$0$$)/"Prazo de empréstimos". 
+  * Opa, não faz sentido valor fracionário para o número de livros, então, o número 47,57 foi arredondado na Tabela 2 para o múmero inteiro mais próximo, 48.   
+{: .text-justify} 
+
+Esse é um detalhe muito importante: só faz sentido trabalhar com números inteiros (e positivos) de livros. Sempre que os cálculos produzirem valores fracionários, é preciso arredondar para o inteiro mais próximo. 
+{: .text-justify} 
+
+Podemos sintetizar os cálculos que o bibliotecário precisa fazer para completar a tabela do seguinte modo: 
+{: .text-justify} 
+
+"Livros na biblioteca" (dia = $$n+1$$) = "Livros na biblioteca" (dia = $$n$$) - "Empréstimos" (dia = $$n$$) + "Devoluções" (dia = $$n$$). 
+{: .text-justify} 
+
+De modo semelhante: 
+
+"Livros emprestados"(dia = $$n+1$$) = "Livros emprestados" (dia =  $$n$$) + "Empréstimos" (dia = $$n$$) - "Devoluções" (dia = $$n$$). 
+{: .text-justify} 
+
+E ainda: 
+
+"Empréstimos"(dia = $$n$$) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca" (dia = $$n$$). 
+e 
+"Devoluções"(dia = $$n$$) =  "Livros emprestados" (dia = $$n$$)/ "Prazo de empréstimos"
+{: .text-justify} 
+
+Em síntese as respostas produzidas pelo bibliotecário são: o número de Livros na biblioteca no quarto dia é $1153$ e o porcentual de Livros emprestados é $$297 \cdot 100\%/1450$$, ou seja aproximadamente, $$20\%$$.
+{: .text-justify} 
+
+Não é difícil fazer esses cálculos, mas se a inspeção ocorrer dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
+{: .text-justify} 
+
+Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de livros na biblioteca em função do tempo. 
 {: .text-justify} 
 
 *Tabela 2: Número de livros na biblioteca*
