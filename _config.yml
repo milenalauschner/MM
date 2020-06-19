@@ -220,13 +220,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      share: true
-      subscribe: true
+      share: false
+      subscribe: false
       comments: false
       related: false
-      sitemap: true
+      sitemap: false
 
   # _pages
   - scope:
