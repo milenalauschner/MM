@@ -41,7 +41,8 @@ As componentes apresentadas até aqui são sintetizadas na Tabela 1.
 {: .text-justify}
 
 Tabela 1: Resumo dos componentes do diagrama _stock-flow_ 
- 
+{: .text-center}
+
 |  Componente |                     Descrição                 |
 |   :----:    |                      :----                   |   
 |Estoque | Primitiva com formato retangular que representa as acumulações ocorridas num sistema.|        
@@ -55,7 +56,7 @@ Tabela 1: Resumo dos componentes do diagrama _stock-flow_
 <p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
 
 {: .image-caption}
-*Figura 3: Modelo da biblioteca. Disponível em <a href="https://insightmaker.com/insight/198148/Biblioteca"</a>*
+*Figura 3: Modelo da biblioteca. Disponível em https://insightmaker.com/insight/198148/Biblioteca*
  {: .text-center}
  
 Esse modelo tem limitações decorrentes das seguintes idealizações assumidas:
@@ -142,6 +143,7 @@ Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de li
 {: .text-justify} 
 
 *Tabela 2: Número de livros na biblioteca*
+{: .text-center}
 
 | $$dia$$|$$n$$ "Livros na biblioteca" no início do dia|$$m$$ "Livros emprestados" no início do dia|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
