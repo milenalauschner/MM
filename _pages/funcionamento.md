@@ -53,7 +53,7 @@ Tabela 1: Resumo dos componentes do diagrama _stock-flow_
  Olhando para o diagrama _stock-flow_ da biblioteca com suas variáveis adicionadas (Figura 2), notamos que estão faltando componentes nesse modelo para ser uma representação mais realista de uma biblioteca em funcionamento. Os empréstimos geram acumulação de livros emprestados, por isso devemos criar um novo estoque (de livros emprestados). O fluxo de devoluções diminui o número de livros emprestados ao passo que o fluxo de empréstimos aumenta. Isso significa que o  sentido dos fluxos para esse novo estoque será o oposto dos fluxos do estoque de livros na biblioteca.  A Figura 3 mostra o modelo final construído para a biblioteca neste exemplo.
 {: .text-justify} 
 
-<p style="text-align: center;"> <iframe width="680" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
+<p style="text-align: center;"> <iframe width="665" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
 
 {: .image-caption}
 *Figura 3: Modelo da biblioteca. Disponível em https://insightmaker.com/insight/198148/Biblioteca*
