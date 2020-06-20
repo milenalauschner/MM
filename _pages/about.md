@@ -14,7 +14,9 @@ classes: middle
 ---
 {% include feature_row id="intro" type="center" %}
 
-excerpt: "Instituto de Física <br/> Tutorial sobre o uso do software Insight Maker <br/> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
+Instituto de Física <br/> 
+Tutorial online sobre o uso do software Insight Maker <br/> 
+Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
 
 |                	| Tutorial sobre o uso do software Insight Maker|                	|
 |:----:           |                  :----:	                   |      :-----:   	|
