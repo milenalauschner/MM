@@ -1,5 +1,6 @@
 ---
 title: " Algoritmo de análise"
+title-color: #87c0cd
 permalink: /algoritmo/
 layout: single
 author_profile: false
