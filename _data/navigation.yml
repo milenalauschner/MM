@@ -3,6 +3,8 @@
 blogroll:
     - title: "Seções"
       children:
+        - title: " 0 Motivação"
+          url: https://milenalauschner.github.io/MM/
         - title: " 1 Introdução ao uso do Insight Maker"
           url: https://milenalauschner.github.io/MM/introdução/
         - title: "2 Lógica de funcionamento do software"
