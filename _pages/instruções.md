@@ -68,7 +68,7 @@ Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que rep
 {: .text-justify}
 
 [< Seção 2](https://milenalauschner.github.io/MM/funcionamento/){:
-.btn .btn--success}____________________________________________________________  [ Seção 4 >](https://milenalauschner.github.io/MM/algoritmo/){:
+.btn .btn--success}________________________________________________________________________________________________________________________  [ Seção 4 >](https://milenalauschner.github.io/MM/algoritmo/){:
 .btn .btn--warning}
 
  
