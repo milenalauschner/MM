@@ -67,7 +67,8 @@ Já o fluxo de livros que sai da biblioteca ("Empréstimos") será igual ao valo
 Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que representa cada estoque e coloque o número inicial de "Livros na biblioteca" igual à "$$1100$$" e valor inicial de "Livros emprestados" igual à $$440$$.
 {: .text-justify}
 
-[Seção 2](https://milenalauschner.github.io/MM/funcionamento/){:
-.btn .btn--success}
+[< Seção 2](https://milenalauschner.github.io/MM/funcionamento/){:
+.btn .btn--success}____________________________________________________________  [ Seção 4 >](https://milenalauschner.github.io/MM/algoritmo/){:
+.btn .btn--warning}
 
  
