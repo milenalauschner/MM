@@ -1,8 +1,5 @@
 ---
-title: "Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
-excerpt: "Instituto de Física <br/> Tutorial sobre o uso do software Insight Maker <br/> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
-header:
-   overlay_color: $background-color
+title: "Universidade Federal do Rio Grande do Sul"
 intro: 
   - excerpt: 'Univesidade Federal do Rio Grande do Sul <br/>Instituto de Física '
 layout: tags
@@ -17,10 +14,7 @@ classes: middle
 ---
 {% include feature_row id="intro" type="center" %}
 
-.page__lead {
-  background-clor: #f3f9fb;
-}
-"color.background":"#f3f9fb",
+excerpt: "Instituto de Física <br/> Tutorial sobre o uso do software Insight Maker <br/> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
 
 |                	| Tutorial sobre o uso do software Insight Maker|                	|
 |:----:           |                  :----:	                   |      :-----:   	|
