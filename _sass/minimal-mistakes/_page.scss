@@ -24,6 +24,7 @@ background: #87c0cd
 }
 
 .page {
+    margin-right: 50px;
   @include breakpoint($large) {
     float: right;
     width: calc(60% - #{$right-sidebar-width-narrow});
@@ -31,7 +32,7 @@ background: #87c0cd
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(60% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
@@ -43,7 +44,9 @@ background: #87c0cd
     width: 100%;
     clear: both;
 
-    .page__content,
+.page__content,{ 
+	 margin-right: 50px;
+	  }
     .page__meta,
     .page__share {
       position: relative;
