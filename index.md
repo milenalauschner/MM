@@ -9,7 +9,7 @@ sidebar:
   nav: blogroll
 ---
 
-Esse tutorial online surgiu do trabalho de pesquisa do Instituto de Física da Universidade Federal do Rio Grande do Sul sobre a inserção de conceitos básicos de modelagem científica de fenômenos físicos no ensino médio. Tendo sua versão inicial em formato de texto. Os pesquisadores, que são os autores desse tutorial, acharam que seria útil para um maior número de pessoas o acesso à esse documento sem necessidade de download de um outro material maior que está sendo produzido.
+Esse tutorial online é o resultado de um trabalho de pesquisa feito no Instituto de Física (IF) da Universidade Federal do Rio Grande do Sul(UFRGS) sobre a inserção de conceitos básicos de modelagem científica de fenômenos físicos no ensino médio. Tendo sua versão inicial em formato de texto. Os pesquisadores, que são os autores desse tutorial, acharam que seria útil para um maior número de pessoas o acesso à esse documento sem necessidade de download de um outro material maior que está sendo produzido.
 {: .text-justify}
 
 Outra motivo de inspiração foi adquirir mais conhecimentos de programação de _Web Site_ pela bolsista Milena Lauschner Lopes, que demonstrou interesse por tecnologia voltada à educação. Como, pro exemplo, conseguimos embutir um modelo feito no Insight Maker sem a necessidade de ficar abrindo abas no seu navegador. Tadavia, esse não será o escopo desse tutorial.
@@ -38,4 +38,3 @@ Neste caderno vamos responder questões sobre sistemas ou eventos físicos, de p
 representação simplificada desse sistema. 
 {: .text-justify}
 
-(Caderno de Campo ainda em desenvolvimento)
