@@ -33,4 +33,4 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
  {: .text-center} 
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 2 U+2192.svg](https://milenalauschner.github.io/MM/seção2/){:
-.btn .btn--primary}
+.btn .btn--success}
