@@ -13,6 +13,13 @@ background-color: #f3f9fb
 page-width: $max-width
 ---
 {% include feature_row id="intro" type="center" %}
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 Instituto de Física <br/> 
 Tutorial online sobre o uso do software Insight Maker <br/> 
