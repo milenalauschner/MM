@@ -24,15 +24,14 @@ background: #87c0cd
 }
 
 .page {
-    margin-right: 400px;
   @include breakpoint($large) {
     float: right;
-    width: calc(70% - #{$right-sidebar-width-narrow});
+    width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(70% - #{$right-sidebar-width});
+    width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
@@ -44,9 +43,7 @@ background: #87c0cd
     width: 100%;
     clear: both;
 
-.page__content,{ 
-	 margin-right: 400px;
-	  }
+.page__content,{   }
     .page__meta,
     .page__share {
       position: relative;
