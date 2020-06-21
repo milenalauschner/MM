@@ -1,6 +1,6 @@
 ---
 title: "Introdução ao uso do Insight Maker"
-permalink: /introdução/
+permalink: /seção1/
 layout: single
 author_profile: false
 mathjax: true
@@ -31,3 +31,7 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 {: .image-caption}
 *Figura 1: Diagrama stock-flow da biblioteca.*
  {: .text-center} 
+
+[ < Seção 0 ](https://milenalauschner.github.io/MM/algoritmo/){:
+.btn .btn--primary}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  [ Seção 2 >](https://milenalauschner.github.io/MM/algoritmo/){:
+.btn .btn--warning}
