@@ -26,7 +26,7 @@ background: #87c0cd
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
+    width: calc(60% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
