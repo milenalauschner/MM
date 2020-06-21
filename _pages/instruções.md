@@ -1,6 +1,6 @@
 ---
 title: "Instruções para construir o seu modelo no Insight Maker"
-permalink: /instruções/
+permalink: /seção3/
 layout: single
 author_profile: false
 mathjax: true
@@ -68,7 +68,7 @@ Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que rep
 {: .text-justify}
 
 [< Seção 2](https://milenalauschner.github.io/MM/funcionamento/){:
-.btn .btn--success}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  [ Seção 4 >](https://milenalauschner.github.io/MM/algoritmo/){:
-.btn .btn--warning}
+.btn .btn--warning}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  [ Seção 4 >](https://milenalauschner.github.io/MM/algoritmo/){:
+.btn .btn--info}
 
  
