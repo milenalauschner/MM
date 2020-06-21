@@ -1,6 +1,6 @@
 ---
 title: "Lógica de funcionamento do software"
-permalink: /funcionamento/
+permalink: /seção2/
 layout: single
 author_profile: false
 mathjax: true
@@ -153,6 +153,6 @@ Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de li
 | $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
 | $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
 
-[< Seção 1](https://milenalauschner.github.io/MM/funcionamento/){:
-.btn .btn--success}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  [ Seção 3 >](https://milenalauschner.github.io/MM/algoritmo/){:
+[< Seção 1](https://milenalauschner.github.io/MM/seção1/){:
+.btn .btn--success}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  [ Seção 3 >](https://milenalauschner.github.io/MM/seção3/){:
 .btn .btn--danger}
