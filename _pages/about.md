@@ -10,7 +10,7 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 background-color: #f3f9fb
-page-width: $max-width
+classes: medium-wide
 ---
 {% include feature_row id="intro" type="center" %}
 <style type="text/css">
