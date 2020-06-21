@@ -34,7 +34,10 @@ background: #87c0cd
   @include breakpoint($x-large) {
      width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
-	}
+	}	
+    .container {
+    width: 80% !important;
+}
 
   .page__inner-wrap {
     float: left;
