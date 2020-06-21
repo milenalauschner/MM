@@ -7,10 +7,22 @@ header:
 sidebar:
   title: "Sumário"
   nav: blogroll
-classes: wide
 ---
 
-*Apresentação*: Este é um caderno de estudo sobre a modelagem de eventos físicos com o uso do _Insight Maker_.  O _Insight Maker_ é um 
+Esse tutorial online surgiu do trabalho de pesquisa do Instituto de Física da Universidade Federal do Rio Grande do Sul sobre a inserção de conceitos básicos de modelagem científica de fenômenos físicos no ensino médio. Tendo sua versão inicial em formato de texto. Os pesquisadores, que são os autores desse tutorial, acharam que seria útil para um maior número de pessoas o acesso à esse documento sem necessidade de download de um outro material maior que está sendo produzido.
+{: .text-justify}
+
+Outra motivo de inspiração foi adquirir mais conhecimentos de programação de _Web Site_ pela bolsista Milena Lauschner Lopes, que demonstrou interesse por tecnologia voltada à educação. Como, pro exemplo, conseguimos embutir um modelo feito no Insight Maker sem a necessidade de ficar abrindo abas no seu navegador. Tadavia, esse não será o escopo desse tutorial.
+{: .text-justify}
+
+Caso prefira baixar o pdf do tutorial e ler de um modo mais livre, faça-o abaixo: 
+
+COLOCAR PDF
+ 
+Se você tem curiosidade em saber qual é o material em desenvolvimento relacionado a esse tutorial, temos como apresentação inicial o seguinte: 
+{: .text-justify}
+
+Este é um livro sobre modelagem computacional de eventos físicos com o uso do _Insight Maker_.  O _Insight Maker_ é um 
 _software_ para o estudo de sistemas dinâmicos, disponível livremente na _web_, podendo ser rodado _on-line_ a partir do endereço 
 <a href="https://insightmaker.com">https://insightmaker.com</a>. Nesse _software_ é possível simular sistemas dinâmicos simples ou 
 bem complicados, sem precisar utilizar equações para resolver os problemas. Isso é possível porque os modelos são construídos usando 
