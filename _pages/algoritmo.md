@@ -1,7 +1,7 @@
 ---
 title: " Algoritmo de análise"
 title-color: #87c0cd
-permalink: /algoritmo/
+permalink: /seção4/
 layout: single
 author_profile: false
 mathjax: true
