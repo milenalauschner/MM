@@ -29,9 +29,7 @@ Caso prefira baixar o pdf do tutorial e ler de um modo mais livre, faça-o abaix
 COLOCAR PDF
 [vercomofica.pdf](http://milenalauschner.github.io/MM/assets/vercomofica.pdf).
 
-<p style="text-align: center;"> <iframe width="700" height="500" src="milenalauschner.github.io/MM/assets/vercomofica.pdf/embed?topBar=1&sideBar=1&zoom=1"></iframe></p>
-
-<embed src="https://milenalauschner.github.io/MM/assets/vercomofica.pdf" type="application/pdf" />
+<p style="text-align: center;"><embed  width="700" height="500" src="https://milenalauschner.github.io/MM/assets/vercomofica.pdf" type="application/pdf" /></p>
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 5 ](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}
