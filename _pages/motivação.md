@@ -39,6 +39,6 @@ Neste caderno vamos responder questões sobre sistemas ou eventos físicos, de p
 representação simplificada desse sistema. 
 {: .text-justify}
 
-[ Seção 5 <i class="fas fa-arrow-alt-circle-left"></i>](https://milenalauschner.github.io/MM/seção5/){:
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 5 ](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
