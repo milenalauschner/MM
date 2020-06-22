@@ -10,7 +10,7 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 mathjax: true
-classes:wide
+classes: wide
 ---
 
 Abaixo está apresentado o modelo final que você deve ter feito. Nele está representado todos os estoques, fluxos, variáveis, _links_, 
