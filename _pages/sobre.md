@@ -31,6 +31,8 @@ COLOCAR PDF
 
 <embed src="http://milenalauschner.github.io/MM/assets/vercomofica.pdf" width="500" height="375">
 
+<iframe src="http://milenalauschner.github.io/MM/assets/vercomofica.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 5 ](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}
 {: .text-center}
