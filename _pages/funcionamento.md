@@ -84,6 +84,19 @@ Ele observa que:
 Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias não será muito trabalhoso o bibliotecário construir a seguinte  Tabela 2.
 {: .text-justify} 
 
+*Tabela 2: Número de livros na biblioteca*
+{: .text-center}
+
+| dia| "Livros na biblioteca" no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
+|:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
+| $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
+| $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
+| $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
+| $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
+| $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
+
+
+
 Como ele construiu essa tabela? 
 
 Na primeira linha ele colocou os valores iniciais das grandezas, ou seja:
@@ -123,19 +136,6 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 
 * Opa, não faz sentido valor fracionário para o número de livros, então, o número 47,57 foi arredondado na Tabela 2 para o múmero inteiro mais próximo, 48.   
 {: .text-justify} 
-
-*Tabela 2: Número de livros na biblioteca*
-{: .text-center}
-
-| dia| "Livros na biblioteca" no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
-|:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
-| $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
-| $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
-| $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
-| $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
-| $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
-
-
 
 Esse é um detalhe muito importante: só faz sentido trabalhar com números inteiros (e positivos) de livros. Sempre que os cálculos produzirem valores fracionários, é preciso arredondar para o inteiro mais próximo. 
 {: .text-justify} 
