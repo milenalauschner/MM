@@ -4,7 +4,7 @@ blogroll:
     - title: "Seções"
       children:
         - title: " 1 Introdução ao uso do Insight Maker"
-          url: https://milenalauschner.github.io/MM/seção1/
+          url: https://milenalauschner.github.io/MM/
         - title: "2 Lógica de funcionamento do software"
           url: https://milenalauschner.github.io/MM/seção2/
         - title: "3 Instruções para construir o seu modelo no Insight Maker"
@@ -14,7 +14,7 @@ blogroll:
         - title: "5 Modelo final"
           url: https://milenalauschner.github.io/MM/seção5/  
         - title: " 0 Sobre o recurso lido"
-          url: https://milenalauschner.github.io/MM/
+          url: https://milenalauschner.github.io/MM/seção0/
 
 
 
