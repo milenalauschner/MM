@@ -53,10 +53,10 @@ Tabela 1: Resumo dos componentes do diagrama _stock-flow_
  Olhando para o diagrama _stock-flow_ da biblioteca com suas variáveis adicionadas (Figura 2), notamos que estão faltando componentes nesse modelo para ser uma representação mais realista de uma biblioteca em funcionamento. Os empréstimos geram acumulação de livros emprestados, por isso devemos criar um novo estoque (de livros emprestados). O fluxo de devoluções diminui o número de livros emprestados ao passo que o fluxo de empréstimos aumenta. Isso significa que o  sentido dos fluxos para esse novo estoque será o oposto dos fluxos do estoque de livros na biblioteca.  A Figura 3 mostra o modelo final construído para a biblioteca neste exemplo.
 {: .text-justify} 
 
-<p style="text-align: center;"> <iframe width="650" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" title="Embedded Insight"></iframe></p>
-
+ ![Figura 3: Modelo da biblioteca.]({{ site.url }}{{ site.baseurl
+}}/assets/images/BIBLIOTECA3.png){: .align-center}   
 {: .image-caption}
-*Figura 3: Modelo da biblioteca. Disponível em https://insightmaker.com/insight/198148/Biblioteca*
+*Figura 3: Modelo da biblioteca.*
  {: .text-center}
  
 Esse modelo tem limitações decorrentes das seguintes idealizações assumidas:
@@ -124,6 +124,19 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 * Opa, não faz sentido valor fracionário para o número de livros, então, o número 47,57 foi arredondado na Tabela 2 para o múmero inteiro mais próximo, 48.   
 {: .text-justify} 
 
+*Tabela 2: Número de livros na biblioteca*
+{: .text-center}
+
+| dia| "Livros na biblioteca" no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
+|:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
+| $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
+| $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
+| $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
+| $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
+| $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
+
+
+
 Esse é um detalhe muito importante: só faz sentido trabalhar com números inteiros (e positivos) de livros. Sempre que os cálculos produzirem valores fracionários, é preciso arredondar para o inteiro mais próximo. 
 {: .text-justify} 
 
@@ -153,18 +166,6 @@ Não é difícil fazer esses cálculos, mas se a inspeção ocorrer dentro de um
 
 Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de livros na biblioteca em função do tempo. 
 {: .text-justify} 
-
-*Tabela 2: Número de livros na biblioteca*
-{: .text-center}
-
-| dia| "Livros na biblioteca" no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
-|:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
-| $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
-| $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
-| $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
-| $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
-| $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
-
 
 
 
