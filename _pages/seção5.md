@@ -24,5 +24,8 @@ Olhe as equações clicando no círculo cinza do fluxo.
 
 Clique em _Simulate_ para ver o gráfico e a tabela.
 
-<p style="text-align: center;"> <iframe width="900" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" 
+*Não está conseguindo ver os valores do modelo? Mantenha precionado o botão esquerdo do _mouse_ e arraste a barra cinza, que tem uma flecha clara no meio, para a esquerda.*
+{: .text-justify}
+
+<p style="text-align: center;"> <iframe width="700" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" 
 title="Embedded Insight"></iframe></p>
