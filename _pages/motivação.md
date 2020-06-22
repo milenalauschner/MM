@@ -4,7 +4,7 @@ layout: single
 permalink: /seção0/
 author_profile: false
 header:
-  image: /assets/images/header.png
+  image: /assets/images/header6.png
 sidebar:
   title: "Sumário"
   nav: blogroll
