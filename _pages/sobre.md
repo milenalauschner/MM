@@ -16,7 +16,7 @@ Esse tutorial _online_ é o resultado de um trabalho de pesquisa feito no Instit
 Os autores desse material são: 
 
 
-  * Milena Lauschner Lopes estudande de Física Licenciatura (diurno) da UFRGS e bolsista de Iniciação Científica sob orientação da Profa. Eliane Angela Veit e coorientação do Prof. LLeonardo Albuquerque Heidemann.  
+  * Milena Lauschner Lopes estudande de Física Licenciatura (diurno) da UFRGS e bolsista de Iniciação Científica sob orientação da Profa. Eliane Angela Veit e coorientação do Prof. Leonardo Albuquerque Heidemann.  
   * Leonardo Albuquerque Heidemann professor do Departamento de Física da UFRGS . 
   * Eliane Angela Veit professora do Departamento de Física da UFRGS.
 
