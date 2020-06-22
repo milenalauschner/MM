@@ -70,6 +70,6 @@ Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que rep
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/seção2/){:
 .btn .btn--success}[ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção4/){:
 .btn .btn--danger}
-{: .text-justify} 
+{: .text-center} 
 ________________________________________________________________________________________________________________________________________________________________________________________________ 
  
