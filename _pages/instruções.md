@@ -38,7 +38,7 @@ Novamente em _Add primitive_, opte por _Add variables_ para criar as variáveis 
 Você deve ter conseguido reproduzir a Figura 3. Resta agora introduzir as equações que relacionam essas grandezas, assim como os valores iniciais. 
 {: .text-justify}
 
-Já vimos que o fluxo de "Devoluções" é igual a "Livros emprestados" dividido pelo valor da variável "Prazo de devolução", que tomaremos igual a $$7$$. 
+Já vimos que o fluxo de "Devoluções" é igual a "Livros emprestados" dividido pelo valor da variável "Prazo de devolução", que tomaremos igual a 7. 
 {: .text-justify}
 
 Para introduzir essas informações no modelo, basta proceder como mostrado na Figura 5. 
@@ -61,10 +61,10 @@ Já o fluxo de livros que sai da biblioteca ("Empréstimos") será igual ao valo
 *Figura 6: Visualização da criação de fluxos.*
  {: .text-center}
  
- Vamos agora inserir o valor $$0.03$$ para a variável "Porcentagem de empréstimos". Para isso, clique em cima do diagrama dessa variável, abre-se uma janela onde você preencherá ao lado de _Value/Equation_ o valor $$0.03$$. Note  que no _Insight Maker_ é usado ponto para separar as casas decimais, não vírgula. Cuidado para não utilizar vírgula!
+ Vamos agora inserir o valor 0.03 para a variável "Porcentagem de empréstimos". Para isso, clique em cima do diagrama dessa variável, abre-se uma janela onde você preencherá ao lado de _Value/Equation_ o valor 0.03 . Note  que no _Insight Maker_ é usado ponto para separar as casas decimais, não vírgula. Cuidado para não utilizar vírgula!
 {: .text-justify}
 
-Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que representa cada estoque e coloque o número inicial de "Livros na biblioteca" igual à "$$1100$$" e valor inicial de "Livros emprestados" igual à $$440$$.
+Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que representa cada estoque e coloque o número inicial de "Livros na biblioteca" igual à "1100" e valor inicial de "Livros emprestados" igual à 440.
 {: .text-justify}
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/seção2/){:
