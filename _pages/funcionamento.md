@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header.png
+  image: /assets/images/header2.png
 sidebar:
   title: "Sumário"
   nav: blogroll
@@ -152,6 +152,9 @@ Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de li
 | $$2$$  |         $$1131$$             |           $$319$$          |     $$34$$     |     $$46$$       |
 | $$3$$  |         $$1143$$             |           $$307$$          |     $$34$$     |     $$44$$       |
 | $$4$$  |         $$1153$$             |           $$297$$          |     $$35$$     |     $$42$$       |
+
+
+
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 1](https://milenalauschner.github.io/MM/seção1/){:
 .btn .btn--primary}________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 3 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção3/){:
