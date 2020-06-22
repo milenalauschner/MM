@@ -4,7 +4,7 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header.png
+  image: /assets/images/header1.png
 sidebar:
   title: "Sumário"
   nav: blogroll
