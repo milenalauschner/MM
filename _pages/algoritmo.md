@@ -1,6 +1,5 @@
 ---
 title: " Algoritmo de análise"
-title-color: #87c0cd
 permalink: /seção4/
 layout: single
 author_profile: false
@@ -31,7 +30,7 @@ O método de integração pode ficar no valor de _default_, Método de Euler. Es
  Clica-se em _Apply_ e a simulação está pronta para ser rodada clicanco em _Simulate_. 
 {: .text-justify}
  
- Os resultados são mostrados na forma de gráficos ou tabelas. Por exemplo, na Figura 8 são mostrados os valores obtidos para o número de "Livros na bibliotecas" e de "Livros emprestados" nos dias $0, 1, 2, 3...$, além do "Prazo de devolução" e da "Porcentagem de empréstimos" que são constantes. 
+ Os resultados são mostrados na forma de gráficos ou tabelas. Por exemplo, na Figura 8 são mostrados os valores obtidos para o número de "Livros na bibliotecas" e de "Livros emprestados" nos dias 0, 1, 2, 3..., além do "Prazo de devolução" e da "Porcentagem de empréstimos" que são constantes. 
 {: .text-justify}
  
  ![Figura 8: Valores obtidos para diversas grandezas do nosso modelo.]({{ site.url }}{{ site.baseurl
