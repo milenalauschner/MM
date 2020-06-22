@@ -31,8 +31,8 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 *Figura 1: Diagrama stock-flow da biblioteca.*
  {: .text-center} 
 
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 2 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção2/){:
+[ Seção 2 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção2/){:
 .btn .btn--success}
-
-
+ {: .text-center} 
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
