@@ -10,11 +10,11 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 mathjax: true
-classes: wide
 ---
 
 Abaixo está apresentado o modelo final que você deve ter feito. Nele está representado todos os estoques, fluxos, variáveis, _links_, 
 equações, gráfico e tabela do modelo.
+{: .text-justify}
 
 Clique no estoque para ver as condições inicias.
 
