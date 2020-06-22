@@ -37,7 +37,7 @@ COLOCAR PDF
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://milenalauschner.github.io/MM/assets/vercomofica.pdf">Download PDF</a>.</p>  </embed>
 </object>
 
-<p style="text-align: center;"> <iframe width="700" height="500" src="http://milenalauschner.github.io/MM/assets/vercomofica.pdf"></iframe></p>
+<p style="text-align: center;"> <iframe width="700" height="500" src="milenalauschner.github.io/MM/assets/vercomofica.pdf/embed?topBar=1&sideBar=1&zoom=1"></iframe></p>
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 5 ](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}
