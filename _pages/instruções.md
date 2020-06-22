@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header.png
+  image: /assets/images/header3.png
 sidebar:
   title: "Sumário"
   nav: blogroll
@@ -68,7 +68,7 @@ Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que rep
 {: .text-justify}
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/funcionamento/){:
-.btn .btn--success}________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  [ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/algoritmo/){:
+.btn .btn--success}________________________________________________________________________________________________________________________________________________________________________________________________ [ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/algoritmo/){:
 .btn .btn--danger}
 
  
