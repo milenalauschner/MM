@@ -16,12 +16,12 @@ Esse tutorial _online_ é o resultado de um trabalho de pesquisa feito no Instit
 Os autores desse material são: 
 
   * Milena Lauschner Lopes, estudande de Física Licenciatura (diurno) da UFRGS e bolsista de Iniciação Científica.
-
+  
+  * Leonardo Albuquerque Heidemann, professor do departamento de Física da UFRGS .
+ 
   * Eliane Angela Veit, professora do departamento de Física da UFRGS.
 
-  * Leonardo Albuquerque Heidemann, professor do departamento de Física da UFRGS .
-
-Um motivo de inspiração para disponibilizar o material no atual formato foi adquirir mais conhecimentos de programação _web-based_ pela bolsista Milena Lauschner Lopes, que demonstrou interesse por tecnologias voltadas à educação. Como, pro exemplo, o uso do _GitHub Pages_ para criar _sites_, ferramenta de embutir o modelo final feito no _Insight Maker_ sem a necessidade de ficar abrindo abas no seu navegador, uso do HTML e CSS, etc. Tadavia, esse não será o escopo desse tutorial.
+ Um motivo de inspiração para disponibilizar o material no atual formato foi adquirir mais conhecimentos de programação _web-based_ pela bolsista Milena Lauschner Lopes, que demonstrou interesse por tecnologias voltadas à educação. Como, pro exemplo, o uso do _GitHub Pages_ para criar _sites_, ferramenta de embutir o modelo final feito no _Insight Maker_ sem a necessidade de ficar abrindo abas no seu navegador, uso do HTML e CSS, etc. Tadavia, esse não será o escopo desse tutorial.
 {: .text-justify}
 
 Caso prefira baixar o pdf do tutorial e ler de um modo mais livre, faça-o abaixo: 
