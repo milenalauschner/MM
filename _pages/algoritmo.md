@@ -6,7 +6,7 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header.png
+  image: /assets/images/header4.png
 sidebar:
   title: "Sumário"
   nav: blogroll
@@ -67,4 +67,6 @@ No entanto, estamos com um problema, pois o número de livros deve ser inteiro! 
  
  
  
- 
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 3](https://milenalauschner.github.io/MM/seção3/){:
+.btn .btn--warning}________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 5 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção5/){:
+.btn .btn--info}
