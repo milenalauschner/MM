@@ -26,6 +26,7 @@ Clique em _Simulate_ para ver o gráfico e a tabela.
 title="Embedded Insight"></iframe></p>
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 3](https://milenalauschner.github.io/MM/seção3/){:
-.btn .btn--warning}________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 5 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção5/){:
+.btn .btn--warning}[ Seção 5 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}
-
+{: .text-center}
+________________________________________________________________________________________________________________________________________________________________________________________________
