@@ -24,5 +24,5 @@ Olhe as equações clicando no círculo cinza do fluxo.
 
 Clique em _Simulate_ para ver o gráfico e a tabela.
 
-<p style="text-align: center;"> <iframe width="800" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" 
+<p style="text-align: center;"> <iframe width="900" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" 
 title="Embedded Insight"></iframe></p>
