@@ -24,3 +24,7 @@ Clique em _Simulate_ para ver o gráfico e a tabela.
 
 <p style="text-align: center;"> <iframe width="700" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" 
 title="Embedded Insight"></iframe></p>
+
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
+.btn .btn--danger}________________________________________________________________________________________________________________________________________________________________________________________________ [ Seção 0 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção0/){:
+.btn .btn--facebook}
