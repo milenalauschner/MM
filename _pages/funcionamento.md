@@ -158,7 +158,7 @@ e
 "Devoluções"(dia = n) =  "Livros emprestados" (dia = n)/ "Prazo de empréstimos"
 {: .text-justify} 
 
-Em síntese as respostas produzidas pelo bibliotecário são: o número de Livros na biblioteca no quarto dia é $1153$ e o porcentual de Livros emprestados é 297 $$\cdot$$ 100$$\%$$/1450, ou seja aproximadamente, 20$$\%$$.
+Em síntese as respostas produzidas pelo bibliotecário são: o número de Livros na biblioteca no quarto dia é 1153 e o porcentual de Livros emprestados é 297 $$\cdot$$ 100$$\%$$/1450, ou seja aproximadamente, 20$$\%$$.
 {: .text-justify} 
 
 Não é difícil fazer esses cálculos, mas se a inspeção ocorrer dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
