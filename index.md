@@ -1,7 +1,9 @@
 ---
-title: "Motivação"
+title: "Introdução ao uso do Insight Maker"
+permalink: /seção1/
 layout: single
 author_profile: false
+mathjax: true
 header:
   image: /assets/images/header.png
 sidebar:
@@ -9,37 +11,29 @@ sidebar:
   nav: blogroll
 ---
 
-Esse tutorial _online_ é o resultado de um trabalho de pesquisa feito no Instituto de Física (IF) da Universidade Federal do Rio Grande do Sul (UFRGS) sobre a inserção de conceitos básicos de modelagem científica de fenômenos físicos no ensino médio, tendo sua versão inicial em formato de texto. Os pesquisadores, que são os autores desse tutorial, acharam que seria útil para um maior número de pessoas o acesso a esse documento sem necessidade de _download_ de um outro material maior que está sendo produzido.
+Para facilitar a compreensão do funcionamento do _Insight Maker_, vamos descrever a lógica de construção de modelos neste _software_, e as suas principais características, nos valendo de um exemplo comum na vida de um estudante: uma biblioteca com uma coleção de livros que são cedidos por empréstimo aos estudantes da escola.
 {: .text-justify}
 
-Outra motivo de inspiração foi adquirir mais conhecimentos de programação de _Web Site_ pela bolsista Milena Lauschner Lopes, que demonstrou interesse por tecnologia voltada à educação. Como, pro exemplo, conseguimos embutir um modelo feito no Insight Maker sem a necessidade de ficar abrindo abas no seu navegador. Tadavia, esse não será o escopo desse tutorial.
+Vamos querer responder questões do tipo: 
+
+  * Quantos livros permanecem na biblioteca depois de certo tempo? 
+  * Qual é o percentual de livros emprestados em determinado dia? 
+
+Para isso vamos construir um modelo sobre o estoque de livros na biblioteca levando em conta que há empréstimos e devoluções. Como todo modelo, ele não representa exatamente o sistema em estudo. Trata-se de uma representação simplificada do sistema real, que poderá ser aprimorada na medida dos nossos interesses e conhecimentos sobre o sistema em estudo. 
 {: .text-justify}
 
-Caso prefira baixar o pdf do tutorial e ler de um modo mais livre, faça-o abaixo: 
-
-COLOCAR PDF
- 
-Se você tem curiosidade em saber qual é o material em desenvolvimento relacionado a esse tutorial, temos como apresentação inicial o seguinte: 
+Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou seja, tem um estoque de livros. Digamos que em certo momento haja $$n$$ livros na biblioteca. Essa quantidade de livros pode diminuir porque alguns livros são emprestados aos alunos, assim como pode aumentar porque alguns livros que estavam emprestados são devolvidos. Um diagrama que representa o número de livros na biblioteca está representado na Figura 1. Nessa figura, o retângulo representa o estoque de livros. As setas representam livros que entram ou saem da biblioteca.  A seta da esquerda, apontando para dentro do retângulo, indica que há um fluxo de livros entrando no estoque da biblioteca (devoluções de livros pelos alunos). A da direita, apontando para fora do retângulo, indica que há um fluxo de livros saindo do estoque da biblioteca (empréstimos de livros para alunos).
 {: .text-justify}
 
-Este é um livro sobre modelagem computacional de eventos físicos com o uso do _Insight Maker_.  O _Insight Maker_ é um 
-_software_ para o estudo de sistemas dinâmicos, disponível livremente na _web_, podendo ser rodado _on-line_ a partir do endereço 
-<a href="https://insightmaker.com">https://insightmaker.com</a>. Nesse _software_ é possível simular sistemas dinâmicos simples ou 
-bem complicados, sem precisar utilizar equações para resolver os problemas. Isso é possível porque os modelos são construídos usando 
-somente diagramas.
-{: .text-justify}
+![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
+}}/assets/images/biblioteca1.png){: .align-center}   
 
-Essa possibilidade de representação de uma situação real ou abstrata como um sistema complexo revelando a conexão entre suas partes 
-componentes, por meio somente de diagramas, é característica de um tipo específico de modelagem chamada Dinâmica de Sistemas e fundada
-pelo Prof. Jay Forrester do MIT Sloan School of Management (Sterman, 2016).
-{: .text-justify}
+{: .image-caption}
+*Figura 1: Diagrama stock-flow da biblioteca.*
+ {: .text-center} 
 
-Neste caderno vamos responder questões sobre sistemas ou eventos físicos, de preferência do nosso cotidiano, partindo de algum 
-representação simplificada desse sistema. 
-{: .text-justify}
-
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 1 >](https://milenalauschner.github.io/MM/seção1/){:
-.btn .btn--success} 
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 2 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção2/){:
+.btn .btn--success}
 
 
 
