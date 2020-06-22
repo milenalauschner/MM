@@ -67,5 +67,7 @@ No entanto, estamos com um problema, pois o número de livros deve ser inteiro! 
  
  
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
-.btn .btn--danger}________________________________________________________________________________________________________________________________________________________________________________________________ [ Seção 0 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção0/){:
+.btn .btn--danger} [ Seção 0 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção0/){:
 .btn .btn--facebook}
+ {: .text-center}
+________________________________________________________________________________________________________________________________________________________________________________________________
