@@ -170,5 +170,6 @@ Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de li
 
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 1](https://milenalauschner.github.io/MM/seção1/){:
-.btn .btn--primary}________________________________________________________________________________________________________________________________________________________________________________________________[ Seção 3 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção3/){:
+.btn .btn--primary}[ Seção 3 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção3/){:
 .btn .btn--warning}
+________________________________________________________________________________________________________________________________________________________________________________________________
