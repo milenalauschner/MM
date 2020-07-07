@@ -39,7 +39,7 @@ Série Temporal (_Time Series_), um gráfico de dispersão (_Scatter Plot_), tab
 Map_.
 {: .text-justify}
 
-[Figura 1.13: Configurações possíveis para representar os resultados do modelo.]({{ site.url }}{{ site.baseurl
+![Figura 1.13: Configurações possíveis para representar os resultados do modelo.]({{ site.url }}{{ site.baseurl
 }}/assets/images/DISPLAYC.png){: .align-center}   
 
 {: .image-caption}
