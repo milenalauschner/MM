@@ -164,8 +164,8 @@ De modo semelhante:
 
 E ainda: 
 
-"Empréstimos"(dia = n) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca" (dia = n). 
-e 
+"Empréstimos"(dia = n) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca" (dia = n). <br />
+e <br />
 "Devoluções"(dia = n) =  "Livros emprestados" (dia = n)/ "Prazo de empréstimos"
 {: .text-center}  
 
