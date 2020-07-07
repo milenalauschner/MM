@@ -1,5 +1,5 @@
 ---
-title: "Introdução ao uso do Insight Maker"
+title: "Sobre o Insight Maker"
 layout: single
 author_profile: false
 mathjax: true
@@ -10,26 +10,18 @@ sidebar:
   nav: blogroll
 ---
 
-Para facilitar a compreensão do funcionamento do _Insight Maker_, vamos descrever a lógica de construção de modelos neste _software_, e as suas principais características, nos valendo de um exemplo comum na vida de um estudante: uma biblioteca com uma coleção de livros que são cedidos por empréstimo aos estudantes da escola.
+O _Insight Maker_ é um _software online open-source_ projetado para tornar a modelagem e a simulação acessíveis ao público menos familiarizado com recursos computacionais. Ele possibilita a modelagem de sistemas dinâmicos a partir da diagramação em blocos de elementos básicos (níveis, taxas e constantes) seguindo os princípios de sistemas de Jay Forrester (Fortmann-Roe, 2014). Similar ao _software_ proprietário _Stella_, que foi amplamente explorado no ensino de Ciências a partir da década de 1990 (e.g., Santos et al., 2000), o programa dispensa conhecimentos de programação para construir modelos, sendo bastante útil em diversos contextos educacionais.
 {: .text-justify}
 
-Vamos querer responder questões do tipo: 
-
-  * Quantos livros permanecem na biblioteca depois de certo tempo? 
-  * Qual é o percentual de livros emprestados em determinado dia? 
-
-Para isso vamos construir um modelo sobre o estoque de livros na biblioteca levando em conta que há empréstimos e devoluções. Como todo modelo, ele não representa exatamente o sistema em estudo. Trata-se de uma representação simplificada do sistema real, que poderá ser aprimorada na medida dos nossos interesses e conhecimentos sobre o sistema em estudo. 
-{: .text-justify}
-
-Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou seja, tem um estoque de livros. Digamos que em certo momento haja $$n$$ livros na biblioteca. Essa quantidade de livros pode diminuir porque alguns livros são emprestados aos alunos, assim como pode aumentar porque alguns livros que estavam emprestados são devolvidos. Um diagrama que representa o número de livros na biblioteca está representado na Figura 1. Nessa figura, o retângulo representa o estoque de livros. As setas representam livros que entram ou saem da biblioteca.  A seta da esquerda, apontando para dentro do retângulo, indica que há um fluxo de livros entrando no estoque da biblioteca (devoluções de livros pelos alunos). A da direita, apontando para fora do retângulo, indica que há um fluxo de livros saindo do estoque da biblioteca (empréstimos de livros para alunos).
-{: .text-justify}
-
-![Figura 1: Diagrama stock-flow da biblioteca.]({{ site.url }}{{ site.baseurl
-}}/assets/images/biblioteca1.png){: .align-center}   
-
-{: .image-caption}
-*Figura 1: Diagrama stock-flow da biblioteca.*
- {: .text-center} 
+#Referências
+[1] Fortmann-Roe, S. (2014). Insight Maker: A general-purpose tool for web-based modeling
+simulation. Simulation Modelling Practice and Theory, 47, 28–45.
+<a href="https://doi.org/10.1016/j.simpat.2014.03.013">https://doi.org/10.1016/j.simpat.2014.03.013</a>
+[2] A. de C. K. dos Santos, Y. Cho, I. S. Araujo e G. P. Gonçalves (2000). Caderno Catarinense de
+Ensino de Física 17, 81 .
+<a href="https://periodicos.ufsc.br/index.php/fisica/article/download/6787/6252">https://periodicos.ufsc.br/index.php/fisica/article/download/6787/6252</a>
+{: .text-left}
+ 
 
 [ Seção 2 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção2/){:
 .btn .btn--success}
