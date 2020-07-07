@@ -178,6 +178,10 @@ Não é difícil fazer esses cálculos, mas se a inspeção ocorrer dentro de um
 Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de livros na biblioteca em função do tempo. 
 {: .text-justify} 
 
+## Referências
+ [3] _CLExchange. Introduction to System Dynamics Models_ (2016).<br />
+<a href="https://www.youtube.com/watch?v=IenySRdkRu8">https://www.youtube.com/watch?v=IenySRdkRu8</a>
+{: .text-left}
 
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 1](https://milenalauschner.github.io/MM/seção1/){:
