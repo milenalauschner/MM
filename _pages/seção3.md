@@ -121,20 +121,20 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 "Livros na biblioteca"  (dia = 0) - "Empréstimos" (dia = 0) + "Devoluções"(dia = 0);
 {: .text-center} 
 
-* número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido: 350 + 33 - 50 = 333. Podemos escrever como: 
+* número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido = 350 + 33 - 50 = 333. Podemos escrever como: 
 {: .text-justify} 
 
 "Livros emprestados"(dia = 1) =<br />
 "Livros emprestados" (dia = 0) + "Empréstimos"(dia = 0) - "Devoluções" (dia = 0);
 {: .text-center} 
 
-* número de empréstimos: 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1117 "Livros na biblioteca". Então, 0,03 $$\cdot$$ 1100 = 33. Isso fica expresso como:
+* número de empréstimos = 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1117 "Livros na biblioteca". Então, 0,03 $$\cdot$$ 1100 = 33. Isso fica expresso como:
 {: .text-justify} 
 
 "Empréstimos"(dia = 1) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca"(dia = 1);  
 {: .text-center} 
 
-* número de devoluções: 48, pois o número de devoluções diárias é "Livros emprestados"/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
+* número de devoluções = 48, pois o número de devoluções diárias é "Livros emprestados"/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
 {: .text-justify} 
 
  "Devoluções" (dia = 1) = "Livros emprestados"(dia = 1)/"Prazo de empréstimos". 
