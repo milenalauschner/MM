@@ -40,7 +40,7 @@ Map_.
 {: .text-justify}
 
 ![Figura 1.13: Configurações possíveis para representar os resultados do modelo.]({{ site.url }}{{ site.baseurl
-}}/assets/images/DISPLAYC.png){: .align-center}   
+}}/assets/images/DISPLAY.png){: .align-center}   
 
 {: .image-caption}
 *Figura 1.13: Configurações possíveis para representar os resultados do modelo.*
