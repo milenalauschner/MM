@@ -1,6 +1,8 @@
 ---
 title: "Introdução ao uso do Insight Maker"
 layout: single
+permalink: /seção2/
+layout: single
 author_profile: false
 mathjax: true
 header:
