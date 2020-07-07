@@ -33,47 +33,94 @@ que o bibliotecário utilizou para construir a Tabela 1.2, mesmo sem ter noção
  Clica-se em _Apply_ e a simulação está pronta para ser rodada clicanco em _Simulate_. 
 {: .text-justify}
  
- Os resultados são mostrados na forma de gráficos ou tabelas. Por exemplo, na Figura 8 são mostrados os valores obtidos para o número de "Livros na bibliotecas" e de "Livros emprestados" nos dias 0, 1, 2, 3..., além do "Prazo de devolução" e da "Porcentagem de empréstimos" que são constantes. 
+ Para ver os resultados da simulação, depois de clicar em _Simulate_, é preciso entrar em _Add
+Display_. Surge uma janela como a mostrada na Figura 1.13. Aí você definirá se quer mostrar uma
+Série Temporal (_Time Series_), um gráfico de dispersão (_Scatter Plot_), tabela (_Table_) ou um _Agent
+Map_.
 {: .text-justify}
+
+[Figura 1.13: Configurações possíveis para representar os resultados do modelo.]({{ site.url }}{{ site.baseurl
+}}/assets/images/DISPLAYC.png){: .align-center}   
+
+{: .image-caption}
+*Figura 1.13: Configurações possíveis para representar os resultados do modelo.*
+ {: .text-center}
  
- ![Figura 8: Valores obtidos para diversas grandezas do nosso modelo.]({{ site.url }}{{ site.baseurl
+ Queremos organizar os resultados na forma de gráficos ou tabelas. Para fazer uma tabela,
+precisamos clicar em _Table_, digitar um título no campo de escrita _Title_ e escolher as componentes
+que aparecerão na tabela, chamado pelo _software_ de _Data_ - em português, dado. Após isso, é só confirmar o nova criação no botão _Apply_ (Aplicar).
+{: .text-justify} 
+ 
+Os passos descritos para criação de uma tabela estão indicados na Figura 1.14. A tabela para
+o modelo da biblioteca é a Figura 1.15. Nela são mostrados os valores obtidos para o número
+de "Livros na biblioteca" e de "Livros emprestados" nos dias 0,1,2,3..., além dos "Empréstimos" e das
+"Devoluções". 
+{: .text-justify} 
+
+![Figura 1.14: Configuração de uma tabela.]({{ site.url }}{{ site.baseurl
+}}/assets/images/TABELA.png){: .align-center}   
+
+{: .image-caption}
+*Figura 1.14: Configuração de uma tabela.*
+ {: .text-center}
+  
+![Figura 1.15: Valores obtidos para diversas grandezas do nosso modelo.]({{ site.url }}{{ site.baseurl
 }}/assets/images/TABELA_FRAC.png){: .align-center}   
 
 {: .image-caption}
-*Figura 8: Valores obtidos para diversas grandezas do nosso modelo.*
+*Figura 1.15: Valores obtidos para diversas grandezas do nosso modelo.*
  {: .text-center}
  
-No entanto, estamos com um problema, pois o número de livros deve ser inteiro! Cometemos um equívoco no modelo e precisamos consertá-lo: precisamos impor que os valores obtidos para número de livros sejam inteiros. Para isso, vamos retornar às funções que definem os estoques e usar a função matemática Round, conforme mostrado na Figura 9.
+No entanto, estamos com um problema, pois o número de livros deve ser inteiro! Cometemos
+um equívoco no modelo e precisamos consertá-lo: precisamos impor que os valores obtidos para
+número de livros sejam inteiros. 
 {: .text-justify}
- 
-![Figura 9: Aplicação do arrendondamento nas equações.]({{ site.url }}{{ site.baseurl
+
+Para isso, vamos retornar às equações que definem os estoques
+e usar a função matemática de arredondamento (_Round_), conforme mostrado na Figura 1.16. Ao
+clicar nessa função matemática aparecerá o seguinte: _Round(Value)_, no lugar de _Value_ coloque a
+equação já criada referente ao fluxo que está sendo arredondado.
+{: .text-justify}
+
+![Figura 1.16: Aplicação do arredondamento nas equações.]({{ site.url }}{{ site.baseurl
 }}/assets/images/ROUND.png){: .align-center}   
 
 {: .image-caption}
-*Figura 9: Aplicação do arrendondamento nas equações.*
+*Figura 1.16: Aplicação do arredondamento nas equações.*
+{: .text-center}
+
+Agora sim, rodando essa versão do modelo reproduzimos os valores obtidos pelo bibliotecário. Esse modelo está representado abaixo e disponível no endereço <a href="https://insightmaker.com/insight/198148/
+Modelo-da-biblioteca">https://insightmaker.com/insight/198148/
+Modelo-da-biblioteca</a>. 
+{: .text-justify} 
+
+<p style="text-align: center;"> <iframe width="700" height="500" src="//InsightMaker.com/insight/198148/embed?topBar=1&sideBar=1&zoom=1" 
+title="Embedded Insight"></iframe></p>
+
+Como também queremos gerar um gráfico para analisar a mudança dos valores ao longo do
+tempo, precisamos clicar novamente em _Add Display_ e escolher a configuração Série Temporal,
+adicionar um título ao gráfico em _Title_, escolher as componentes para análise em _Data_, que irão
+variar o longo do tempo, e nomear as unidades dos dois eixos de referências (_X-Axis_ e _Y-Axis_).
+Agora é só validar a criação clicando em _Apply_. Esses passos estão sintetizados da Figura 1.17 e o gráfico temporal gerado se encontra na Figura 1.18.
+ 
+![Figura 1.17: Configuração de um gráfico.]({{ site.url }}{{ site.baseurl
+ }}/assets/images/SÉRIETEMPORAL.png){: .align-center}   
+
+{: .image-caption}
+*Figura 1.17: Configuração de um gráfico*
  {: .text-center}
- 
-  Agora sim, rodando essa versão do modelo reproduzimos os valores obtidos pelo bibliotecário. 
-{: .text-justify}
- 
- Também podemos gerar gráficos. Por exemplo, a Figura 10 mostra um gráfico do número de livros em função do tempo para a biblioteca de nosso exemplo.
-{: .text-justify}
- 
- 
- ![Figura 10]({{ site.url }}{{ site.baseurl
+  
+![Figura 1.18 Gráfico de livros versus tempo.]({{ site.url }}{{ site.baseurl
  }}/assets/images/BIBLIOTECA4.png){: .align-center}   
 
 {: .image-caption}
-*Figura 10: Gráfico de livros versus tempo.*
+*Figura 1.18 Gráfico de livros versus tempo.*
  {: .text-center}
  
- ## Referência
- 
+## Referências
  [4] Asano, C. H. (2009). Cálculo Numérico—Fundamentos e Aplicações (pp. 194-196).<br />
 <a href="https://www.ime.usp.br/~asano/LivroNumerico/LivroNumerico.pdf">https://www.ime.usp.br/~asano/LivroNumerico/LivroNumerico.pdf</a>
 {: .text-left}
- 
-
  
  
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
