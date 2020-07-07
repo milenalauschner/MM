@@ -117,7 +117,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
   * número de "Livros na biblioteca" no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:
 {: .text-justify} 
 
-"Livros na biblioteca" (dia = 1) = 
+"Livros na biblioteca" (dia = 1) = <br />
 "Livros na biblioteca"  (dia = 0) - "Empréstimos" (dia = 0) + "Devoluções"(dia = 0);
 {: .text-center} 
 
