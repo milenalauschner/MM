@@ -37,10 +37,10 @@ Existem também componentes que podem influenciar no comportamento de um fluxo. 
 Na Figura 1.2 também aparecem linhas pontilhadas que representam as ligações entre variável e fluxo. Essas ligações são denominadas _links_. Todas as variáveis do sistema são ligadas ao fluxo por meio de _links_. Os _links_ não servem estritamente para conectar variáveis aos fluxos, mas também podem indicar como um estoque influencia em outro ou como uma variável compõe outra variável. Ou seja, fazem ligações entre diferentes componentes.
 {: .text-justify}
  
-As componentes apresentadas até aqui são sintetizadas na Tabela 1.
+As componentes apresentadas até aqui são sintetizadas na Tabela 1.1.
 {: .text-justify}
 
-Tabela 1: Resumo dos componentes do diagrama _stock-flow_ 
+Tabela 1.1: Resumo dos componentes do diagrama _stock-flow_ 
 {: .text-center}
 
 |  Componente |                     Descrição                 |
@@ -124,41 +124,50 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 * número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido: 350 + 33 - 50 = 333. Podemos escrever como: 
 {: .text-justify} 
 
-"Livros emprestados"(dia = 1) = "Livros emprestados" (dia = 0) + "Empréstimos"(dia = 0) - "Devoluções" (dia = 0);
+"Livros emprestados"(dia = 1) =<br />
+"Livros emprestados" (dia = 0) + "Empréstimos"(dia = 0) - "Devoluções" (dia = 0);
+{: .text-center} 
 
 * número de empréstimos: 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1117 "Livros na biblioteca". Então, 0,03 $$\cdot$$ 1100 = 33. Isso fica expresso como:
 {: .text-justify} 
 
 "Empréstimos"(dia = 1) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca"(dia = 1);  
+{: .text-center} 
 
 * número de devoluções: 48, pois o número de devoluções diárias é "Livros emprestados"/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
 {: .text-justify} 
 
  "Devoluções" (dia = 1) = "Livros emprestados"(dia = 1)/"Prazo de empréstimos". 
+{: .text-center} 
 
-* Opa, não faz sentido valor fracionário para o número de livros, então, o número 47,57 foi arredondado na Tabela 2 para o múmero inteiro mais próximo, 48.   
+Opa, não faz sentido valor fracionário para o número de livros, então, o número 33,51 e 47,57 foram arredondados na Tabela 1.2, para 34 e 48, que são os números inteiros mais próximos.   
 {: .text-justify} 
 
-Esse é um detalhe muito importante: só faz sentido trabalhar com números inteiros (e positivos) de livros. Sempre que os cálculos produzirem valores fracionários, é preciso arredondar para o inteiro mais próximo. 
+Esse é um detalhe muito importante: só faz sentido trabalhar com números inteiros (e positivos)
+de livros. Sempre que os cálculos produzirem valores fracionários, é preciso arredondar para o
+inteiro mais próximo.
 {: .text-justify} 
 
-Podemos sintetizar os cálculos que o bibliotecário precisa fazer para completar a tabela do seguinte modo: 
+Podemos sintetizar os cálculos que o bibliotecário precisa fazer para completar a tabela do
+seguinte modo:
 {: .text-justify} 
 
-"Livros na biblioteca" (dia = n+1) = "Livros na biblioteca" (dia = n) - "Empréstimos" (dia = n) + "Devoluções" (dia = n). 
-{: .text-justify} 
+"Livros na biblioteca" (dia = n+1) =<br />
+"Livros na biblioteca" (dia = n) - "Empréstimos" (dia = n) + "Devoluções" (dia = n). 
+{: .text-center} 
 
 De modo semelhante: 
 
-"Livros emprestados"(dia = n+1) = "Livros emprestados" (dia = n) + "Empréstimos" (dia = n) - "Devoluções" (dia = n). 
-{: .text-justify} 
+"Livros emprestados"(dia = n+1) =<br />
+"Livros emprestados" (dia = n) + "Empréstimos" (dia = n) - "Devoluções" (dia = n). 
+{: .text-center} 
 
 E ainda: 
 
 "Empréstimos"(dia = n) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca" (dia = n). 
 e 
 "Devoluções"(dia = n) =  "Livros emprestados" (dia = n)/ "Prazo de empréstimos"
-{: .text-justify} 
+{: .text-center}  
 
 Em síntese as respostas produzidas pelo bibliotecário são: o número de Livros na biblioteca no quarto dia é 1153 e o porcentual de Livros emprestados é 297 $$\cdot$$ 100$$\%$$/1450, ou seja aproximadamente, 20$$\%$$.
 {: .text-justify} 
