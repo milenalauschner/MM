@@ -25,7 +25,7 @@ Os autores desse material são:
 
 Caso prefira baixar o pdf do tutorial e ler de um modo mais livre, faça-o abaixo: 
 
-[Tutorial para o uso do software Insight Maker](http://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf).
+[Tutorial para o uso do software Insight Maker.pdf](http://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf).
 
 
 <p style="text-align: center;"><embed  width="700" height="500" src="https://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf" type="application/pdf" /></p>
