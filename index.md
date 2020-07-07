@@ -17,14 +17,12 @@ O _Insight Maker_ é um _software online open-source_ projetado para tornar a mo
 [1] Fortmann-Roe, S. (2014). Insight Maker: A general-purpose tool for web-based modeling
 simulation. Simulation Modelling Practice and Theory, 47, 28–45.
 {: .text-left}
- 
 <a href="https://doi.org/10.1016/j.simpat.2014.03.013">https://doi.org/10.1016/j.simpat.2014.03.013</a>
 {: .text-left}
  
 [2] A. de C. K. dos Santos, Y. Cho, I. S. Araujo e G. P. Gonçalves (2000). Caderno Catarinense de
 Ensino de Física 17, 81.
-{: .text-left}
- 
+{: .text-left} 
 <a href="https://periodicos.ufsc.br/index.php/fisica/article/download/6787/6252">https://periodicos.ufsc.br/index.php/fisica/article/download/6787/6252</a>
 {: .text-left}
  
