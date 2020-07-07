@@ -1,6 +1,6 @@
 ---
 title: "Modelo Final"
-permalink: /seção4/
+permalink: /seção/
 layout: single
 author_profile: false
 mathjax: true
