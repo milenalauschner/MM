@@ -1,11 +1,11 @@
 ---
 title: "Lógica de funcionamento do software"
-permalink: /seção2/
+permalink: /seção3/
 layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header2.png
+  image: /assets/images/header3.png
 sidebar:
   title: "Sumário"
   nav: blogroll
@@ -15,26 +15,26 @@ mathjax: true
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
 
-Na Figura 1 da <a href="https://milenalauschner.github.io/MM/seção1/">Seção 1</a> vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas  sejam tão úteis na construção da aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do sistema, na acumulação que ocorre no estoque.
+Na Figura 1.1 da <a href="https://milenalauschner.github.io/MM/seção1/">Seção 2</a> vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas  sejam tão úteis na construção da aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do sistema, na acumulação que ocorre no estoque.
 {: .text-justify}
 
-Acumulações estão em todos os lugares em nossas vidas. Nesse primeiro momento estamos usando o exemplo de livros em uma biblioteca, mas poderíamos nos preocupar com o dinheiro depositado em uma conta de poupança, com a acumulação de água em um balde durante uma chuva, com a  acumulação de velocidade das pedras de granizo que caem durante uma tempestade, etc.
+Acumulações estão em todos os lugares em nossas vidas (CLExchange, 2016). Nesse primeiro momento estamos usando o exemplo de acumulação de livros em uma biblioteca, mas poderíamos nos preocupar com a acumulação de dinheiro depositado em uma conta de poupança, com a acumulação de água em um balde durante uma chuva, com a acumulação de velocidade das pedras de granizo que caem durante uma tempestade, etc.
 {: .text-justify}
 
 As acumulações são representadas por retângulos associados aos estoques, que podem variar pela existência de um fluxo, representado por uma seta com linha contínua. O fluxo é responsável por diminuir, aumentar ou manter constante o nível do estoque.
 {: .text-justify}
 
-Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis _variables_. Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 2 a existência de duas variáveis, uma para estipular um prazo de devolução dos livros e outra para representar a porcentagem de empréstimos feitos durante um período. A primeira variável vai impactar diretamente no fluxo de devoluções, pois ao acabar o tempo que o aluno pode permanecer com o livro ele deverá devolver à biblioteca. A  criação da segunda variável mostrará de forma mais clara como acontece a diminuição de livros na biblioteca.
+Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis (_variables_). Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 1.2 a existência de duas variáveis: uma que estipula um prazo de devolução para os livros e outra para representar a porcentagem de empréstimos feitos durante um período. A primeira variável vai impactar diretamente no fluxo de devoluções, pois, ao acabar o tempo que o aluno pode permanecer com o livro, ele deverá devolvê-lo à biblioteca. A criação da segunda variável mostrará como acontece a diminuição de livros na biblioteca.
 {: .text-justify}
 
- ![Figura 2: Diagrama stock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
+ ![Figura 1.2: Diagrama stock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
 }}/assets/images/BIBLIOTECA2.png){: .align-center}   
 
 {: .image-caption}
-*Figura 2: Diagrama stock-flow da biblioteca com as variáveis.*
+*Figura 1.2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
  
-Na Figura 2 também aparecem linhas pontilhadas que representam as ligações entre variável e fluxo. Essas ligações  são denominadas _links_. Todas as variáveis do sistema são ligadas ao fluxo por meio de _links_. Os _links_ não servem estritamente para conectar variáveis aos fluxos, mas também podem indicar como um estoque influencia em outro ou como uma variável compõe outra variável. Ou seja, fazem ligações entre diferentes componentes.
+Na Figura 1.2 também aparecem linhas pontilhadas que representam as ligações entre variável e fluxo. Essas ligações são denominadas _links_. Todas as variáveis do sistema são ligadas ao fluxo por meio de _links_. Os _links_ não servem estritamente para conectar variáveis aos fluxos, mas também podem indicar como um estoque influencia em outro ou como uma variável compõe outra variável. Ou seja, fazem ligações entre diferentes componentes.
 {: .text-justify}
  
 As componentes apresentadas até aqui são sintetizadas na Tabela 1.
@@ -47,16 +47,16 @@ Tabela 1: Resumo dos componentes do diagrama _stock-flow_
 |   :----:    |                      :----                   |   
 |Estoque | Primitiva com formato retangular que representa as acumulações ocorridas num sistema.|        
 | Fluxo  | Flecha com linha contínua que representa uma taxa de variação. Influencia nas acumulações podendo diminuir, aumentar ou manter constante o nível do estoque. |
-|Variável| Primitiva de formato esférico que influencia no comportamento do fluxo ou compõe  outras variáveis. Ela pode ser uma grandeza variável ou constante (parâmetros).| 
+|Variável| Primitiva de formato elipsoidal que influencia no comportamento do fluxo ou compõe  outras variáveis. Ela pode ser uma grandeza variável ou constante (parâmetros).| 
 | _Links_|Flecha com linhas pontilhadas que servem como conectores entre variáveis, fluxos e estoques.|         
 
- Olhando para o diagrama _stock-flow_ da biblioteca com suas variáveis adicionadas (Figura 2), notamos que estão faltando componentes nesse modelo para ser uma representação mais realista de uma biblioteca em funcionamento. Os empréstimos geram acumulação de livros emprestados, por isso devemos criar um novo estoque (de livros emprestados). O fluxo de devoluções diminui o número de livros emprestados ao passo que o fluxo de empréstimos aumenta. Isso significa que o  sentido dos fluxos para esse novo estoque será o oposto dos fluxos do estoque de livros na biblioteca.  A Figura 3 mostra o modelo final construído para a biblioteca neste exemplo.
+ Olhando para o diagrama _stock-flow_ da biblioteca com suas variáveis adicionadas (Figura 1.2), notamos que estão faltando componentes nesse modelo para ser uma representação mais realista de uma biblioteca em funcionamento. Os empréstimos geram acumulação de livros emprestados, por isso devemos criar um novo estoque (de livros emprestados). O fluxo de devoluções diminui o número de livros emprestados ao passo que o fluxo de empréstimos aumenta. Isso significa que os sentidos dos fluxos para esse novo estoque serão opostos aos dos fluxos do estoque de livros na biblioteca. A Figura 1.3 mostra o modelo construído para a biblioteca neste exemplo.
 {: .text-justify} 
 
- ![Figura 3: Modelo da biblioteca.]({{ site.url }}{{ site.baseurl
+ ![Figura 1.3: Modelo da biblioteca.]({{ site.url }}{{ site.baseurl
 }}/assets/images/BIBLIOTECA3.png){: .align-center}   
 {: .image-caption}
-*Figura 3: Modelo da biblioteca.*
+*Figura 1.3: Modelo da biblioteca.*
  {: .text-center}
  
 Esse modelo tem limitações decorrentes das seguintes idealizações assumidas:
