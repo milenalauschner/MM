@@ -148,9 +148,9 @@ emprestados" igual à 350.
 {: .text-justify}
  
 
-[<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/seção2/){:
-.btn .btn--success}[ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção4/){:
-.btn .btn--danger}
-{: .text-center} 
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
+.btn .btn--danger} [ Seção 6 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção0/){:
+.btn .btn--facebook}
+ {: .text-center}
 ________________________________________________________________________________________________________________________________________________________________________________________________ 
  
