@@ -83,7 +83,7 @@ possível criar um _link_. Clicando nas setinhas à direita se pode inverter o s
 {: .text-justify}
 
 ![Figura 1.8: Comandos para a criação de fluxos e links.]({{ site.url }}{{ site.baseurl
-}}/assets/images/FLOW-LINK.png){: .align-center}   
+}}/assets/images/FLOW-LINKS.png){: .align-center}   
 
 {: .image-caption}
 *Figura 1.8: Comandos para a criação de fluxos e links.*
@@ -94,7 +94,7 @@ e o fluxo que ela influenciará.
 {: .text-justify}
 
 ![Figura 1.9: Comandos para criação de links.]({{ site.url }}{{ site.baseurl
-}}/assets/images/LINKS.png){: .align-center}   
+}}/assets/images/LINK.png){: .align-center}   
 
 {: .image-caption}
 *Figura 1.9: Comandos para criação de links.*
