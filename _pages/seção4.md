@@ -1,5 +1,5 @@
 ---
-title: "Modelo Final"
+title: "Instruções para construir o seu modelo no Insight Maker"
 permalink: /seção4/
 layout: single
 author_profile: false
