@@ -1,11 +1,11 @@
 ---
 title: "Instruções para construir o seu modelo no Insight Maker"
-permalink: /seção3/
+permalink: /seção4/
 layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header3.png
+  image: /assets/images/header4.png
 sidebar:
   title: "Sumário"
   nav: blogroll
