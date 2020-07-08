@@ -101,8 +101,9 @@ Como também queremos gerar um gráfico para analisar a mudança dos valores ao 
 tempo, precisamos clicar novamente em _Add Display_ e escolher a configuração Série Temporal,
 adicionar um título ao gráfico em _Title_, escolher as componentes para análise em _Data_, que irão
 variar o longo do tempo, e nomear as unidades dos dois eixos de referências (_X-Axis_ e _Y-Axis_).
-Agora é só validar a criação clicando em _Apply_. Esses passos estão sintetizados da Figura 1.17 e o gráfico temporal gerado se encontra na Figura 1.18.
- 
+Agora é só validar a criação clicando em _Apply_. Esses passos estão sintetizados na Figura 1.17 e o gráfico temporal gerado se encontra na Figura 1.18.
+{: .text-justify} 
+
 ![Figura 1.17: Configuração de um gráfico.]({{ site.url }}{{ site.baseurl
  }}/assets/images/SÉRIETEMPORAL.png){: .align-center}   
 
