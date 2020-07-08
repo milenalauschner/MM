@@ -21,10 +21,8 @@ para a comunidade também na forma de Recursos Educacionais Abertos. Contamos co
 colaboração!
 {: .text-justify}
 
-Caso prefira baixar o pdf do tutorial e ler de um modo mais livre, faça-o abaixo: 
+Caso prefira baixar o PDF do tutorial e ler de um modo mais livre, faça-o abaixo: 
 {: .text-justify}
-
-[Tutorial para o uso do software Insight Maker.pdf](http://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf).
 
 <p style="text-align: center;"><embed  width="700" height="500" src="https://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf" type="application/pdf" /></p>
 
