@@ -77,7 +77,7 @@ Vamos agora propor a seguinte situação-problema: uma avaliação sobre a utili
 Ele observa que:
 
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
-  * nesse dia foram emprestados 33 livros, ou seja, 3$$\%$$ do número de "Livros na biblioteca". Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentual de empréstimos" multiplicado por "Livros na biblioteca" = 0,03 $$\cdot$$ "Livros na biblioteca";
+  * nesse dia foram emprestados 33 livros, ou seja, 3$$\%$$ do número de "Livros na biblioteca". Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentagem de empréstimos" multiplicado por "Livros na biblioteca" = 0,03 $$\cdot$$ "Livros na biblioteca";
   * o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de "Devoluções" diário é o número de "Livros emprestados" dividido pelo "Prazo de empréstimo"= "Livros emprestados"/7.
 {: .text-justify} 
 
