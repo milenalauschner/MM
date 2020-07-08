@@ -21,6 +21,8 @@ para a comunidade também na forma de Recursos Educacionais Abertos. Contamos co
 colaboração! Por isso, disponibilizamos aqui o tutorial no formato .tex (_LaTeX_) para que os interessados possam contribuir com novas versões desse recurso.
 {: .text-justify}
 
+<p style="text-align: center;"><embed  width="700" height="500" src="https://milenalauschner.github.io/MM/assets/Tutorial para o uso do software Insight Maker.zip" type="application/zip" /></p>
+
 Caso prefira baixar o PDF do tutorial e ler de um modo mais livre, faça-o abaixo: 
 {: .text-justify}
 
