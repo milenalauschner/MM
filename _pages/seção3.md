@@ -128,7 +128,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 "Livros emprestados" (dia = 0) + "Empréstimos"(dia = 0) - "Devoluções" (dia = 0);
 {: .text-center} 
 
-* número de empréstimos = 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1117 "Livros na biblioteca". Então, 0,03 $$\cdot$$ 1100 = 33. Isso fica expresso como:
+* número de empréstimos = 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1117 "Livros na biblioteca". Então, 0,03 $$\cdot$$ 1117 = 33,51. Isso fica expresso como:
 {: .text-justify} 
 
 "Empréstimos"(dia = 1) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca"(dia = 1);  
