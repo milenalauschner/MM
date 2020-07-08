@@ -124,7 +124,7 @@ Agora é só validar a criação clicando em _Apply_. Esses passos estão sintet
  
  
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
-.btn .btn--danger} [ Seção 6 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção0/){:
+.btn .btn--danger} [ Seção 6 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção6/){:
 .btn .btn--facebook}
  {: .text-center}
 ________________________________________________________________________________________________________________________________________________________________________________________________
