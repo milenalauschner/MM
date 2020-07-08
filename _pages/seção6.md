@@ -18,7 +18,7 @@ não abordadas aqui, como ferramentas para comparação de gráficos, otimizaç�
 Alinhados com o movimento de conhecimento livre, convidamos os leitores a ampliarem esse
 tutorial abordando essas ferramentas, incentivando-os a disponibilizarem esses novos tutoriais
 para a comunidade também na forma de Recursos Educacionais Abertos. Contamos com a sua
-colaboração! Por isso, disponibilizamos aqui o tutorial no formato .tex ($$\LaTeX$$) para que os interessados possam contribuir com novas versões desse recurso.
+colaboração! Por isso, disponibilizamos aqui o tutorial no formato .tex (_LaTeX_) para que os interessados possam contribuir com novas versões desse recurso.
 {: .text-justify}
 
 Caso prefira baixar o PDF do tutorial e ler de um modo mais livre, faça-o abaixo: 
