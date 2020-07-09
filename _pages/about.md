@@ -7,7 +7,7 @@ author_profile: false
 header:
   overlay_color: "#5e616c"
   actions:
-    - label: " Universidade Federal do Rio Grande do Sul<br /> Instituto de Física<br />  Tutorial para o uso do software Insight Maker<br /> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Viet ____________________________________________________________________________________________________________________________________________________________________________________________________"
+    - label: " Universidade Federal do Rio Grande do Sul<br /> Instituto de Física<br />  Tutorial para o uso do software Insight Maker<br /> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Viet _______________________________________________________________________________________________________________________________"
 sidebar:
   title: "Sumário"
   nav: blogroll
