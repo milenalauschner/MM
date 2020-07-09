@@ -1,5 +1,10 @@
 ---
-title: "Introdução ao uso do Insight Maker"
+title: "  "
+header:
+  overlay_color: "#ddf3f5"
+  actions:
+    - label: " Universidade Federal do Rio Grande do Sul<br /> Instituto de Física<br />  Tutorial para o uso do software Insight Maker<br /> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Viet ____________________________________________________"
+    
 layout: single
 permalink: /seção2/
 layout: single
@@ -11,6 +16,8 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 ---
+
+# Introdução ao uso do Insight Maker
 
 Para facilitar a compreensão do funcionamento do _Insight Maker_, vamos descrever a lógica de construção de modelos neste _software_, e as suas principais características, nos valendo de um exemplo comum na vida de um estudante: uma biblioteca com uma coleção de livros que são cedidos por empréstimo aos estudantes da escola.
 {: .text-justify}
