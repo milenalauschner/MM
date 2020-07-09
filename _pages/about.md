@@ -2,15 +2,22 @@
 title: "Universidade Federal do Rio Grande do Sul"
 intro: 
   - excerpt: 'Univesidade Federal do Rio Grande do Sul <br/>Instituto de Física '
-layout: tags
+layout: single
 datatable: true
 permalink: /about/
 author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
+  actions:
+    - label: "<i class='fas fa-download'></i> Install now"
+      url: "/docs/quick-start-guide/"
+excerpt: >
+  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.19.3">Latest release v4.19.3</a></small>
 sidebar:
   title: "Sumário"
   nav: blogroll
-background-color: #f3f9fb
-classes: regular
 ---
 {% include feature_row id="intro" type="center" %}
 <style type="text/css">
