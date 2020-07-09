@@ -15,6 +15,7 @@ header:
 excerpt: >
   Instituto de Física<br />
   Tutorial para o uso do software Insight Maker<br />
+  Autores: Milena Lauschner, Leonardo Albuquerque Heidemann e Eliane Viet<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.19.3">Latest release v4.19.3</a></small>
 sidebar:
   title: "Sumário"
