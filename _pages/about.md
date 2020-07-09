@@ -1,5 +1,5 @@
 ---
-title: "Universidade Federal do Rio Grande do Sul"
+title: ""
 layout: single
 datatable: true
 permalink: /about/
