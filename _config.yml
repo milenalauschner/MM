@@ -13,7 +13,6 @@ remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
 title                    : "Tutorial para o uso do software Insight Maker"
 title_separator          : "|"
 name                     : "Tutorial Insight Maker"
@@ -24,7 +23,7 @@ repository               : "milenalauschner/MM.github.io" # GitHub username/rep
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 150
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logos.png"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -80,16 +79,16 @@ naver_site_verification  : "0d295d638f99d3e62d4d888b347be101b5b56736"
 # Site Author
 author:
   name             : "Tutorial Insight Maker"
-  avatar           : "" # path of avatar image
+  avatar           : "/assets/images/logos.png" # path of avatar image
   bio              : ""
   location         : "RS| BR"
 
 # Site Footer
 footer:
   links:
-    - label: "Github"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/milenalauschner/insightmaker.github.io/"
+  # - label: "Github"
+   #   icon: "fab fa-fw fa-github"
+    #  url: "https://github.com/milenalauschner/insightmaker.github.io/"
  
 
 # Reading Files
@@ -185,24 +184,6 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /apresentação/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
