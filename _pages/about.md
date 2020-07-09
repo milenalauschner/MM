@@ -1,14 +1,11 @@
 ---
 title: "Universidade Federal do Rio Grande do Sul"
-intro: 
-  - excerpt: 'Univesidade Federal do Rio Grande do Sul <br/>Instituto de Física '
 layout: single
 datatable: true
 permalink: /about/
 author_profile: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
