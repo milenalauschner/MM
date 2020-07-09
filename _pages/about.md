@@ -7,7 +7,7 @@ author_profile: false
 header:
   overlay_color: "#5e616c"
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-download'></i> Install now<br /> Instituto de Física"
       url: "/docs/quick-start-guide/"
 excerpt: >
   Instituto de Física<br />
