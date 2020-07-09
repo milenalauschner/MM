@@ -47,10 +47,10 @@
     &--#{$buttoncolor} {
       @include yiq-contrasted($color);
       @if ($buttoncolor == inverse) {
-        border: 1px solid $border-color;
+        border: 0px solid $border-color;
       }
       @if ($buttoncolor == light-outline) {
-        border: 1px solid #fff;
+        border: 0px solid #fff;
       }
 
       &:visited {
