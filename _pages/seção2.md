@@ -10,8 +10,6 @@ permalink: /seção2/
 layout: single
 author_profile: false
 mathjax: true
-header:
-  image: /assets/images/header2.png
 sidebar:
   title: "Sumário"
   nav: blogroll
