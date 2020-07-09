@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "  "
 layout: single
 datatable: true
 permalink: /about/
