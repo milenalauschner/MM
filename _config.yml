@@ -13,7 +13,7 @@ remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-title                    : "Tutorial para o uso do software Insight Maker"
+title                    : "  "
 title_separator          : "|"
 name                     : "Tutorial Insight Maker"
 description              : ""
