@@ -28,6 +28,10 @@ Caso prefira baixar o PDF do tutorial e ler de um modo mais livre, faça-o abaix
 
 <p style="text-align: center;"><embed  width="700" height="500" src="https://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf" type="application/pdf" /></p>
 
+## Apoio para realização desse recurso:
+
+![apoios]({{ site.url }}{{ site.baseurl
+}}/assets/images/logos.png)
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 5 ](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}
