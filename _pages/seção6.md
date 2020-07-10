@@ -7,7 +7,7 @@ header:
   overlay_color: "#46b3e6"
   actions:
     - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/#considerações-finais" 
+      url: "/seção6/#considerações-finais" 
 sidebar:
   title: "Sumário"
   nav: blogroll
