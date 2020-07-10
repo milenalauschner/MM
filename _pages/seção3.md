@@ -16,6 +16,8 @@ mathjax: true
 ---
 # Lógica de funcionamento do software
 
+<p style="font-family: Comic Sans MS">Livros na biblioteca</p>
+
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
 
@@ -81,7 +83,9 @@ Vamos agora propor a seguinte situação-problema: uma avaliação sobre a utili
 Ele observa que:
 
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
-  * nesse dia foram emprestados 33 livros, ou seja, 3$$\%$$ do número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentagem de empréstimos" multiplicado por <p style="font-family:Comic Sans MS">Livros na biblioteca</p>= 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p>;
+  * nesse dia foram emprestados 33 livros, ou seja, 3$$\%$$ do número de 
+  <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. 
+  Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentagem de empréstimos" multiplicado por <p style="font-family:Comic Sans MS">Livros na biblioteca</p>= 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p>;
   * o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de "Devoluções" diário é o número de "Livros emprestados" dividido pelo "Prazo de empréstimo"= "Livros emprestados"/7.
 {: .text-justify} 
 
