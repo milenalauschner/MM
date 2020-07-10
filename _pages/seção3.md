@@ -1,16 +1,20 @@
 ---
-title: "Lógica de funcionamento do software"
+title: " "
 permalink: /seção3/
 layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header3.png
+  overlay_color: "#aee7e8"
+  actions:
+    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
+      url: "/#lógica-de-funcionamento-do-software/"   
 sidebar:
   title: "Sumário"
   nav: blogroll
 mathjax: true
 ---
+# Lógica de funcionamento do software
 
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
