@@ -6,6 +6,7 @@
 
 html {
   /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
   background-color: $background-color;
   font-size: 16px;
 
@@ -167,10 +168,12 @@ input[type="reset"],
 input[type="submit"],
 input[type="radio"],
 input[type="checkbox"] {
+    box-sizing: border-box;
     cursor: pointer; /* improves usability and consistency of cursor style between image-type `input` and others*/
 }
 
-input[type="search"] { /* Appearance in Safari/Chrome*/
+input[type="search"] { /* Appearance in Safari/Chrome*
+   box-sizing: border-box; 
   -webkit-appearance: textfield;
 }
 
