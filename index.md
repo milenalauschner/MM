@@ -12,6 +12,10 @@ sidebar:
   title: "Sumário"
   nav: blogroll
 ---
+## Apoio:
+
+![apoios]({{ site.url }}{{ site.baseurl
+}}/assets/images/logos.png)
 
 # Sobre o Insight Maker
 
@@ -30,14 +34,6 @@ simulation. Simulation Modelling Practice and Theory, 47, 28–45.<br />
 Ensino de Física 17, 81.<br />
 <a href="https://periodicos.ufsc.br/index.php/fisica/article/download/6787/6252">https://periodicos.ufsc.br/index.php/fisica/article/download/6787/6252</a>
 {: .text-left}
- 
-
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-## Apoio:
-
-({{ site.url }}{{ site.baseurl
-}}/assets/images/logos.png)
 
 [ Seção 2 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção2/){:
 .btn .btn--success}
