@@ -5,12 +5,12 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  overlay_color: "#86c1d4"
+  overlay_image: /assets/images/logos5.png
   actions:
-    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/seção5/#algoritmo-de-análise/"   
+    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
+      url: "/seção5/#algoritmo-de-análise/"  
 sidebar:
-  title: "Sumário"
+  title: " "
   nav: blogroll
 ---
 # Algoritmo de análise
@@ -131,5 +131,5 @@ Agora é só validar a criação clicando em _Apply_. Esses passos estão sintet
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
 .btn .btn--danger} [ Seção 6 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção6/){:
 .btn .btn--facebook}
- {: .text-center}
+ {: .text-right}
 ________________________________________________________________________________________________________________________________________________________________________________________________
