@@ -1,15 +1,19 @@
 ---
-title: "Instruções para construir o seu modelo no Insight Maker"
+title: " "
 permalink: /seção4/
 layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header4.png
+  overlay_color: "#98d6ea"
+  actions:
+    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
+      url: "/#instruções-para-construir-o-seu-modelo-no-insight-maker/"   
 sidebar:
   title: "Sumário"
   nav: blogroll
 ---
+# Instruções para construir o seu modelo no Insight Maker
 
 Para construir um modelo no _Insight Maker_, o primeiro passo é criar uma conta livre na página
 inicial do programa <a href="https://insightmaker.com">https://insightmaker.com</a> (Veja a Figura 1.4). Basta entrar na opção
