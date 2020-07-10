@@ -14,7 +14,6 @@ sidebar:
   title: " "
   nav: blogroll
 ---
----
 
 # Introdução ao uso do Insight Maker
 
