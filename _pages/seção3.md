@@ -18,6 +18,12 @@ mathjax: true
 
 <p style="font-family: Comic Sans MS">Livros na biblioteca</p>
 
+<div class="box">
+  <span>teste</span>
+  <span></span>
+  <span></span>
+</div>
+
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
 
