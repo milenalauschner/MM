@@ -1,18 +1,19 @@
 ---
 title: "  "
-header:
-  overlay_color: "#ddf3f5"
-  actions:
-    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/seção2/#introdução-ao-uso-do-insight-maker/" 
 layout: single
 permalink: /seção2/
 layout: single
 author_profile: false
 mathjax: true
+header:
+  overlay_image: /assets/images/logos2.png
+  actions:
+    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
+      url: "/seção2/#introdução-ao-uso-do-insight-maker/"    
 sidebar:
-  title: "Sumário"
+  title: " "
   nav: blogroll
+---
 ---
 
 # Introdução ao uso do Insight Maker
@@ -41,6 +42,6 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 1](https://milenalauschner.github.io/MM/){:
 .btn .btn--primary}[ Seção 3 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção3/){:
 .btn .btn--warning}
-{: .text-center} 
+{: .text-right} 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
