@@ -453,4 +453,14 @@ background: #87c0cd
       padding-right: 0;
     }
   }
+.box {
+  display: flex;
+  display: -webkit-flex;    
+}
+
+span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+ }	
 }
