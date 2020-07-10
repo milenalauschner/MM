@@ -20,11 +20,6 @@ O _Insight Maker_ é um _software online open-source_ projetado para tornar a mo
 
 Se você deseja fazer o _download_ desse tutorial no formato PDF, acesse a <a href="https://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf">Seção 7</a>.
 
-## Apoio para realização desse recurso:
-
-![apoios]({{ site.url }}{{ site.baseurl
-}}/assets/images/logos.png)
-
 ## Referências
 [1] Fortmann-Roe, S. (2014). Insight Maker: A general-purpose tool for web-based modeling
 simulation. Simulation Modelling Practice and Theory, 47, 28–45.<br />
@@ -38,5 +33,5 @@ Ensino de Física 17, 81.<br />
 
 [ Seção 2 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção2/){:
 .btn .btn--success}
- {: .text-center} 
+ {: .text-right} 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
