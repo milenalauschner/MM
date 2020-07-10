@@ -4,12 +4,12 @@ layout: single
 permalink: /seção6/
 author_profile: false
 header:
-  overlay_color: "#46b3e6"
+  overlay_image: /assets/images/logos6.png
   actions:
-    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/seção6/#considerações-finais" 
+    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
+      url: "/seção6/#considerações-finais"   
 sidebar:
-  title: "Sumário"
+  title: " "
   nav: blogroll
 ---
 # Considerações Finais
@@ -32,13 +32,8 @@ Caso prefira baixar o PDF do tutorial e ler de um modo mais livre, faça-o abaix
 
 <p style="text-align: center;"><embed  width="700" height="500" src="https://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf" type="application/pdf" /></p>
 
-## Apoio para realização desse recurso:
-
-![apoios]({{ site.url }}{{ site.baseurl
-}}/assets/images/logos.png)
-
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 5 ](https://milenalauschner.github.io/MM/seção5/){:
 .btn .btn--info}
-{: .text-center}
+{: .text-right}
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
