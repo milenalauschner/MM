@@ -5,12 +5,12 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  overlay_color: "#aee7e8"
+  overlay_image: /assets/images/logos3.png
   actions:
-    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/seção3/#lógica-de-funcionamento-do-software/"   
+    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
+      url: "/seção3/#lógica-de-funcionamento-do-software/"    
 sidebar:
-  title: "Sumário"
+  title: " "
   nav: blogroll
 mathjax: true
 ---
@@ -81,7 +81,7 @@ Vamos agora propor a seguinte situação-problema: uma avaliação sobre a utili
 Ele observa que:
 
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
-  * nesse dia foram emprestados 33 livros, ou seja, 3$$\%$$ do número de "Livros na biblioteca". Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentagem de empréstimos" multiplicado por "Livros na biblioteca" = 0,03 $$\cdot$$ "Livros na biblioteca";
+  * nesse dia foram emprestados 33 livros, ou seja, 3$$\%$$ do número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é "Empréstimos"= "Porcentagem de empréstimos" multiplicado por <p style="font-family:Comic Sans MS">Livros na biblioteca</p>= 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p>;
   * o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de "Devoluções" diário é o número de "Livros emprestados" dividido pelo "Prazo de empréstimo"= "Livros emprestados"/7.
 {: .text-justify} 
 
@@ -91,7 +91,7 @@ Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, n
 *Tabela 1.2: Número de livros na biblioteca*
 {: .text-center}
 
-| dia| "Livros na biblioteca" no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
+| dia| <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
 | $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
@@ -107,10 +107,10 @@ Na primeira linha ele colocou os valores iniciais das grandezas, ou seja:
 {: .text-justify} 
 
   * dia = 0
-  * número de "Livros na biblioteca" no início do dia = 1100, pois é o número de livros que ele contou no início do dia;
+  * número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no início do dia = 1100, pois é o número de livros que ele contou no início do dia;
   * número de "Livros emprestados" = 350, já que o acervo da biblioteca é 1450, há 1100 na biblioteca e ele está assumindo que não houve extravios. De fato, ele confere o número de empréstimos e verifica que há 350 emprestados;
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
-  * número de empréstimos = 33, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1100 livros na biblioteca. Então, 0,03 $$\cdot$$ 1100 = 33;
+  * número de empréstimos = 33, pois o número de empréstimos diários é 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p> e nesse dia há  1100 livros na biblioteca. Então, 0,03 $$\cdot$$ 1100 = 33;
   * número de devoluções = 50, pois o número de devoluções diárias é "Livros emprestados"/7 e nesse dia há 350 livros emprestados. Então, 350/7 = 50.   
 {: .text-justify} 
 
@@ -118,11 +118,11 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 {: .text-justify} 
 
   * dia = 1
-  * número de "Livros na biblioteca" no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:
+  * número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:
 {: .text-justify} 
 
-"Livros na biblioteca" (dia = 1) = <br />
-"Livros na biblioteca"  (dia = 0) - "Empréstimos" (dia = 0) + "Devoluções"(dia = 0);
+<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = 1) = <br />
+<p style="font-family:Comic Sans MS">Livros na biblioteca</p>  (dia = 0) - "Empréstimos" (dia = 0) + "Devoluções"(dia = 0);
 {: .text-center} 
 
 * número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido = 350 + 33 - 50 = 333. Podemos escrever como: 
@@ -132,10 +132,10 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 "Livros emprestados" (dia = 0) + "Empréstimos"(dia = 0) - "Devoluções" (dia = 0);
 {: .text-center} 
 
-* número de empréstimos = 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ "Livros na biblioteca" e nesse dia há  1117 "Livros na biblioteca". Então, 0,03 $$\cdot$$ 1117 = 33,51. Isso fica expresso como:
+* número de empréstimos = 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p> e nesse dia há  1117 <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. Então, 0,03 $$\cdot$$ 1117 = 33,51. Isso fica expresso como:
 {: .text-justify} 
 
-"Empréstimos"(dia = 1) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca"(dia = 1);  
+"Empréstimos"(dia = 1) = "Porcentagem de empréstimos" $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p>(dia = 1);  
 {: .text-center} 
 
 * número de devoluções = 48, pois o número de devoluções diárias é "Livros emprestados"/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
@@ -156,8 +156,8 @@ Podemos sintetizar os cálculos que o bibliotecário precisa fazer para completa
 seguinte modo:
 {: .text-justify} 
 
-"Livros na biblioteca" (dia = n+1) =<br />
-"Livros na biblioteca" (dia = n) - "Empréstimos" (dia = n) + "Devoluções" (dia = n). 
+<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = n+1) =<br />
+<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = n) - "Empréstimos" (dia = n) + "Devoluções" (dia = n). 
 {: .text-center} 
 
 De modo semelhante: 
@@ -168,12 +168,12 @@ De modo semelhante:
 
 E ainda: 
 
-"Empréstimos"(dia = n) = "Porcentagem de empréstimos" $$\cdot$$ "Livros na biblioteca" (dia = n). <br />
+"Empréstimos"(dia = n) = "Porcentagem de empréstimos" $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = n). <br />
 e <br />
 "Devoluções"(dia = n) =  "Livros emprestados" (dia = n)/ "Prazo de empréstimos"
 {: .text-center}  
 
-Em síntese as respostas produzidas pelo bibliotecário são: o número de "Livros na biblioteca" no quarto dia é 1153 e o porcentual de "Livros emprestados" é 297 $$\cdot$$ 100$$\%$$/1450, ou seja, aproximadamente 20$$\%$$.
+Em síntese as respostas produzidas pelo bibliotecário são: o número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no quarto dia é 1153 e o porcentual de "Livros emprestados" é 297 $$\cdot$$ 100$$\%$$/1450, ou seja, aproximadamente 20$$\%$$.
 {: .text-justify} 
 
 Não é difícil fazer esses cálculos, mas se a inspeção ocorresse dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
@@ -190,5 +190,5 @@ Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de li
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/seção2/){:
 .btn .btn--success}[ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção4/){:
 .btn .btn--danger}
-{: .text-center} 
+{: .text-right} 
 ________________________________________________________________________________________________________________________________________________________________________________________________
