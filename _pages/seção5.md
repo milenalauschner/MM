@@ -1,15 +1,19 @@
 ---
-title: " Algoritmo de análise"
+title: " "
 permalink: /seção5/
 layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header5.png
+  overlay_color: "#86c1d4"
+  actions:
+    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
+      url: "/#algoritmo-de-análise/"   
 sidebar:
   title: "Sumário"
   nav: blogroll
 ---
+# Algoritmo de análise
 
 Uma vez que o modelo  já está implementado no _Insight Maker_ e já se atribuiu valores iniciais aos estoques, fluxos e variáveis, podemos observar como o sistema dinâmico evolui com o tempo. 
 {: .text-justify}
