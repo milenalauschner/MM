@@ -5,12 +5,12 @@ layout: single
 author_profile: false
 mathjax: true
 header:
-  overlay_color: "#98d6ea"
+  overlay_image: /assets/images/logos4.png
   actions:
-    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/seção4/#instruções-para-construir-o-seu-modelo-no-insight-maker/"   
+    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
+      url: "/seção4/#instruções-para-construir-o-seu-modelo-no-insight-maker/"
 sidebar:
-  title: "Sumário"
+  title: " "
   nav: blogroll
 ---
 # Instruções para construir o seu modelo no Insight Maker
