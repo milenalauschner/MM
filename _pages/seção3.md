@@ -16,15 +16,12 @@ mathjax: true
 ---
 # Lógica de funcionamento do software
 
-<p style="font-family: Comic Sans MS">Livros na biblioteca</p>
 
 <div class="box">
   <small><span style="font-family: Comic Sans MS">teste</span> continuando do texto</small>
   <span></span>
   <span></span>
 </div>
-
-testes <div class="box"><small><span style="font-family: Comic Sans MS">teste</span></div> será
 
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
