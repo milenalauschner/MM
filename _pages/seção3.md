@@ -8,7 +8,7 @@ header:
   overlay_color: "#aee7e8"
   actions:
     - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/#lógica-de-funcionamento-do-software/"   
+      url: "/seção3/#lógica-de-funcionamento-do-software/"   
 sidebar:
   title: "Sumário"
   nav: blogroll
