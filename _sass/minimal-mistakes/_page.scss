@@ -455,13 +455,13 @@ background: #87c0cd
   }
 .box {
   display: flex;
-  display: -webkit-flex;    
+  display: -webkit-flex; 
+  font-size: 12px;	
 }
 
 span {
   display: inline-block;
   width: 10px;
   height: 10px;
-  font-family: Comic Sans MS;	
- }	
+  }	
 }
