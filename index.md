@@ -6,7 +6,7 @@ mathjax: true
 header:
   overlay_color: "#f3f9fb"
   actions:
-    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
+    - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
       url: "/#sobre-o-insight-maker/"   
 sidebar:
   title: "Sumário"
