@@ -8,7 +8,7 @@ header:
   overlay_color: "#86c1d4"
   actions:
     - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
-      url: "/#algoritmo-de-análise/"   
+      url: "/seção5/#algoritmo-de-análise/"   
 sidebar:
   title: "Sumário"
   nav: blogroll
