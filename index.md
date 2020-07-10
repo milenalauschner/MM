@@ -1,14 +1,21 @@
 ---
-title: "Sobre o Insight Maker"
+title: " "
 layout: single
 author_profile: false
 mathjax: true
 header:
-  image: /assets/images/header1.png
+  overlay_color: "#f3f9fb"
+  actions:
+    - label: "<small>Universidade Federal do Rio Grande do Sul</small><br /> <small>Instituto de Física</small><br /> <small>Tutorial para o uso do software Insight Maker</small><br /> <small>Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small> ____________________________________________________"
+    
+   url: "/#sobre-o-insight-maker/"   
+     
 sidebar:
   title: "Sumário"
   nav: blogroll
 ---
+
+# Sobre o Insight Maker
 
 O _Insight Maker_ é um _software online open-source_ projetado para tornar a modelagem e a simulação acessíveis ao público menos familiarizado com recursos computacionais. Ele possibilita a modelagem de sistemas dinâmicos a partir da diagramação em blocos de elementos básicos (níveis, taxas e constantes) seguindo os princípios de sistemas de Jay Forrester (Fortmann-Roe, 2014). Similar ao _software_ proprietário _Stella_, que foi amplamente explorado no ensino de Ciências a partir da década de 1990 (e.g., Santos et al., 2000), o programa dispensa conhecimentos de programação para construir modelos, sendo bastante útil em diversos contextos educacionais.
 {: .text-justify}
@@ -32,3 +39,4 @@ Ensino de Física 17, 81.<br />
  {: .text-center} 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Apoio:
