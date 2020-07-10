@@ -19,7 +19,7 @@ mathjax: true
 <p style="font-family: Comic Sans MS">Livros na biblioteca</p>
 
 <div class="box">
-  <span>teste</span> continuando do texto
+  <span style="font-family: Comic Sans MS">teste</span> continuando do texto
   <span></span>
   <span></span>
 </div>
