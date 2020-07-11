@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/logos3.png
   actions:
     - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
-      url: "/seção3/#lógica-de-funcionamento-do-software/"    
+      url: "/secao3/#lógica-de-funcionamento-do-software/"    
 sidebar:
   title: " "
   nav: blogroll
