@@ -243,11 +243,9 @@ e <br />
 </div>
 {: .text-center}  
 
-Em síntese as respostas produzidas pelo bibliotecário são: o número de <small><span style="font-family: Comic Sans MS">Livros na biblioteca</span></small> no quarto dia é 1153 e o porcentual de <small<span style="font-family: Comic Sans MS">Livros emprestados</span></small>
- é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
-</div>  
+Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span> é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
 {: .text-justify} 
-<br />
+
 Não é difícil fazer esses cálculos, mas se a inspeção ocorresse dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
 {: .text-justify} 
 
