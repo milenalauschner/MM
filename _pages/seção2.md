@@ -1,7 +1,7 @@
 ---
 title: "  "
 layout: single
-permalink: /seção2/
+permalink: /secao2/
 layout: single
 author_profile: false
 mathjax: true
@@ -39,7 +39,7 @@ Considere que há certa quantidade de livros disponíveis em uma biblioteca, ou 
  {: .text-center} 
 
 [<i class="fas fa-arrow-alt-circle-left"></i> Seção 1](https://milenalauschner.github.io/MM/){:
-.btn .btn--primary}[ Seção 3 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção3/){:
+.btn .btn--primary}[ Seção 3 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/secao3/){:
 .btn .btn--warning}
 {: .text-right} 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
