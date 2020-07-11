@@ -57,8 +57,8 @@ que aparecerão na tabela, chamado pelo _software_ de _Data_ - em português, da
  
 Os passos descritos para criação de uma tabela estão indicados na Figura 1.14. A tabela para
 o modelo da biblioteca é a Figura 1.15. Nela são mostrados os valores obtidos para o número
-de "Livros na biblioteca" e de "Livros emprestados" nos dias 0,1,2,3..., além dos "Empréstimos" e das
-"Devoluções". 
+de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e de <span style="font-family: Comic Sans MS">Livros emprestados</span> nos dias 0,1,2,3..., além dos <span style="font-family: Comic Sans MS">Empréstimos</span> e das
+<span style="font-family: Comic Sans MS">Devoluções</span>. 
 {: .text-justify} 
 
 ![Figura 1.14: Configuração de uma tabela.]({{ site.url }}{{ site.baseurl
