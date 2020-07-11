@@ -77,10 +77,7 @@ de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e de <sp
  
 No entanto, estamos com um problema, pois o número de livros deve ser inteiro! Cometemos
 um equívoco no modelo e precisamos consertá-lo: precisamos impor que os valores obtidos para
-número de livros sejam inteiros. 
-{: .text-justify}
-
-Para isso, vamos retornar às equações que definem os estoques
+número de livros sejam inteiros. Para isso, vamos retornar às equações que definem os estoques
 e usar a função matemática de arredondamento (_Round_), conforme mostrado na Figura 1.16. Ao
 clicar nessa função matemática aparecerá o seguinte: _Round(Value)_, no lugar de _Value_ coloque a
 equação já criada referente ao fluxo que está sendo arredondado.
