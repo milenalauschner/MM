@@ -16,13 +16,6 @@ mathjax: true
 ---
 # Lógica de funcionamento do software
 
-
-<div class="box">
-  <small><span style="font-family: Comic Sans MS">teste</span> continuando do texto</small>
-  <span></span>
-  <span></span>
-</div>
-
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
 
@@ -92,7 +85,7 @@ Ele observa que:
 
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
   * <div class="box">
-  nesse dia foram emprestados 33 livros, ou seja, 3% do número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> continuando do texto. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é <span style="font-family: Comic Sans MS">Empréstimos</span> = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> multiplicado por <span style="font-family: Comic Sans MS">Livros na biblioteca</span> = 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span>
+  nesse dia foram emprestados 33 livros, ou seja, 3% do número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> continuando do texto. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é <span style="font-family: Comic Sans MS">Empréstimos</span> = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> multiplicado por <span style="font-family: Comic Sans MS">Livros na biblioteca</span> = 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span>.
     </div>
   * <div class="box">
   o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de <span style="font-family: Comic Sans MS">Devoluções</span> diário é o número de <span style="font-family: Comic Sans MS">Livros emprestados</span> dividido pelo <span style="font-family: Comic Sans MS">Prazo para devolução</span> = <span style="font-family: Comic Sans MS">Livros emprestados</span>/7.
@@ -105,7 +98,9 @@ Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, n
 *Tabela 1.2: Número de livros na biblioteca*
 {: .text-center}
 
-| dia| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$) | "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
+|<span style="font-family: Comic Sans MS">dia</span>| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$) | <span style="font-family: Comic Sans MS">Livros emprestados</span> no início do dia ($$m$$)|<span style="font-family: Comic Sans MS">Empréstimos</span>
+ $$0,03$$ x $$n$$|<span style="font-family: Comic Sans MS">Devoluções</span>
+ $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
 | $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
@@ -151,7 +146,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 
 <div class="box">
 <small><span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span> = 1) = <br />
-<span style="font-family: Comic Sans MS">Livros na biblioteca</span>  (<span style="font-family: Comic Sans MS">dia</span> = 0) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span> = 0) + <span style="font-family: Comic Sans MS">Devoluções</span>
+= <span style="font-family: Comic Sans MS">Livros na biblioteca</span>  (<span style="font-family: Comic Sans MS">dia</span> = 0) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span> = 0) + <span style="font-family: Comic Sans MS">Devoluções</span>
  (<span style="font-family: Comic Sans MS">dia</span> = 0);</small>   
 </div>
 {: .text-center} 
@@ -166,7 +161,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 <small><span style="font-family: Comic Sans MS">Livros emprestados</span>
 (<span style="font-family: Comic Sans MS">dia</span>
  = 1) =<br />
-<span style="font-family: Comic Sans MS">Livros emprestados</span>
+= <span style="font-family: Comic Sans MS">Livros emprestados</span>
  (<span style="font-family: Comic Sans MS">dia</span>
  = 0) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = 0) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
@@ -181,7 +176,8 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 
 <div class="box">
 <small><span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
- = 1) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = 1) = <br />
+ = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = 1);</small>  
 </div>
 {: .text-center} 
@@ -196,7 +192,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
  (<span style="font-family: Comic Sans MS">dia</span>
  = 1) = <span style="font-family: Comic Sans MS">Livros emprestados</span>
 (<span style="font-family: Comic Sans MS">dia</span>
- = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.</small> 
+ = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.</small><br /> 
 </div>
 {: .text-center} 
 
@@ -215,10 +211,10 @@ seguinte modo:
 <div class="box">
 <small> <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n+1) =<br />
-<span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
+= <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) + <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n).</small> 
+ = n).</small><br /> 
 </div>
 {: .text-center} 
 
@@ -227,10 +223,10 @@ De modo semelhante:
 <div class="box">
 <small> <span style="font-family: Comic Sans MS">Livros emprestados</span>(<span style="font-family: Comic Sans MS">dia</span>
  = n+1) =<br />
-<span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
+= <span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n).</small> 
+ = n).</small><br /> 
 </div>
 {: .text-center} 
 
@@ -250,7 +246,7 @@ e <br />
 
 <div class="box">
 <small>Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span>
- é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.</small>
+ é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.</small><br />
 </div>  
 {: .text-justify} 
 
