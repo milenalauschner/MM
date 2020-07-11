@@ -242,7 +242,7 @@ e <br />
  = n)/ <span style="font-family: Comic Sans MS">Prazo para devolução</span></small> 
 </div>
 {: .text-center}  
-
+<br />
 Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span> é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
 {: .text-justify} 
 
