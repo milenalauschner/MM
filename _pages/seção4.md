@@ -45,7 +45,7 @@ criação de modelos.
 
 Para implementar o modelo mostrado na Figura 1.3, adicione os estoques do modelo usando
 o comando _Add primitive_ (topo esquerdo da tela do computador), e opte por _Add Stock_. Crie um
-estoque para os "Livros na biblioteca" e outro para os "Livros emprestados". Mova os retângulos que
+estoque para os <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e outro para os <span style="font-family: Comic Sans MS">Livros emprestados</span>. Mova os retângulos que
 representam os estoques para a região da tela que julgar mais conveniente. Note que com o cursor
 em cima do retângulo, você vê uma setinha azul no meio do retângulo, e um sinal de igual no centro
 de uma bolinha cinza do lado esquerdo. Esses sinais lhes serão muito úteis.
@@ -73,12 +73,12 @@ Figura 1.3.
  {: .text-center}
 
 Clicando duas vezes sobre o retângulo, elipse e seta você pode atribuir os nomes dos estoques,
-variáveis e fluxos: por ex., "Livros na biblioteca". Com o cursor em cima do estoque de "Livros na biblioteca", estenda a setinha azul para criar o fluxo que representa os empréstimos diários, ou seja,
-que vai do estoque de "Livros na biblioteca" para o estoque "Livros emprestados". Faça o mesmo para
-criar o outro fluxo, que é das "Devoluções" e que tem o sentido inverso do fluxo de "Empréstimos".
+variáveis e fluxos: por ex., <span style="font-family: Comic Sans MS">Livros na biblioteca</span>. Com o cursor em cima do estoque de <span style="font-family: Comic Sans MS">Livros na biblioteca</span>, estenda a setinha azul para criar o fluxo que representa os empréstimos diários, ou seja,
+que vai do estoque de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> para o estoque <span style="font-family: Comic Sans MS">Livros emprestados</span>. Faça o mesmo para
+criar o outro fluxo, que é das <span style="font-family: Comic Sans MS">Devoluções</span> e que tem o sentido inverso do fluxo de <span style="font-family: Comic Sans MS">Empréstimos</span>.
 {: .text-justify}
 
-Novamente em _Add primitive_, opte por _Add variables_ para criar as variáveis "Prazo para devolução" e "Porcentagem de empréstimos".
+Novamente em _Add primitive_, opte por _Add variables_ para criar as variáveis <span style="font-family: Comic Sans MS">Prazo para devolução</span> e <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span>.
 {: .text-justify}
 
 Observe também que no topo da área de trabalho do _software_ vê-se a Figura 1.8. A cor cinza
@@ -108,8 +108,8 @@ Você deve ter conseguido reproduzir a Figura 1.3. Resta agora introduzir as equ
 relacionam essas grandezas, assim como os valores iniciais.
 {: .text-justify}
 
-Já vimos que o fluxo de "Devoluções" é igual à "Livros emprestados" dividido pelo valor da variável
-"Prazo para devolução", que tomaremos igual a 7.
+Já vimos que o fluxo de <span style="font-family: Comic Sans MS">Devoluções</span> é igual à <span style="font-family: Comic Sans MS">Livros emprestados</span> dividido pelo valor da variável
+<span style="font-family: Comic Sans MS">Prazo para devolução</span>, que tomaremos igual a 7.
 {: .text-justify}
 
 Para introduzir essas informações no modelo, basta proceder como mostrado na Figura 1.10.
@@ -122,8 +122,8 @@ Para introduzir essas informações no modelo, basta proceder como mostrado na F
 *Figura 1.10: Visualização da criação de fluxos.*
  {: .text-center}
  
-Já o fluxo de livros que sai da biblioteca ("Empréstimos") será igual ao valor do estoque de
-"Livros na biblioteca" vezes o valor da variável "Porcentagem de empréstimos". Para introduzir essas
+Já o fluxo de livros que sai da biblioteca (<span style="font-family: Comic Sans MS">Empréstimos</span>) será igual ao valor do estoque de
+<span style="font-family: Comic Sans MS">Livros na biblioteca</span> vezes o valor da variável <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span>. Para introduzir essas
 informações no modelo, basta proceder como mostrado na Figura 1.11.
 {: .text-justify}
 
@@ -134,7 +134,7 @@ informações no modelo, basta proceder como mostrado na Figura 1.11.
 *Figura 1.11: Visualização da criação de fluxos.*
  {: .text-center}
  
-Vamos agora inserir o valor 0.03 para a variável "Porcentagem de empréstimos". Para isso, clique
+Vamos agora inserir o valor 0.03 para a variável <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span>. Para isso, clique
 em cima na elipse que representa essa variável. Ao fazer isso abre-se uma barra lateral à direita da
 área de trabalho do _software_ onde você preencherá ao lado de _Value/Equation_ o valor 0.03. Note
 que no _Insight Maker_ é usado ponto para separar as casas decimais, não vírgula. Cuidado para não
@@ -142,13 +142,12 @@ utilizar vírgula!
 {: .text-justify}
 
 Falta inserir o valor da outra variável. O processo é semelhante ao recém executado. Clique
-em cima da elipse que representa a variável "Prazo de devolução" e coloque o valor 7 no campo
+em cima da elipse que representa a variável <span style="font-family: Comic Sans MS">Prazo para devolução</span> e coloque o valor 7 no campo
 Value/Equation.
 {: .text-justify}
 
 Resta colocar o valor inicial nos estoques. Clique em cima do retângulo que representa cada
-estoque e coloque o número inicial de "Livros na biblioteca" igual à 1100 e valor inicial de "Livros
-emprestados" igual à 350.
+estoque e coloque o número inicial de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> igual à 1100 e valor inicial de <span style="font-family: Comic Sans MS">Livros emprestados</span> igual à 350.
 {: .text-justify}
  
 
