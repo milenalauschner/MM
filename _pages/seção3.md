@@ -131,7 +131,7 @@ Na primeira linha ele colocou os valores iniciais das grandezas, ou seja:
     </div>
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
   * <div class="box">
-  número de empréstimos = 33, pois o número de empréstimos diários é 0,03 &middot <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse dia há  1100 livros na biblioteca. Então, 0,03 &middot 1100 = 33; 
+  número de empréstimos = 33, pois o número de empréstimos diários é 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse dia há  1100 livros na biblioteca. Então, 0,03 &middot; 1100 = 33; 
     </div>
   * <div class="box">
   número de devoluções = 50, pois o número de devoluções diárias é <span style="font-family: Comic Sans MS">Livros emprestados</span>/7 e nesse dia há 350 livros emprestados. Então, 350/7 = 50.     
@@ -150,9 +150,9 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 {: .text-justify}
 
 <div class="box">
-<span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span> = 1) = <br />
+<small><span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span> = 1) = <br />
 <span style="font-family: Comic Sans MS">Livros na biblioteca</span>  (<span style="font-family: Comic Sans MS">dia</span> = 0) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span> = 0) + <span style="font-family: Comic Sans MS">Devoluções</span>
- (<span style="font-family: Comic Sans MS">dia</span> = 0);   
+ (<span style="font-family: Comic Sans MS">dia</span> = 0);</small>   
 </div>
 {: .text-center} 
 
@@ -163,26 +163,26 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 {: .text-justify} 
 
 <div class="box">
-<span style="font-family: Comic Sans MS">Livros emprestados</span>
+<small><span style="font-family: Comic Sans MS">Livros emprestados</span>
 (<span style="font-family: Comic Sans MS">dia</span>
  = 1) =<br />
 <span style="font-family: Comic Sans MS">Livros emprestados</span>
  (<span style="font-family: Comic Sans MS">dia</span>
  = 0) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = 0) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = 0);
+  = 0);</small>
  </div>
 {: .text-center} 
 
 * <div class="box">
-  número de empréstimos = 34, pois o número de empréstimos diários é 0,03 &middot; <p style="font-family:Comic Sans MS">Livros na biblioteca</p> e nesse dia há  1117 <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. Então, 0,03 &middot; 1117 = 33,51. Isso fica expresso como:
+  número de empréstimos = 34, pois o número de empréstimos diários é 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse dia há  1117 <span style="font-family: Comic Sans MS">Livros na biblioteca</span>. Então, 0,03 &middot; 1117 = 33,51. Isso fica expresso como:
   </div>
 {: .text-justify} 
 
 <div class="box">
-<span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
- = 1) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <p style="font-family:Comic Sans MS">Livros na biblioteca</p>(<span style="font-family: Comic Sans MS">dia</span>
- = 1);  
+<small><span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = 1) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = 1);</small>  
 </div>
 {: .text-center} 
 
@@ -192,11 +192,11 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 {: .text-justify} 
 
 <div class="box">
- <span style="font-family: Comic Sans MS">Devoluções</span>
+ <small> <span style="font-family: Comic Sans MS">Devoluções</span>
  (<span style="font-family: Comic Sans MS">dia</span>
  = 1) = <span style="font-family: Comic Sans MS">Livros emprestados</span>
 (<span style="font-family: Comic Sans MS">dia</span>
- = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.
+ = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.</small> 
 </div>
 {: .text-center} 
 
@@ -213,44 +213,44 @@ seguinte modo:
 {: .text-justify} 
 
 <div class="box">
-<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (<span style="font-family: Comic Sans MS">dia</span>
+<small> <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n+1) =<br />
-<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (<span style="font-family: Comic Sans MS">dia</span>
+<span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) + <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n). 
+ = n).</small> 
 </div>
 {: .text-center} 
 
 De modo semelhante: 
 
 <div class="box">
-<span style="font-family: Comic Sans MS">Livros emprestados</span>(<span style="font-family: Comic Sans MS">dia</span>
+<small> <span style="font-family: Comic Sans MS">Livros emprestados</span>(<span style="font-family: Comic Sans MS">dia</span>
  = n+1) =<br />
 <span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n).
+ = n).</small> 
 </div>
 {: .text-center} 
 
 E ainda: 
 
 <div class="box">
-<span style="font-family: Comic Sans MS">Empréstimos</span>
+<small> <span style="font-family: Comic Sans MS">Empréstimos</span>
  (<span style="font-family: Comic Sans MS">dia</span>
- = n) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <p style="font-family:Comic Sans MS">Livros na biblioteca</p> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n). <br />
 e <br />
 <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) =  <span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n)/ <span style="font-family: Comic Sans MS">Prazo para devolução</span>
+ = n)/ <span style="font-family: Comic Sans MS">Prazo para devolução</span></small> 
 </div>
 {: .text-center}  
 
 <div class="box">
-Em síntese as respostas produzidas pelo bibliotecário são: o número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span>
- é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
+<small>Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span>
+ é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.</small>
 </div>  
 {: .text-justify} 
 
