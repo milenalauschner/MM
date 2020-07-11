@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/logos2.png
   actions:
     - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
-      url: "/seção2/#introdução-ao-uso-do-insight-maker/"    
+      url: "/secao2/#introdução-ao-uso-do-insight-maker/"    
 sidebar:
   title: " "
   nav: blogroll
