@@ -64,12 +64,15 @@ Tabela 1.1: Resumo dos componentes do diagrama _stock-flow_
  Olhando para o diagrama _stock-flow_ da biblioteca com suas variáveis adicionadas (Figura 1.2), notamos que estão faltando componentes nesse modelo para ser uma representação mais realista de uma biblioteca em funcionamento. Os empréstimos geram acumulação de livros emprestados, por isso devemos criar um novo estoque (de livros emprestados). O fluxo de devoluções diminui o número de livros emprestados ao passo que o fluxo de empréstimos aumenta. Isso significa que os sentidos dos fluxos para esse novo estoque serão opostos aos dos fluxos do estoque de livros na biblioteca. A Figura 1.3 mostra o modelo construído para a biblioteca neste exemplo.
 {: .text-justify} 
 
- ![Figura 1.3: Modelo da biblioteca.]({{ site.url }}{{ site.baseurl
+ ![Figura 1.3: Representação do modelo da biblioteca no Insight Maker.]({{ site.url }}{{ site.baseurl
 }}/assets/images/BIBLIOTECA3.png){: .align-center}   
 {: .image-caption}
-*Figura 1.3: Modelo da biblioteca.*
+*Figura 1.3: Representação do modelo da biblioteca no Insight Maker.*
  {: .text-center}
  
+Como a biblioteca é um sistema dinâmico, que evolui com o tempo, interessa-nos conhecer essa evolução. Queremos responder questões do tipo: como varia o número de livros na biblioteca em função do tempo? Para isso, não precisamos adicionar no _Insight Maker_ uma variável associada ao tempo, pois tempo é uma variável independente implícita nesse _software_. Para executarmos o modelo da Figura 1.3, basta informar a unidade de tempo (segundos, minutos, horas, dias, meses,...) e o tempo inicial e final, que o _Insight Maker_ determinará os valores dos estoques e fluxos para cada instante de tempo. Nesse tutorial a unidade de tempo que usaremos é dia.
+{: .text-justify} 
+
 Esse modelo tem limitações decorrentes das seguintes idealizações assumidas:
 {: .text-justify} 
 
@@ -89,9 +92,11 @@ Ele observa que:
 
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
   * <div class="box">
-  nesse dia foram emprestados 33 livros, ou seja, 3% do número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> continuando do texto. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é <span style="font-family: Comic Sans MS">Empréstimos</span>= <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> multiplicado por <span style="font-family: Comic Sans MS">Livros na biblioteca</span> = 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span>
+  nesse dia foram emprestados 33 livros, ou seja, 3% do número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> continuando do texto. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é <span style="font-family: Comic Sans MS">Empréstimos</span> = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> multiplicado por <span style="font-family: Comic Sans MS">Livros na biblioteca</span> = 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span>
     </div>
-  * o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de "Devoluções" diário é o número de "Livros emprestados" dividido pelo "Prazo de empréstimo"= "Livros emprestados"/7.
+  * <div class="box">
+  o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de <span style="font-family: Comic Sans MS">Devoluções</span> diário é o número de <span style="font-family: Comic Sans MS">Livros emprestados</span> dividido pelo <span style="font-family: Comic Sans MS">Prazo para devolução</span> = <span style="font-family: Comic Sans MS">Livros emprestados</span>/7.
+    </div>
 {: .text-justify} 
 
 Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, não será muito trabalhoso o bibliotecário construir a Tabela 1.2.
@@ -100,7 +105,9 @@ Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, n
 *Tabela 1.2: Número de livros na biblioteca*
 {: .text-center}
 
-| dia| <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no início do dia ($$n$$)| "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
+| dia| <div class="box">
+  <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$)
+        </div>  | "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
 | $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
@@ -115,42 +122,84 @@ Como ele construiu essa tabela?
 Na primeira linha ele colocou os valores iniciais das grandezas, ou seja:
 {: .text-justify} 
 
-  * dia = 0
-  * número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no início do dia = 1100, pois é o número de livros que ele contou no início do dia;
-  * número de "Livros emprestados" = 350, já que o acervo da biblioteca é 1450, há 1100 na biblioteca e ele está assumindo que não houve extravios. De fato, ele confere o número de empréstimos e verifica que há 350 emprestados;
+  * <div class="box">
+    <span style="font-family: Comic Sans MS">dia</span> = 0
+    </div>
+  * <div class="box">
+  número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia = 1100, pois é o número de livros que ele contou no início do dia;   
+    </div>
+  * <div class="box">
+  número de <span style="font-family: Comic Sans MS">Livros emprestados</span> = 350, já que o acervo da biblioteca é 1450, há 1100 na biblioteca e ele está assumindo que não houve extravios. De fato, ele confere o número de empréstimos e verifica que há 350 emprestados;  
+    </div>
   * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
-  * número de empréstimos = 33, pois o número de empréstimos diários é 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p> e nesse dia há  1100 livros na biblioteca. Então, 0,03 $$\cdot$$ 1100 = 33;
-  * número de devoluções = 50, pois o número de devoluções diárias é "Livros emprestados"/7 e nesse dia há 350 livros emprestados. Então, 350/7 = 50.   
+  * <div class="box">
+  número de empréstimos = 33, pois o número de empréstimos diários é 0,03 &middot <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse dia há  1100 livros na biblioteca. Então, 0,03 &middot 1100 = 33; 
+    </div>
+  * <div class="box">
+  número de devoluções = 50, pois o número de devoluções diárias é <span style="font-family: Comic Sans MS">Livros emprestados</span>/7 e nesse dia há 350 livros emprestados. Então, 350/7 = 50.     
+    </div>
 {: .text-justify} 
 
 Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser atualizados de acordo com os fluxos de entrada e saída de livros, ou seja, com o número de livros emprestados e devolvidos. Então:
 {: .text-justify} 
 
-  * dia = 1
-  * número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:
-{: .text-justify} 
+  * <div class="box">
+ <span style="font-family: Comic Sans MS">dia</span> = 1
+    </div>
+  * <div class="box">
+  número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:   
+    </div>
+{: .text-justify}
 
-<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = 1) = <br />
-<p style="font-family:Comic Sans MS">Livros na biblioteca</p>  (dia = 0) - "Empréstimos" (dia = 0) + "Devoluções"(dia = 0);
+<div class="box">
+<span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span> = 1) = <br />
+<span style="font-family: Comic Sans MS">Livros na biblioteca</span>  (<span style="font-family: Comic Sans MS">dia</span> = 0) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span> = 0) + <span style="font-family: Comic Sans MS">Devoluções</span>
+ (<span style="font-family: Comic Sans MS">dia</span> = 0);   
+</div>
 {: .text-center} 
 
-* número de "Livros emprestados" no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido = 350 + 33 - 50 = 333. Podemos escrever como: 
+* <div class="box"> 
+ número de <span style="font-family: Comic Sans MS">Livros emprestados</span>
+ no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido = 350 + 33 - 50 = 333. Podemos escrever como: 
+  </div>
 {: .text-justify} 
 
-"Livros emprestados"(dia = 1) =<br />
-"Livros emprestados" (dia = 0) + "Empréstimos"(dia = 0) - "Devoluções" (dia = 0);
+<div class="box">
+<span style="font-family: Comic Sans MS">Livros emprestados</span>
+(<span style="font-family: Comic Sans MS">dia</span>
+ = 1) =<br />
+<span style="font-family: Comic Sans MS">Livros emprestados</span>
+ (<span style="font-family: Comic Sans MS">dia</span>
+ = 0) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = 0) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = 0);
+ </div>
 {: .text-center} 
 
-* número de empréstimos = 34, pois o número de empréstimos diários é 0,03 $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p> e nesse dia há  1117 <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. Então, 0,03 $$\cdot$$ 1117 = 33,51. Isso fica expresso como:
+* <div class="box">
+  número de empréstimos = 34, pois o número de empréstimos diários é 0,03 &middot; <p style="font-family:Comic Sans MS">Livros na biblioteca</p> e nesse dia há  1117 <p style="font-family:Comic Sans MS">Livros na biblioteca</p>. Então, 0,03 &middot; 1117 = 33,51. Isso fica expresso como:
+  </div>
 {: .text-justify} 
 
-"Empréstimos"(dia = 1) = "Porcentagem de empréstimos" $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p>(dia = 1);  
+<div class="box">
+<span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = 1) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <p style="font-family:Comic Sans MS">Livros na biblioteca</p>(<span style="font-family: Comic Sans MS">dia</span>
+ = 1);  
+</div>
 {: .text-center} 
 
-* número de devoluções = 48, pois o número de devoluções diárias é "Livros emprestados"/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
+* <div class="box">
+  número de devoluções = 48, pois o número de devoluções diárias é <span style="font-family: Comic Sans MS">Livros emprestados</span>/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
+  </div>
 {: .text-justify} 
 
- "Devoluções" (dia = 1) = "Livros emprestados"(dia = 1)/"Prazo de empréstimos". 
+<div class="box">
+ <span style="font-family: Comic Sans MS">Devoluções</span>
+ (<span style="font-family: Comic Sans MS">dia</span>
+ = 1) = <span style="font-family: Comic Sans MS">Livros emprestados</span>
+(<span style="font-family: Comic Sans MS">dia</span>
+ = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.
+</div>
 {: .text-center} 
 
 Opa, não faz sentido valor fracionário para o número de livros, então, o número 33,51 e 47,57 foram arredondados na Tabela 1.2, para 34 e 48, que são os números inteiros mais próximos.   
@@ -165,24 +214,46 @@ Podemos sintetizar os cálculos que o bibliotecário precisa fazer para completa
 seguinte modo:
 {: .text-justify} 
 
-<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = n+1) =<br />
-<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = n) - "Empréstimos" (dia = n) + "Devoluções" (dia = n). 
+<div class="box">
+<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (<span style="font-family: Comic Sans MS">dia</span>
+ = n+1) =<br />
+<p style="font-family:Comic Sans MS">Livros na biblioteca</p> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) + <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n). 
+</div>
 {: .text-center} 
 
 De modo semelhante: 
 
-"Livros emprestados"(dia = n+1) =<br />
-"Livros emprestados" (dia = n) + "Empréstimos" (dia = n) - "Devoluções" (dia = n). 
+<div class="box">
+<span style="font-family: Comic Sans MS">Livros emprestados</span>(<span style="font-family: Comic Sans MS">dia</span>
+ = n+1) =<br />
+<span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n).
+</div>
 {: .text-center} 
 
 E ainda: 
 
-"Empréstimos"(dia = n) = "Porcentagem de empréstimos" $$\cdot$$ <p style="font-family:Comic Sans MS">Livros na biblioteca</p> (dia = n). <br />
+<div class="box">
+<span style="font-family: Comic Sans MS">Empréstimos</span>
+ (<span style="font-family: Comic Sans MS">dia</span>
+ = n) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <p style="font-family:Comic Sans MS">Livros na biblioteca</p> (<span style="font-family: Comic Sans MS">dia</span>
+ = n). <br />
 e <br />
-"Devoluções"(dia = n) =  "Livros emprestados" (dia = n)/ "Prazo de empréstimos"
+<span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) =  <span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n)/ <span style="font-family: Comic Sans MS">Prazo para devolução</span>
+</div>
 {: .text-center}  
 
-Em síntese as respostas produzidas pelo bibliotecário são: o número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no quarto dia é 1153 e o porcentual de "Livros emprestados" é 297 $$\cdot$$ 100$$\%$$/1450, ou seja, aproximadamente 20$$\%$$.
+<div class="box">
+Em síntese as respostas produzidas pelo bibliotecário são: o número de <p style="font-family:Comic Sans MS">Livros na biblioteca</p> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span>
+ é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
+</div>  
 {: .text-justify} 
 
 Não é difícil fazer esses cálculos, mas se a inspeção ocorresse dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
