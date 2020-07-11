@@ -1,6 +1,6 @@
 ---
 title: " "
-permalink: /seção3/
+permalink: /secao3/
 layout: single
 author_profile: false
 mathjax: true
@@ -19,19 +19,19 @@ mathjax: true
 O _Insight Maker_ usa comandos no idioma inglês. Então, estoque é designado por _stock_ e fluxo por _flow_. Vamos traduzir na primeira vez em que a palavra inglesa for usada e depois usaremos indistintamente em português ou inglês.
 {: .text-justify}
 
-Na Figura 1.1 da <a href="https://milenalauschner.github.io/MM/seção1/">Seção 2</a> vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas  sejam tão úteis na construção da aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do sistema, na acumulação que ocorre no estoque.
+Na Figura 1.1 da <a href="https://milenalauschner.github.io/MM/secao2/">Seção 2</a> vê-se o que se chama de diagrama _stock-flow_. Um diagrama _stock-flow_  mostra uma parte da realidade que se pretende investigar através da criação de um sistema com componentes interligadas. No _Insight Maker_ essas componentes são chamadas de _primitives_ - em português primitivas. Uma das razões para que esses diagramas sejam tão úteis na construção da
+aprendizagem é que conseguimos visualizar como uma primitiva individual impacta no coletivo do
+sistema, por exemplo, como cada fluxo impacta no nível da acumulação que ocorre no estoque.
 {: .text-justify}
 
 Acumulações estão em todos os lugares em nossas vidas (CLExchange, 2016). Nesse primeiro momento estamos usando o exemplo de acumulação de livros em uma biblioteca, mas poderíamos nos preocupar com a acumulação de dinheiro depositado em uma conta de poupança, com a acumulação de água em um balde durante uma chuva, com a acumulação de velocidade das pedras de granizo que caem durante uma tempestade, etc.
 {: .text-justify}
 
-As acumulações são representadas por retângulos associados aos estoques, que podem variar pela existência de um fluxo, representado por uma seta com linha contínua. O fluxo é responsável por diminuir, aumentar ou manter constante o nível do estoque.
+As acumulações são representadas por retângulos associados aos estoques, que podem variar pela existência de um fluxo, representado por uma seta com linha contínua. O fluxo é responsável por diminuir, aumentar ou manter constante o nível do estoque, ou seja, o fluxo corresponde à taxa
+de variação do nível do estoque.
 {: .text-justify}
 
-Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis (_variables_). Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 1.2 a existência de duas variáveis: uma que estipula um prazo de devolução para os livros e outra para representar a porcentagem de empréstimos feitos durante um período. A primeira variável vai impactar diretamente no fluxo de devoluções, pois, ao acabar o tempo que o aluno pode permanecer com o livro, ele deverá devolvê-lo à biblioteca. A criação da segunda variável mostrará como acontece a diminuição de livros na biblioteca.
-{: .text-justify}
-
- ![Figura 1.2: Diagrama stock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
+Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis (_variables_). Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 1.2 a existência de duas variáveis: uma que estipula um prazo de devolução para os livros e outra para represenxock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
 }}/assets/images/BIBLIOTECA2.png){: .align-center}   
 
 {: .image-caption}
@@ -83,22 +83,22 @@ Vamos agora propor a seguinte situação-problema: uma avaliação sobre a utili
 
 Ele observa que:
 
-  * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
+  * em um determinado <span style="font-family: Comic Sans MS">dia</span>, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do <span style="font-family: Comic Sans MS">dia</span>;
   * <div class="box">
-  nesse dia foram emprestados 33 livros, ou seja, 3% do número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> continuando do texto. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é <span style="font-family: Comic Sans MS">Empréstimos</span> = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> multiplicado por <span style="font-family: Comic Sans MS">Livros na biblioteca</span> = 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span>.
+  nesse <span style="font-family: Comic Sans MS">dia</span> foram emprestados 33 livros, ou seja, 3% do número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> continuando do texto. Como esse é um dia típico de funcionamento da biblioteca, ele assume que o fluxo diário de livros que saem da biblioteca é <span style="font-family: Comic Sans MS">Empréstimos</span> = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> multiplicado por <span style="font-family: Comic Sans MS">Livros na biblioteca</span> = 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span>.
     </div>
   * <div class="box">
-  o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 dias, ele assume que o fluxo de <span style="font-family: Comic Sans MS">Devoluções</span> diário é o número de <span style="font-family: Comic Sans MS">Livros emprestados</span> dividido pelo <span style="font-family: Comic Sans MS">Prazo para devolução</span> = <span style="font-family: Comic Sans MS">Livros emprestados</span>/7.
+  o número médio de devoluções de livros por dia é praticamente constante. Como o prazo de devolução é de 7 <span style="font-family: Comic Sans MS">dias</span>, ele assume que o fluxo de <span style="font-family: Comic Sans MS">Devoluções</span> diário é o número de <span style="font-family: Comic Sans MS">Livros emprestados</span> dividido pelo <span style="font-family: Comic Sans MS">Prazo para devolução</span> = <span style="font-family: Comic Sans MS">Livros emprestados</span>/7.
     </div>
 {: .text-justify} 
 
-Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, não será muito trabalhoso o bibliotecário construir a Tabela 1.2.
+Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 <span style="font-family: Comic Sans MS">dias</span>, não será muito trabalhoso o bibliotecário construir a Tabela 1.2.
 {: .text-justify} 
 
 *Tabela 1.2: Número de livros na biblioteca*
 {: .text-center}
 
-|<span style="font-family: Comic Sans MS">dia</span>| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$) | <span style="font-family: Comic Sans MS">Livros emprestados</span> no início do dia ($$m$$)|<span style="font-family: Comic Sans MS">Empréstimos</span> $$0,03$$ x $$n$$|<span style="font-family: Comic Sans MS">Devoluções</span> $$m$$/$$7$$|
+|<span style="font-family: Comic Sans MS">dia</span>| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do <span style="font-family: Comic Sans MS">dia</span> ($$n$$) | <span style="font-family: Comic Sans MS">Livros emprestados</span> no início do <span style="font-family: Comic Sans MS">dia</span> ($$m$$)|<span style="font-family: Comic Sans MS">Empréstimos</span> $$0,03$$ x $$n$$|<span style="font-family: Comic Sans MS">Devoluções</span> $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
 | $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
@@ -117,17 +117,17 @@ Na primeira linha ele colocou os valores iniciais das grandezas, ou seja:
     <span style="font-family: Comic Sans MS">dia</span> = 0
     </div>
   * <div class="box">
-  número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia = 1100, pois é o número de livros que ele contou no início do dia;   
+  número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do <span style="font-family: Comic Sans MS">dia</span> = 1100, pois é o número de livros que ele contou no início do <span style="font-family: Comic Sans MS">dia</span>;   
     </div>
   * <div class="box">
   número de <span style="font-family: Comic Sans MS">Livros emprestados</span> = 350, já que o acervo da biblioteca é 1450, há 1100 na biblioteca e ele está assumindo que não houve extravios. De fato, ele confere o número de empréstimos e verifica que há 350 emprestados;  
     </div>
-  * em um determinado dia, do acervo total de 1450 livros, 1100 estavam no estoque da biblioteca no início do dia;
   * <div class="box">
-  número de empréstimos = 33, pois o número de empréstimos diários é 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse dia há  1100 livros na biblioteca. Então, 0,03 &middot; 1100 = 33; 
+  número de empréstimos = 33, pois é o número de empréstimos que ele observou naquele
+<span style="font-family: Comic Sans MS">dia</span>; 
     </div>
   * <div class="box">
-  número de devoluções = 50, pois o número de devoluções diárias é <span style="font-family: Comic Sans MS">Livros emprestados</span>/7 e nesse dia há 350 livros emprestados. Então, 350/7 = 50.     
+  número de devoluções = 50, pois é o número de devoluções que ele contou naquele <span style="font-family: Comic Sans MS">dia</span>.     
     </div>
 {: .text-justify} 
 
@@ -138,7 +138,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
  <span style="font-family: Comic Sans MS">dia</span> = 1
     </div>
   * <div class="box">
-  número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia é o número que havia no dia anterior, menos o que foi emprestado ao longo do dia anterior mais o que foi devolvido ao longo do dia anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:   
+  número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do <span style="font-family: Comic Sans MS">dia</span> é o número que havia no <span style="font-family: Comic Sans MS">dia</span> anterior, menos o que foi emprestado ao longo do <span style="font-family: Comic Sans MS">dia</span> anterior mais o que foi devolvido ao longo do <span style="font-family: Comic Sans MS">dia</span> anterior. Então, é: 1100 - 33 + 50 = 1117. Podemos escrever como:   
     </div>
 {: .text-justify}
 
@@ -151,7 +151,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 
 * <div class="box"> 
  número de <span style="font-family: Comic Sans MS">Livros emprestados</span>
- no início do dia: número que estava emprestado no dia anterior mais o que foi emprestado ao longo do dia anterior menos o que foi devolvido = 350 + 33 - 50 = 333. Podemos escrever como: 
+ no início do <span style="font-family: Comic Sans MS">dia</span>: número que estava emprestado no <span style="font-family: Comic Sans MS">dia</span> anterior mais o que foi emprestado ao longo do <span style="font-family: Comic Sans MS">dia</span> anterior menos o que foi devolvido = 350 + 33 - 50 = 333. Podemos escrever como: 
   </div>
 {: .text-justify} 
 
@@ -168,7 +168,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 {: .text-center} 
 
 * <div class="box">
-  número de empréstimos = 34, pois o número de empréstimos diários é 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse dia há  1117 <span style="font-family: Comic Sans MS">Livros na biblioteca</span>. Então, 0,03 &middot; 1117 = 33,51. Isso fica expresso como:
+  número de empréstimos = 34, pois o número de empréstimos diários é 0,03 &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e nesse <span style="font-family: Comic Sans MS">dia</span> há  1117 <span style="font-family: Comic Sans MS">Livros na biblioteca</span>. Então, 0,03 &middot; 1117 = 33,51. Isso fica expresso como:
   </div>
 {: .text-justify} 
 
@@ -181,7 +181,7 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
 {: .text-center} 
 
 * <div class="box">
-  número de devoluções = 48, pois o número de devoluções diárias é <span style="font-family: Comic Sans MS">Livros emprestados</span>/ 7 e nesse dia há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
+  número de devoluções = 48, pois o número de devoluções diárias é <span style="font-family: Comic Sans MS">Livros emprestados</span>/ 7 e nesse <span style="font-family: Comic Sans MS">dia</span> há 333 livros emprestados. Então, 333/7 = 47,57.  Ou seja,
   </div>
 {: .text-justify} 
 
@@ -243,7 +243,7 @@ e <br />
 </div>
 {: .text-center}  
 <br />
-Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span> é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
+Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto <span style="font-family: Comic Sans MS">dia</span> é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span> é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
 {: .text-justify} 
 
 Não é difícil fazer esses cálculos, mas se a inspeção ocorresse dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
@@ -257,8 +257,8 @@ Vamos, então, deixar que o _Insight Maker_ faça a simulação do número de li
 <a href="https://www.youtube.com/watch?v=IenySRdkRu8">https://www.youtube.com/watch?v=IenySRdkRu8</a>
 {: .text-left}
 
-[<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/seção2/){:
-.btn .btn--success}[ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção4/){:
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 2](https://milenalauschner.github.io/MM/secao2/){:
+.btn .btn--success}[ Seção 4 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/secao4/){:
 .btn .btn--danger}
 {: .text-right} 
 ________________________________________________________________________________________________________________________________________________________________________________________________
