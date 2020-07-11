@@ -1,6 +1,6 @@
 ---
 title: " "
-permalink: /seção4/
+permalink: /secao4/
 layout: single
 author_profile: false
 mathjax: true
@@ -151,8 +151,8 @@ estoque e coloque o número inicial de <span style="font-family: Comic Sans MS">
 {: .text-justify}
  
 
-[<i class="fas fa-arrow-alt-circle-left"></i> Seção 3 ](https://milenalauschner.github.io/MM/seção3/){:
-.btn .btn--warning} [ Seção 5 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção5/){:
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 3 ](https://milenalauschner.github.io/MM/secao3/){:
+.btn .btn--warning} [ Seção 5 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/secao5/){:
 .btn .btn--info}
  {: .text-right}
 ________________________________________________________________________________________________________________________________________________________________________________________________ 
