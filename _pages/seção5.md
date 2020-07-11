@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/logos5.png
   actions:
     - label: "<br />Tutorial para o uso do software Insight Maker<br /> <small>Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit</small>"
-      url: "/seção5/#algoritmo-de-análise/"  
+      url: "/secao5/#algoritmo-de-análise/"  
 sidebar:
   title: " "
   nav: blogroll
