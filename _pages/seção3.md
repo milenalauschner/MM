@@ -31,9 +31,14 @@ As acumulações são representadas por retângulos associados aos estoques, que
 de variação do nível do estoque.
 {: .text-justify}
 
-Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis (_variables_). Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 1.2 a existência de duas variáveis: uma que estipula um prazo de devolução para os livros e outra para represenxock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
-}}/assets/images/BIBLIOTECA2.png){: .align-center}   
+Existem também componentes que podem influenciar no comportamento de um fluxo. São as chamadas variáveis (_variables_). Apesar do significado do nome, elas podem ser variáveis ou constantes. Por exemplo, no caso mais simplificado de uma biblioteca, vê-se na Figura 1.2 a existência de duas variáveis: uma que estipula um prazo de devolução para os livros e outra para representar a porcentagem de empréstimos feitos durante um período. A primeira variável vai
+impactar diretamente no fluxo de devoluções, pois, ao acabar o tempo que o aluno pode permanecer
+com o livro, ele deverá devolvê-lo à biblioteca. A criação da segunda variável mostrará como
+acontece a diminuição de livros na biblioteca.
+{: .text-justify}
 
+ ![Figura 1.2: Diagrama stock-flow da biblioteca com as variáveis.]({{ site.url }}{{ site.baseurl
+}}/assets/images/BIBLIOTECA2.png){: .align-center}   
 {: .image-caption}
 *Figura 1.2: Diagrama stock-flow da biblioteca com as variáveis.*
  {: .text-center} 
