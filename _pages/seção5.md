@@ -1,6 +1,6 @@
 ---
 title: " "
-permalink: /seção5/
+permalink: /secao5/
 layout: single
 author_profile: false
 mathjax: true
@@ -57,7 +57,7 @@ que aparecerão na tabela, chamado pelo _software_ de _Data_ - em português, da
  
 Os passos descritos para criação de uma tabela estão indicados na Figura 1.14. A tabela para
 o modelo da biblioteca é a Figura 1.15. Nela são mostrados os valores obtidos para o número
-de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e de <span style="font-family: Comic Sans MS">Livros emprestados</span> nos dias 0,1,2,3..., além dos <span style="font-family: Comic Sans MS">Empréstimos</span> e das
+de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> e de <span style="font-family: Comic Sans MS">Livros emprestados</span> nos <span style="font-family: Comic Sans MS">dias</span> 0,1,2,3..., além dos <span style="font-family: Comic Sans MS">Empréstimos</span> e das
 <span style="font-family: Comic Sans MS">Devoluções</span>. 
 {: .text-justify} 
 
@@ -128,8 +128,8 @@ Agora é só validar a criação clicando em _Apply_. Esses passos estão sintet
 {: .text-left}
  
  
-[<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/seção4/){:
-.btn .btn--danger} [ Seção 6 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/seção6/){:
+[<i class="fas fa-arrow-alt-circle-left"></i> Seção 4](https://milenalauschner.github.io/MM/secao4/){:
+.btn .btn--danger} [ Seção 6 <i class="fas fa-arrow-alt-circle-right"></i>](https://milenalauschner.github.io/MM/secao6/){:
 .btn .btn--facebook}
  {: .text-right}
 ________________________________________________________________________________________________________________________________________________________________________________________________
