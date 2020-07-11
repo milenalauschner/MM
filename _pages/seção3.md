@@ -98,9 +98,7 @@ Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, n
 *Tabela 1.2: Número de livros na biblioteca*
 {: .text-center}
 
-|<span style="font-family: Comic Sans MS">dia</span>| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$) | <span style="font-family: Comic Sans MS">Livros emprestados</span> no início do dia ($$m$$)|<span style="font-family: Comic Sans MS">Empréstimos</span>
- $$0,03$$ x $$n$$|<span style="font-family: Comic Sans MS">Devoluções</span>
- $$m$$/$$7$$|
+|<span style="font-family: Comic Sans MS">dia</span>| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$) | <span style="font-family: Comic Sans MS">Livros emprestados</span> no início do dia ($$m$$)|<span style="font-family: Comic Sans MS">Empréstimos</span> $$0,03$$ x $$n$$|<span style="font-family: Comic Sans MS">Devoluções</span> $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
 | $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
@@ -192,10 +190,10 @@ Na segunda linha os estoques de livros na biblioteca e emprestados deverão ser 
  (<span style="font-family: Comic Sans MS">dia</span>
  = 1) = <span style="font-family: Comic Sans MS">Livros emprestados</span>
 (<span style="font-family: Comic Sans MS">dia</span>
- = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.</small><br /> 
+ = 1)/<span style="font-family: Comic Sans MS">Prazo para devolução</span>.</small>
 </div>
 {: .text-center} 
-
+<br />
 Opa, não faz sentido valor fracionário para o número de livros, então, o número 33,51 e 47,57 foram arredondados na Tabela 1.2, para 34 e 48, que são os números inteiros mais próximos.   
 {: .text-justify} 
 
@@ -214,10 +212,10 @@ seguinte modo:
 = <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) - <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) + <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n).</small><br /> 
+ = n).</small>
 </div>
 {: .text-center} 
-
+<br />
 De modo semelhante: 
 
 <div class="box">
@@ -226,16 +224,17 @@ De modo semelhante:
 = <span style="font-family: Comic Sans MS">Livros emprestados</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) + <span style="font-family: Comic Sans MS">Empréstimos</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n) - <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
- = n).</small><br /> 
+ = n).</small>
 </div>
 {: .text-center} 
-
+<br />
 E ainda: 
 
 <div class="box">
 <small> <span style="font-family: Comic Sans MS">Empréstimos</span>
  (<span style="font-family: Comic Sans MS">dia</span>
- = n) = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
+ = n) = <br />
+ = <span style="font-family: Comic Sans MS">Porcentagem de empréstimos</span> &middot; <span style="font-family: Comic Sans MS">Livros na biblioteca</span> (<span style="font-family: Comic Sans MS">dia</span>
  = n). <br />
 e <br />
 <span style="font-family: Comic Sans MS">Devoluções</span> (<span style="font-family: Comic Sans MS">dia</span>
@@ -249,7 +248,7 @@ e <br />
  é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.</small><br />
 </div>  
 {: .text-justify} 
-
+<br />
 Não é difícil fazer esses cálculos, mas se a inspeção ocorresse dentro de um mês ou mesmo dentro de meio ano, o bibliotecário teria bem mais trabalho para resolver o problema.
 {: .text-justify} 
 
