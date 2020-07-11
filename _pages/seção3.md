@@ -105,9 +105,7 @@ Feitas essas estimativas iniciais, se a inspeção ocorrerá dentro de 4 dias, n
 *Tabela 1.2: Número de livros na biblioteca*
 {: .text-center}
 
-| dia| <div class="box">
-  <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$)
-        </div>  | "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
+| dia| <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no início do dia ($$n$$) | "Livros emprestados" no início do dia ($$m$$)|"Empréstimos" $$0,03$$ x $$n$$|Devoluções" $$m$$/$$7$$|
 |:----:  |           :----:             |           :----:           |     :----:     |     :----:       |
 | $$0$$  |         $$1100$$             |           $$350$$          |     $$33$$     |     $$50$$       |
 | $$1$$  |         $$1117$$             |           $$333$$          |     $$34$$     |     $$48$$       |
