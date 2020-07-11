@@ -243,9 +243,8 @@ e <br />
 </div>
 {: .text-center}  
 
-<div class="box">
-<small>Em síntese as respostas produzidas pelo bibliotecário são: o número de <span style="font-family: Comic Sans MS">Livros na biblioteca</span> no quarto dia é 1153 e o porcentual de <span style="font-family: Comic Sans MS">Livros emprestados</span>
- é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.</small><br />
+Em síntese as respostas produzidas pelo bibliotecário são: o número de <small><span style="font-family: Comic Sans MS">Livros na biblioteca</span></small> no quarto dia é 1153 e o porcentual de <small<span style="font-family: Comic Sans MS">Livros emprestados</span></small>
+ é 297 &middot; 100%/1450, ou seja, aproximadamente 20%.
 </div>  
 {: .text-justify} 
 <br />
