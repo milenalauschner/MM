@@ -15,8 +15,8 @@ sidebar:
 
 # Sobre o Insight Maker
 
-O _Insight Maker_ é um _software online open-source_ projetado para tornar a modelagem e a simulação acessíveis ao público menos familiarizado com recursos computacionais. Ele possibilita a modelagem de sistemas dinâmicos a partir da diagramação em blocos de elementos básicos (níveis, taxas e variáveis) seguindo os princípios de sistemas de Jay Forrester (Fortmann-Roe, 2014). Similar ao _software_ proprietário _Stella_, que foi amplamente explorado no Ensino de Ciências a partir da década de 1990 (e.g., Santos et al., 2000), o programa dispensa conhecimentos de programação para construir modelos, sendo bastante útil em diversos contextos educacionais.
-{: .text-justify}
+<small>O _Insight Maker_ é um _software online open-source_ projetado para tornar a modelagem e a simulação acessíveis ao público menos familiarizado com recursos computacionais. Ele possibilita a modelagem de sistemas dinâmicos a partir da diagramação em blocos de elementos básicos (níveis, taxas e variáveis) seguindo os princípios de sistemas de Jay Forrester (Fortmann-Roe, 2014). Similar ao _software_ proprietário _Stella_, que foi amplamente explorado no Ensino de Ciências a partir da década de 1990 (e.g., Santos et al., 2000), o programa dispensa conhecimentos de programação para construir modelos, sendo bastante útil em diversos contextos educacionais.
+{: .text-justify}</small>
 
 Se você deseja fazer o _download_ desse tutorial no formato PDF, acesse a <a href="https://milenalauschner.github.io/MM/assets/Tutorial_para_o_uso_do_software_Insight_Maker.pdf">Seção 7</a>.
 
