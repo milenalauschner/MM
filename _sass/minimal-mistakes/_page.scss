@@ -190,10 +190,9 @@
     }
 
     .page__title {
-      font-size: 0.75em;
-
+      
       @include breakpoint($small) {
-        font-size: $type-size-1;
+        font-size: font-size: 0.95em;
       }
     }
   }
