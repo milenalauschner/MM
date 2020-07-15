@@ -1,26 +1,17 @@
 ---
-title: "  "
+title: "Tutoria para o uso so software Insight Maker"
+excerpt: "Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit"
 layout: single
 datatable: true
 permalink: /about/
 author_profile: false
 header:
   overlay_color: "#5e616c"
-  image: /assets/images/logos.png
-  actions:
-    - label: " Universidade Federal do Rio Grande do Sul<br /> Instituto de Física<br />  <small>Tutorial para o uso do software Insight Maker</small><br /> Autores: Milena Lauschner Lopes, Leonardo Albuquerque Heidemann e Eliane Angela Veit ______________________________________________________________________________________________________________________"
 sidebar:
   title: "Sumário"
   nav: blogroll
 ---
-{% include feature_row id="intro" type="center" %}
-<style type="text/css">
-  .main-container {
-  max-width: 1800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
+
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
